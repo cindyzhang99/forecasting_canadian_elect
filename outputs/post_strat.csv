@@ -1,0 +1,1859 @@
+age,sex,education,province,religion_importance,freq,vote
+18 to 29,Female,High school or less,Alberta,Don't know,1,Conservative Party
+18 to 29,Female,High school or less,Alberta,Not at all important,13,Conservative Party
+18 to 29,Female,High school or less,Alberta,Not very important,11,Conservative Party
+18 to 29,Female,High school or less,Alberta,Somewhat important,9,Conservative Party
+18 to 29,Female,High school or less,Alberta,Very important,12,Conservative Party
+18 to 29,Female,High school or less,British Columbia,Don't know,2,New Democratic Party
+18 to 29,Female,High school or less,British Columbia,Not at all important,20,New Democratic Party
+18 to 29,Female,High school or less,British Columbia,Not very important,12,New Democratic Party
+18 to 29,Female,High school or less,British Columbia,Somewhat important,18,New Democratic Party
+18 to 29,Female,High school or less,British Columbia,Very important,7,New Democratic Party
+18 to 29,Female,High school or less,Manitoba,Not at all important,9,New Democratic Party
+18 to 29,Female,High school or less,Manitoba,Not very important,4,New Democratic Party
+18 to 29,Female,High school or less,Manitoba,Somewhat important,9,New Democratic Party
+18 to 29,Female,High school or less,Manitoba,Very important,9,Conservative Party
+18 to 29,Female,High school or less,New Brunswick,Not at all important,8,Green Party
+18 to 29,Female,High school or less,New Brunswick,Not very important,5,Liberal Party
+18 to 29,Female,High school or less,New Brunswick,Somewhat important,9,Liberal Party
+18 to 29,Female,High school or less,New Brunswick,Very important,5,Liberal Party
+18 to 29,Female,High school or less,Newfoundland and Labrador,Don't know,1,New Democratic Party
+18 to 29,Female,High school or less,Newfoundland and Labrador,Not at all important,6,New Democratic Party
+18 to 29,Female,High school or less,Newfoundland and Labrador,Not very important,7,New Democratic Party
+18 to 29,Female,High school or less,Newfoundland and Labrador,Somewhat important,7,New Democratic Party
+18 to 29,Female,High school or less,Newfoundland and Labrador,Very important,2,New Democratic Party
+18 to 29,Female,High school or less,Nova Scotia,Not at all important,12,New Democratic Party
+18 to 29,Female,High school or less,Nova Scotia,Not very important,3,Liberal Party
+18 to 29,Female,High school or less,Nova Scotia,Somewhat important,7,Liberal Party
+18 to 29,Female,High school or less,Nova Scotia,Very important,4,Liberal Party
+18 to 29,Female,High school or less,Ontario,Don't know,3,New Democratic Party
+18 to 29,Female,High school or less,Ontario,Not at all important,36,New Democratic Party
+18 to 29,Female,High school or less,Ontario,Not very important,24,New Democratic Party
+18 to 29,Female,High school or less,Ontario,Somewhat important,25,New Democratic Party
+18 to 29,Female,High school or less,Ontario,Very important,34,Liberal Party
+18 to 29,Female,High school or less,Prince Edward Island,Not at all important,5,Green Party
+18 to 29,Female,High school or less,Prince Edward Island,Not very important,6,Liberal Party
+18 to 29,Female,High school or less,Prince Edward Island,Somewhat important,3,Liberal Party
+18 to 29,Female,High school or less,Prince Edward Island,Very important,2,Liberal Party
+18 to 29,Female,High school or less,Quebec,Not at all important,19,Liberal Party
+18 to 29,Female,High school or less,Quebec,Not very important,18,Liberal Party
+18 to 29,Female,High school or less,Quebec,Somewhat important,12,Liberal Party
+18 to 29,Female,High school or less,Quebec,Very important,16,Liberal Party
+18 to 29,Female,High school or less,Saskatchewan,Not at all important,10,New Democratic Party
+18 to 29,Female,High school or less,Saskatchewan,Not very important,6,New Democratic Party
+18 to 29,Female,High school or less,Saskatchewan,Somewhat important,6,New Democratic Party
+18 to 29,Female,High school or less,Saskatchewan,Very important,10,Conservative Party
+18 to 29,Female,Some college or trade school,Alberta,Don't know,1,Conservative Party
+18 to 29,Female,Some college or trade school,Alberta,Not at all important,7,Conservative Party
+18 to 29,Female,Some college or trade school,Alberta,Not very important,8,Conservative Party
+18 to 29,Female,Some college or trade school,Alberta,Somewhat important,9,Conservative Party
+18 to 29,Female,Some college or trade school,Alberta,Very important,15,Conservative Party
+18 to 29,Female,Some college or trade school,British Columbia,Not at all important,15,New Democratic Party
+18 to 29,Female,Some college or trade school,British Columbia,Not very important,6,New Democratic Party
+18 to 29,Female,Some college or trade school,British Columbia,Somewhat important,6,New Democratic Party
+18 to 29,Female,Some college or trade school,British Columbia,Very important,8,New Democratic Party
+18 to 29,Female,Some college or trade school,Manitoba,Not at all important,5,New Democratic Party
+18 to 29,Female,Some college or trade school,Manitoba,Not very important,5,New Democratic Party
+18 to 29,Female,Some college or trade school,Manitoba,Somewhat important,6,New Democratic Party
+18 to 29,Female,Some college or trade school,Manitoba,Very important,9,Conservative Party
+18 to 29,Female,Some college or trade school,New Brunswick,Not at all important,7,Liberal Party
+18 to 29,Female,Some college or trade school,New Brunswick,Not very important,5,Liberal Party
+18 to 29,Female,Some college or trade school,New Brunswick,Somewhat important,5,Liberal Party
+18 to 29,Female,Some college or trade school,New Brunswick,Very important,7,Liberal Party
+18 to 29,Female,Some college or trade school,Newfoundland and Labrador,Not at all important,3,New Democratic Party
+18 to 29,Female,Some college or trade school,Newfoundland and Labrador,Not very important,5,New Democratic Party
+18 to 29,Female,Some college or trade school,Newfoundland and Labrador,Somewhat important,7,Liberal Party
+18 to 29,Female,Some college or trade school,Newfoundland and Labrador,Very important,2,Liberal Party
+18 to 29,Female,Some college or trade school,Nova Scotia,Not at all important,12,Liberal Party
+18 to 29,Female,Some college or trade school,Nova Scotia,Not very important,4,Liberal Party
+18 to 29,Female,Some college or trade school,Nova Scotia,Somewhat important,3,Liberal Party
+18 to 29,Female,Some college or trade school,Nova Scotia,Very important,4,Liberal Party
+18 to 29,Female,Some college or trade school,Ontario,Not at all important,29,New Democratic Party
+18 to 29,Female,Some college or trade school,Ontario,Not very important,22,New Democratic Party
+18 to 29,Female,Some college or trade school,Ontario,Somewhat important,23,Liberal Party
+18 to 29,Female,Some college or trade school,Ontario,Very important,19,Liberal Party
+18 to 29,Female,Some college or trade school,Prince Edward Island,Not at all important,1,Liberal Party
+18 to 29,Female,Some college or trade school,Prince Edward Island,Not very important,4,Liberal Party
+18 to 29,Female,Some college or trade school,Prince Edward Island,Somewhat important,2,Liberal Party
+18 to 29,Female,Some college or trade school,Quebec,Not at all important,27,Liberal Party
+18 to 29,Female,Some college or trade school,Quebec,Not very important,33,Liberal Party
+18 to 29,Female,Some college or trade school,Quebec,Somewhat important,19,Liberal Party
+18 to 29,Female,Some college or trade school,Quebec,Very important,15,Liberal Party
+18 to 29,Female,Some college or trade school,Saskatchewan,Not at all important,4,New Democratic Party
+18 to 29,Female,Some college or trade school,Saskatchewan,Not very important,6,New Democratic Party
+18 to 29,Female,Some college or trade school,Saskatchewan,Somewhat important,7,New Democratic Party
+18 to 29,Female,Some college or trade school,Saskatchewan,Very important,8,Conservative Party
+18 to 29,Female,Some graduate school or more,Alberta,Somewhat important,2,Conservative Party
+18 to 29,Female,Some graduate school or more,Alberta,Very important,2,Conservative Party
+18 to 29,Female,Some graduate school or more,British Columbia,Not at all important,2,New Democratic Party
+18 to 29,Female,Some graduate school or more,British Columbia,Not very important,2,New Democratic Party
+18 to 29,Female,Some graduate school or more,British Columbia,Somewhat important,1,Liberal Party
+18 to 29,Female,Some graduate school or more,British Columbia,Very important,1,Liberal Party
+18 to 29,Female,Some graduate school or more,Manitoba,Don't know,1,New Democratic Party
+18 to 29,Female,Some graduate school or more,Manitoba,Not very important,1,Liberal Party
+18 to 29,Female,Some graduate school or more,Manitoba,Very important,1,Liberal Party
+18 to 29,Female,Some graduate school or more,New Brunswick,Not at all important,2,Liberal Party
+18 to 29,Female,Some graduate school or more,New Brunswick,Not very important,2,Liberal Party
+18 to 29,Female,Some graduate school or more,New Brunswick,Somewhat important,1,Liberal Party
+18 to 29,Female,Some graduate school or more,New Brunswick,Very important,1,Liberal Party
+18 to 29,Female,Some graduate school or more,Newfoundland and Labrador,Not at all important,1,Liberal Party
+18 to 29,Female,Some graduate school or more,Newfoundland and Labrador,Not very important,2,Liberal Party
+18 to 29,Female,Some graduate school or more,Newfoundland and Labrador,Very important,1,Liberal Party
+18 to 29,Female,Some graduate school or more,Nova Scotia,Not at all important,2,Liberal Party
+18 to 29,Female,Some graduate school or more,Nova Scotia,Somewhat important,4,Liberal Party
+18 to 29,Female,Some graduate school or more,Ontario,Not at all important,6,Liberal Party
+18 to 29,Female,Some graduate school or more,Ontario,Not very important,9,Liberal Party
+18 to 29,Female,Some graduate school or more,Ontario,Somewhat important,10,Liberal Party
+18 to 29,Female,Some graduate school or more,Ontario,Very important,2,Liberal Party
+18 to 29,Female,Some graduate school or more,Quebec,Not at all important,4,Liberal Party
+18 to 29,Female,Some graduate school or more,Quebec,Not very important,3,Liberal Party
+18 to 29,Female,Some graduate school or more,Quebec,Very important,1,Liberal Party
+18 to 29,Female,Some graduate school or more,Saskatchewan,Not very important,1,New Democratic Party
+18 to 29,Female,Some graduate school or more,Saskatchewan,Somewhat important,2,New Democratic Party
+18 to 29,Female,Some graduate school or more,Saskatchewan,Very important,1,Conservative Party
+18 to 29,Female,Undergraduate degree,Alberta,Not at all important,11,Conservative Party
+18 to 29,Female,Undergraduate degree,Alberta,Not very important,2,Conservative Party
+18 to 29,Female,Undergraduate degree,Alberta,Somewhat important,5,Conservative Party
+18 to 29,Female,Undergraduate degree,Alberta,Very important,9,Conservative Party
+18 to 29,Female,Undergraduate degree,British Columbia,Not at all important,5,New Democratic Party
+18 to 29,Female,Undergraduate degree,British Columbia,Not very important,7,New Democratic Party
+18 to 29,Female,Undergraduate degree,British Columbia,Somewhat important,10,Liberal Party
+18 to 29,Female,Undergraduate degree,British Columbia,Very important,12,Liberal Party
+18 to 29,Female,Undergraduate degree,Manitoba,Not at all important,6,New Democratic Party
+18 to 29,Female,Undergraduate degree,Manitoba,Not very important,2,Liberal Party
+18 to 29,Female,Undergraduate degree,Manitoba,Somewhat important,4,Liberal Party
+18 to 29,Female,Undergraduate degree,Manitoba,Very important,1,Liberal Party
+18 to 29,Female,Undergraduate degree,New Brunswick,Don't know,1,Liberal Party
+18 to 29,Female,Undergraduate degree,New Brunswick,Not at all important,1,Liberal Party
+18 to 29,Female,Undergraduate degree,New Brunswick,Not very important,3,Liberal Party
+18 to 29,Female,Undergraduate degree,New Brunswick,Somewhat important,6,Liberal Party
+18 to 29,Female,Undergraduate degree,New Brunswick,Very important,1,Liberal Party
+18 to 29,Female,Undergraduate degree,Newfoundland and Labrador,Not at all important,4,Liberal Party
+18 to 29,Female,Undergraduate degree,Newfoundland and Labrador,Not very important,5,Liberal Party
+18 to 29,Female,Undergraduate degree,Newfoundland and Labrador,Somewhat important,9,Liberal Party
+18 to 29,Female,Undergraduate degree,Nova Scotia,Not at all important,2,Liberal Party
+18 to 29,Female,Undergraduate degree,Nova Scotia,Not very important,3,Liberal Party
+18 to 29,Female,Undergraduate degree,Nova Scotia,Somewhat important,5,Liberal Party
+18 to 29,Female,Undergraduate degree,Ontario,Not at all important,23,Liberal Party
+18 to 29,Female,Undergraduate degree,Ontario,Not very important,19,Liberal Party
+18 to 29,Female,Undergraduate degree,Ontario,Somewhat important,26,Liberal Party
+18 to 29,Female,Undergraduate degree,Ontario,Very important,20,Liberal Party
+18 to 29,Female,Undergraduate degree,Prince Edward Island,Not at all important,5,Liberal Party
+18 to 29,Female,Undergraduate degree,Prince Edward Island,Not very important,1,Liberal Party
+18 to 29,Female,Undergraduate degree,Prince Edward Island,Very important,2,Liberal Party
+18 to 29,Female,Undergraduate degree,Quebec,Not at all important,20,Liberal Party
+18 to 29,Female,Undergraduate degree,Quebec,Not very important,11,Liberal Party
+18 to 29,Female,Undergraduate degree,Quebec,Somewhat important,9,Liberal Party
+18 to 29,Female,Undergraduate degree,Quebec,Very important,5,Liberal Party
+18 to 29,Female,Undergraduate degree,Saskatchewan,Not at all important,5,New Democratic Party
+18 to 29,Female,Undergraduate degree,Saskatchewan,Not very important,2,New Democratic Party
+18 to 29,Female,Undergraduate degree,Saskatchewan,Somewhat important,6,New Democratic Party
+18 to 29,Female,Undergraduate degree,Saskatchewan,Very important,4,Conservative Party
+18 to 29,Male,High school or less,Alberta,Don't know,2,Conservative Party
+18 to 29,Male,High school or less,Alberta,Not at all important,18,Conservative Party
+18 to 29,Male,High school or less,Alberta,Not very important,16,Conservative Party
+18 to 29,Male,High school or less,Alberta,Somewhat important,16,Conservative Party
+18 to 29,Male,High school or less,Alberta,Very important,7,Conservative Party
+18 to 29,Male,High school or less,British Columbia,Not at all important,27,New Democratic Party
+18 to 29,Male,High school or less,British Columbia,Not very important,15,New Democratic Party
+18 to 29,Male,High school or less,British Columbia,Somewhat important,16,Conservative Party
+18 to 29,Male,High school or less,British Columbia,Very important,9,Conservative Party
+18 to 29,Male,High school or less,Manitoba,Not at all important,9,New Democratic Party
+18 to 29,Male,High school or less,Manitoba,Not very important,4,Conservative Party
+18 to 29,Male,High school or less,Manitoba,Somewhat important,13,Conservative Party
+18 to 29,Male,High school or less,Manitoba,Very important,6,Conservative Party
+18 to 29,Male,High school or less,New Brunswick,Not at all important,6,Liberal Party
+18 to 29,Male,High school or less,New Brunswick,Not very important,7,Liberal Party
+18 to 29,Male,High school or less,New Brunswick,Somewhat important,5,Liberal Party
+18 to 29,Male,High school or less,New Brunswick,Very important,5,Conservative Party
+18 to 29,Male,High school or less,Newfoundland and Labrador,Don't know,1,New Democratic Party
+18 to 29,Male,High school or less,Newfoundland and Labrador,Not at all important,3,New Democratic Party
+18 to 29,Male,High school or less,Newfoundland and Labrador,Not very important,7,New Democratic Party
+18 to 29,Male,High school or less,Newfoundland and Labrador,Somewhat important,4,Liberal Party
+18 to 29,Male,High school or less,Newfoundland and Labrador,Very important,5,Liberal Party
+18 to 29,Male,High school or less,Nova Scotia,Don't know,1,Liberal Party
+18 to 29,Male,High school or less,Nova Scotia,Not at all important,16,Liberal Party
+18 to 29,Male,High school or less,Nova Scotia,Not very important,7,Liberal Party
+18 to 29,Male,High school or less,Nova Scotia,Somewhat important,11,Liberal Party
+18 to 29,Male,High school or less,Nova Scotia,Very important,5,Liberal Party
+18 to 29,Male,High school or less,Ontario,Not at all important,40,New Democratic Party
+18 to 29,Male,High school or less,Ontario,Not very important,36,Liberal Party
+18 to 29,Male,High school or less,Ontario,Somewhat important,43,Liberal Party
+18 to 29,Male,High school or less,Ontario,Very important,21,Conservative Party
+18 to 29,Male,High school or less,Prince Edward Island,Not at all important,5,Green Party
+18 to 29,Male,High school or less,Prince Edward Island,Not very important,7,Liberal Party
+18 to 29,Male,High school or less,Prince Edward Island,Somewhat important,7,Liberal Party
+18 to 29,Male,High school or less,Prince Edward Island,Very important,1,Liberal Party
+18 to 29,Male,High school or less,Quebec,Don't know,2,Liberal Party
+18 to 29,Male,High school or less,Quebec,Not at all important,38,Liberal Party
+18 to 29,Male,High school or less,Quebec,Not very important,24,Liberal Party
+18 to 29,Male,High school or less,Quebec,Somewhat important,19,Liberal Party
+18 to 29,Male,High school or less,Quebec,Very important,6,Liberal Party
+18 to 29,Male,High school or less,Saskatchewan,Don't know,2,Conservative Party
+18 to 29,Male,High school or less,Saskatchewan,Not at all important,11,Conservative Party
+18 to 29,Male,High school or less,Saskatchewan,Not very important,12,Conservative Party
+18 to 29,Male,High school or less,Saskatchewan,Somewhat important,11,Conservative Party
+18 to 29,Male,High school or less,Saskatchewan,Very important,7,Conservative Party
+18 to 29,Male,Some college or trade school,Alberta,Don't know,1,Conservative Party
+18 to 29,Male,Some college or trade school,Alberta,Not at all important,9,Conservative Party
+18 to 29,Male,Some college or trade school,Alberta,Not very important,4,Conservative Party
+18 to 29,Male,Some college or trade school,Alberta,Somewhat important,6,Conservative Party
+18 to 29,Male,Some college or trade school,Alberta,Very important,3,Conservative Party
+18 to 29,Male,Some college or trade school,British Columbia,Not at all important,18,New Democratic Party
+18 to 29,Male,Some college or trade school,British Columbia,Not very important,4,New Democratic Party
+18 to 29,Male,Some college or trade school,British Columbia,Somewhat important,7,Conservative Party
+18 to 29,Male,Some college or trade school,British Columbia,Very important,5,Conservative Party
+18 to 29,Male,Some college or trade school,Manitoba,Not at all important,5,New Democratic Party
+18 to 29,Male,Some college or trade school,Manitoba,Not very important,4,Conservative Party
+18 to 29,Male,Some college or trade school,Manitoba,Somewhat important,4,Conservative Party
+18 to 29,Male,Some college or trade school,Manitoba,Very important,4,Conservative Party
+18 to 29,Male,Some college or trade school,New Brunswick,Not at all important,9,Liberal Party
+18 to 29,Male,Some college or trade school,New Brunswick,Not very important,3,Liberal Party
+18 to 29,Male,Some college or trade school,New Brunswick,Somewhat important,4,Liberal Party
+18 to 29,Male,Some college or trade school,New Brunswick,Very important,1,Liberal Party
+18 to 29,Male,Some college or trade school,Newfoundland and Labrador,Not at all important,6,Liberal Party
+18 to 29,Male,Some college or trade school,Newfoundland and Labrador,Not very important,6,Liberal Party
+18 to 29,Male,Some college or trade school,Newfoundland and Labrador,Somewhat important,3,Liberal Party
+18 to 29,Male,Some college or trade school,Newfoundland and Labrador,Very important,1,Liberal Party
+18 to 29,Male,Some college or trade school,Nova Scotia,Not at all important,9,Liberal Party
+18 to 29,Male,Some college or trade school,Nova Scotia,Not very important,3,Liberal Party
+18 to 29,Male,Some college or trade school,Nova Scotia,Somewhat important,3,Liberal Party
+18 to 29,Male,Some college or trade school,Ontario,Not at all important,23,Liberal Party
+18 to 29,Male,Some college or trade school,Ontario,Not very important,24,Liberal Party
+18 to 29,Male,Some college or trade school,Ontario,Somewhat important,18,Liberal Party
+18 to 29,Male,Some college or trade school,Ontario,Very important,11,Conservative Party
+18 to 29,Male,Some college or trade school,Prince Edward Island,Not at all important,5,Liberal Party
+18 to 29,Male,Some college or trade school,Prince Edward Island,Not very important,3,Liberal Party
+18 to 29,Male,Some college or trade school,Prince Edward Island,Somewhat important,1,Liberal Party
+18 to 29,Male,Some college or trade school,Prince Edward Island,Very important,5,Liberal Party
+18 to 29,Male,Some college or trade school,Quebec,Not at all important,26,Liberal Party
+18 to 29,Male,Some college or trade school,Quebec,Not very important,25,Liberal Party
+18 to 29,Male,Some college or trade school,Quebec,Somewhat important,20,Liberal Party
+18 to 29,Male,Some college or trade school,Quebec,Very important,5,Liberal Party
+18 to 29,Male,Some college or trade school,Saskatchewan,Not at all important,10,Conservative Party
+18 to 29,Male,Some college or trade school,Saskatchewan,Not very important,6,Conservative Party
+18 to 29,Male,Some college or trade school,Saskatchewan,Somewhat important,2,Conservative Party
+18 to 29,Male,Some college or trade school,Saskatchewan,Very important,3,Conservative Party
+18 to 29,Male,Some graduate school or more,Alberta,Don't know,1,Conservative Party
+18 to 29,Male,Some graduate school or more,Alberta,Not at all important,3,Conservative Party
+18 to 29,Male,Some graduate school or more,British Columbia,Not at all important,1,Liberal Party
+18 to 29,Male,Some graduate school or more,British Columbia,Not very important,3,Liberal Party
+18 to 29,Male,Some graduate school or more,Manitoba,Somewhat important,1,Liberal Party
+18 to 29,Male,Some graduate school or more,New Brunswick,Very important,1,Liberal Party
+18 to 29,Male,Some graduate school or more,Newfoundland and Labrador,Not very important,1,Liberal Party
+18 to 29,Male,Some graduate school or more,Newfoundland and Labrador,Somewhat important,1,Liberal Party
+18 to 29,Male,Some graduate school or more,Nova Scotia,Not very important,2,Liberal Party
+18 to 29,Male,Some graduate school or more,Ontario,Not at all important,11,Liberal Party
+18 to 29,Male,Some graduate school or more,Ontario,Not very important,4,Liberal Party
+18 to 29,Male,Some graduate school or more,Ontario,Somewhat important,5,Liberal Party
+18 to 29,Male,Some graduate school or more,Ontario,Very important,6,Liberal Party
+18 to 29,Male,Some graduate school or more,Prince Edward Island,Not at all important,1,Liberal Party
+18 to 29,Male,Some graduate school or more,Quebec,Not at all important,4,Liberal Party
+18 to 29,Male,Some graduate school or more,Quebec,Not very important,1,Liberal Party
+18 to 29,Male,Some graduate school or more,Quebec,Somewhat important,3,Liberal Party
+18 to 29,Male,Some graduate school or more,Saskatchewan,Not at all important,1,New Democratic Party
+18 to 29,Male,Some graduate school or more,Saskatchewan,Very important,1,Conservative Party
+18 to 29,Male,Undergraduate degree,Alberta,Not at all important,6,Conservative Party
+18 to 29,Male,Undergraduate degree,Alberta,Not very important,7,Conservative Party
+18 to 29,Male,Undergraduate degree,Alberta,Somewhat important,6,Conservative Party
+18 to 29,Male,Undergraduate degree,Alberta,Very important,4,Conservative Party
+18 to 29,Male,Undergraduate degree,British Columbia,Not at all important,8,Liberal Party
+18 to 29,Male,Undergraduate degree,British Columbia,Not very important,5,Liberal Party
+18 to 29,Male,Undergraduate degree,British Columbia,Somewhat important,4,Liberal Party
+18 to 29,Male,Undergraduate degree,British Columbia,Very important,8,Liberal Party
+18 to 29,Male,Undergraduate degree,Manitoba,Not at all important,2,Liberal Party
+18 to 29,Male,Undergraduate degree,Manitoba,Not very important,2,Liberal Party
+18 to 29,Male,Undergraduate degree,Manitoba,Somewhat important,5,Liberal Party
+18 to 29,Male,Undergraduate degree,Manitoba,Very important,2,Conservative Party
+18 to 29,Male,Undergraduate degree,New Brunswick,Not at all important,5,Liberal Party
+18 to 29,Male,Undergraduate degree,New Brunswick,Not very important,1,Liberal Party
+18 to 29,Male,Undergraduate degree,New Brunswick,Very important,3,Liberal Party
+18 to 29,Male,Undergraduate degree,Newfoundland and Labrador,Not at all important,5,Liberal Party
+18 to 29,Male,Undergraduate degree,Newfoundland and Labrador,Not very important,3,Liberal Party
+18 to 29,Male,Undergraduate degree,Newfoundland and Labrador,Somewhat important,3,Liberal Party
+18 to 29,Male,Undergraduate degree,Newfoundland and Labrador,Very important,1,Liberal Party
+18 to 29,Male,Undergraduate degree,Nova Scotia,Not at all important,8,Liberal Party
+18 to 29,Male,Undergraduate degree,Nova Scotia,Not very important,6,Liberal Party
+18 to 29,Male,Undergraduate degree,Nova Scotia,Somewhat important,2,Liberal Party
+18 to 29,Male,Undergraduate degree,Nova Scotia,Very important,3,Liberal Party
+18 to 29,Male,Undergraduate degree,Ontario,Not at all important,21,Liberal Party
+18 to 29,Male,Undergraduate degree,Ontario,Not very important,14,Liberal Party
+18 to 29,Male,Undergraduate degree,Ontario,Somewhat important,11,Liberal Party
+18 to 29,Male,Undergraduate degree,Ontario,Very important,11,Liberal Party
+18 to 29,Male,Undergraduate degree,Prince Edward Island,Not at all important,3,Liberal Party
+18 to 29,Male,Undergraduate degree,Prince Edward Island,Somewhat important,1,Liberal Party
+18 to 29,Male,Undergraduate degree,Prince Edward Island,Very important,1,Liberal Party
+18 to 29,Male,Undergraduate degree,Quebec,Not at all important,9,Liberal Party
+18 to 29,Male,Undergraduate degree,Quebec,Not very important,6,Liberal Party
+18 to 29,Male,Undergraduate degree,Quebec,Somewhat important,9,Liberal Party
+18 to 29,Male,Undergraduate degree,Saskatchewan,Not at all important,2,Conservative Party
+18 to 29,Male,Undergraduate degree,Saskatchewan,Not very important,3,Conservative Party
+18 to 29,Male,Undergraduate degree,Saskatchewan,Somewhat important,1,Conservative Party
+18 to 29,Male,Undergraduate degree,Saskatchewan,Very important,3,Conservative Party
+30 to 41,Female,High school or less,Alberta,Not at all important,14,Conservative Party
+30 to 41,Female,High school or less,Alberta,Not very important,10,Conservative Party
+30 to 41,Female,High school or less,Alberta,Somewhat important,13,Conservative Party
+30 to 41,Female,High school or less,Alberta,Very important,23,Conservative Party
+30 to 41,Female,High school or less,British Columbia,Not at all important,12,New Democratic Party
+30 to 41,Female,High school or less,British Columbia,Not very important,4,New Democratic Party
+30 to 41,Female,High school or less,British Columbia,Somewhat important,10,Conservative Party
+30 to 41,Female,High school or less,British Columbia,Very important,18,Conservative Party
+30 to 41,Female,High school or less,Manitoba,Not at all important,9,New Democratic Party
+30 to 41,Female,High school or less,Manitoba,Not very important,6,Conservative Party
+30 to 41,Female,High school or less,Manitoba,Somewhat important,5,Conservative Party
+30 to 41,Female,High school or less,Manitoba,Very important,11,Conservative Party
+30 to 41,Female,High school or less,New Brunswick,Not at all important,4,Liberal Party
+30 to 41,Female,High school or less,New Brunswick,Not very important,4,Liberal Party
+30 to 41,Female,High school or less,New Brunswick,Somewhat important,8,Liberal Party
+30 to 41,Female,High school or less,New Brunswick,Very important,7,Conservative Party
+30 to 41,Female,High school or less,Newfoundland and Labrador,Don't know,1,New Democratic Party
+30 to 41,Female,High school or less,Newfoundland and Labrador,Not at all important,2,New Democratic Party
+30 to 41,Female,High school or less,Newfoundland and Labrador,Somewhat important,5,Liberal Party
+30 to 41,Female,High school or less,Newfoundland and Labrador,Very important,2,Liberal Party
+30 to 41,Female,High school or less,Nova Scotia,Not at all important,8,Liberal Party
+30 to 41,Female,High school or less,Nova Scotia,Not very important,3,Liberal Party
+30 to 41,Female,High school or less,Nova Scotia,Somewhat important,7,Liberal Party
+30 to 41,Female,High school or less,Nova Scotia,Very important,6,Liberal Party
+30 to 41,Female,High school or less,Ontario,Don't know,1,New Democratic Party
+30 to 41,Female,High school or less,Ontario,Not at all important,19,New Democratic Party
+30 to 41,Female,High school or less,Ontario,Not very important,18,Liberal Party
+30 to 41,Female,High school or less,Ontario,Somewhat important,24,Conservative Party
+30 to 41,Female,High school or less,Ontario,Very important,26,Conservative Party
+30 to 41,Female,High school or less,Prince Edward Island,Not at all important,3,Liberal Party
+30 to 41,Female,High school or less,Prince Edward Island,Not very important,2,Liberal Party
+30 to 41,Female,High school or less,Prince Edward Island,Somewhat important,8,Liberal Party
+30 to 41,Female,High school or less,Prince Edward Island,Very important,3,Liberal Party
+30 to 41,Female,High school or less,Quebec,Not at all important,10,Liberal Party
+30 to 41,Female,High school or less,Quebec,Not very important,11,Liberal Party
+30 to 41,Female,High school or less,Quebec,Somewhat important,13,Liberal Party
+30 to 41,Female,High school or less,Quebec,Very important,13,Liberal Party
+30 to 41,Female,High school or less,Saskatchewan,Not at all important,1,Conservative Party
+30 to 41,Female,High school or less,Saskatchewan,Not very important,5,Conservative Party
+30 to 41,Female,High school or less,Saskatchewan,Somewhat important,8,Conservative Party
+30 to 41,Female,High school or less,Saskatchewan,Very important,10,Conservative Party
+30 to 41,Female,Some college or trade school,Alberta,Not at all important,17,Conservative Party
+30 to 41,Female,Some college or trade school,Alberta,Not very important,11,Conservative Party
+30 to 41,Female,Some college or trade school,Alberta,Somewhat important,23,Conservative Party
+30 to 41,Female,Some college or trade school,Alberta,Very important,29,Conservative Party
+30 to 41,Female,Some college or trade school,British Columbia,Don't know,2,New Democratic Party
+30 to 41,Female,Some college or trade school,British Columbia,Not at all important,16,New Democratic Party
+30 to 41,Female,Some college or trade school,British Columbia,Not very important,10,New Democratic Party
+30 to 41,Female,Some college or trade school,British Columbia,Somewhat important,14,Conservative Party
+30 to 41,Female,Some college or trade school,British Columbia,Very important,25,Conservative Party
+30 to 41,Female,Some college or trade school,Manitoba,Don't know,3,Conservative Party
+30 to 41,Female,Some college or trade school,Manitoba,Not at all important,7,New Democratic Party
+30 to 41,Female,Some college or trade school,Manitoba,Not very important,5,Conservative Party
+30 to 41,Female,Some college or trade school,Manitoba,Somewhat important,13,Conservative Party
+30 to 41,Female,Some college or trade school,Manitoba,Very important,11,Conservative Party
+30 to 41,Female,Some college or trade school,New Brunswick,Not at all important,7,Liberal Party
+30 to 41,Female,Some college or trade school,New Brunswick,Not very important,9,Liberal Party
+30 to 41,Female,Some college or trade school,New Brunswick,Somewhat important,25,Liberal Party
+30 to 41,Female,Some college or trade school,New Brunswick,Very important,11,Liberal Party
+30 to 41,Female,Some college or trade school,Newfoundland and Labrador,Not at all important,7,Liberal Party
+30 to 41,Female,Some college or trade school,Newfoundland and Labrador,Not very important,6,Liberal Party
+30 to 41,Female,Some college or trade school,Newfoundland and Labrador,Somewhat important,19,Liberal Party
+30 to 41,Female,Some college or trade school,Newfoundland and Labrador,Very important,11,Liberal Party
+30 to 41,Female,Some college or trade school,Nova Scotia,Don't know,1,Liberal Party
+30 to 41,Female,Some college or trade school,Nova Scotia,Not at all important,6,Liberal Party
+30 to 41,Female,Some college or trade school,Nova Scotia,Not very important,13,Liberal Party
+30 to 41,Female,Some college or trade school,Nova Scotia,Somewhat important,12,Liberal Party
+30 to 41,Female,Some college or trade school,Nova Scotia,Very important,16,Liberal Party
+30 to 41,Female,Some college or trade school,Ontario,Don't know,1,Liberal Party
+30 to 41,Female,Some college or trade school,Ontario,Not at all important,32,Liberal Party
+30 to 41,Female,Some college or trade school,Ontario,Not very important,31,Liberal Party
+30 to 41,Female,Some college or trade school,Ontario,Somewhat important,63,Liberal Party
+30 to 41,Female,Some college or trade school,Ontario,Very important,53,Conservative Party
+30 to 41,Female,Some college or trade school,Prince Edward Island,Not at all important,4,Liberal Party
+30 to 41,Female,Some college or trade school,Prince Edward Island,Not very important,6,Liberal Party
+30 to 41,Female,Some college or trade school,Prince Edward Island,Somewhat important,12,Liberal Party
+30 to 41,Female,Some college or trade school,Prince Edward Island,Very important,8,Liberal Party
+30 to 41,Female,Some college or trade school,Quebec,Not at all important,42,Liberal Party
+30 to 41,Female,Some college or trade school,Quebec,Not very important,46,Liberal Party
+30 to 41,Female,Some college or trade school,Quebec,Somewhat important,48,Liberal Party
+30 to 41,Female,Some college or trade school,Quebec,Very important,25,Liberal Party
+30 to 41,Female,Some college or trade school,Saskatchewan,Not at all important,10,Conservative Party
+30 to 41,Female,Some college or trade school,Saskatchewan,Not very important,8,Conservative Party
+30 to 41,Female,Some college or trade school,Saskatchewan,Somewhat important,20,Conservative Party
+30 to 41,Female,Some college or trade school,Saskatchewan,Very important,13,Conservative Party
+30 to 41,Female,Some graduate school or more,Alberta,Not at all important,8,Conservative Party
+30 to 41,Female,Some graduate school or more,Alberta,Not very important,5,Conservative Party
+30 to 41,Female,Some graduate school or more,Alberta,Somewhat important,7,Conservative Party
+30 to 41,Female,Some graduate school or more,Alberta,Very important,9,Conservative Party
+30 to 41,Female,Some graduate school or more,British Columbia,Not at all important,10,Liberal Party
+30 to 41,Female,Some graduate school or more,British Columbia,Not very important,10,Liberal Party
+30 to 41,Female,Some graduate school or more,British Columbia,Somewhat important,13,Liberal Party
+30 to 41,Female,Some graduate school or more,British Columbia,Very important,9,Liberal Party
+30 to 41,Female,Some graduate school or more,Manitoba,Not at all important,2,Liberal Party
+30 to 41,Female,Some graduate school or more,Manitoba,Not very important,3,Liberal Party
+30 to 41,Female,Some graduate school or more,Manitoba,Somewhat important,3,Liberal Party
+30 to 41,Female,Some graduate school or more,Manitoba,Very important,4,Conservative Party
+30 to 41,Female,Some graduate school or more,New Brunswick,Not at all important,5,Liberal Party
+30 to 41,Female,Some graduate school or more,New Brunswick,Not very important,1,Liberal Party
+30 to 41,Female,Some graduate school or more,New Brunswick,Somewhat important,2,Liberal Party
+30 to 41,Female,Some graduate school or more,New Brunswick,Very important,1,Liberal Party
+30 to 41,Female,Some graduate school or more,Newfoundland and Labrador,Not at all important,3,Liberal Party
+30 to 41,Female,Some graduate school or more,Newfoundland and Labrador,Not very important,1,Liberal Party
+30 to 41,Female,Some graduate school or more,Newfoundland and Labrador,Somewhat important,5,Liberal Party
+30 to 41,Female,Some graduate school or more,Newfoundland and Labrador,Very important,5,Liberal Party
+30 to 41,Female,Some graduate school or more,Nova Scotia,Don't know,1,Liberal Party
+30 to 41,Female,Some graduate school or more,Nova Scotia,Not at all important,5,Liberal Party
+30 to 41,Female,Some graduate school or more,Nova Scotia,Not very important,2,Liberal Party
+30 to 41,Female,Some graduate school or more,Nova Scotia,Somewhat important,6,Liberal Party
+30 to 41,Female,Some graduate school or more,Nova Scotia,Very important,3,Liberal Party
+30 to 41,Female,Some graduate school or more,Ontario,Not at all important,19,Liberal Party
+30 to 41,Female,Some graduate school or more,Ontario,Not very important,22,Liberal Party
+30 to 41,Female,Some graduate school or more,Ontario,Somewhat important,30,Liberal Party
+30 to 41,Female,Some graduate school or more,Ontario,Very important,30,Liberal Party
+30 to 41,Female,Some graduate school or more,Prince Edward Island,Not at all important,2,Liberal Party
+30 to 41,Female,Some graduate school or more,Prince Edward Island,Not very important,1,Liberal Party
+30 to 41,Female,Some graduate school or more,Prince Edward Island,Somewhat important,1,Liberal Party
+30 to 41,Female,Some graduate school or more,Prince Edward Island,Very important,2,Liberal Party
+30 to 41,Female,Some graduate school or more,Quebec,Don't know,3,Liberal Party
+30 to 41,Female,Some graduate school or more,Quebec,Not at all important,15,Liberal Party
+30 to 41,Female,Some graduate school or more,Quebec,Not very important,11,Liberal Party
+30 to 41,Female,Some graduate school or more,Quebec,Somewhat important,21,Liberal Party
+30 to 41,Female,Some graduate school or more,Quebec,Very important,9,Liberal Party
+30 to 41,Female,Some graduate school or more,Saskatchewan,Not at all important,1,New Democratic Party
+30 to 41,Female,Some graduate school or more,Saskatchewan,Very important,6,Conservative Party
+30 to 41,Female,Undergraduate degree,Alberta,Not at all important,7,Conservative Party
+30 to 41,Female,Undergraduate degree,Alberta,Not very important,7,Conservative Party
+30 to 41,Female,Undergraduate degree,Alberta,Somewhat important,20,Conservative Party
+30 to 41,Female,Undergraduate degree,Alberta,Very important,21,Conservative Party
+30 to 41,Female,Undergraduate degree,British Columbia,Not at all important,16,Liberal Party
+30 to 41,Female,Undergraduate degree,British Columbia,Not very important,13,Liberal Party
+30 to 41,Female,Undergraduate degree,British Columbia,Somewhat important,17,Liberal Party
+30 to 41,Female,Undergraduate degree,British Columbia,Very important,20,Conservative Party
+30 to 41,Female,Undergraduate degree,Manitoba,Not at all important,7,Liberal Party
+30 to 41,Female,Undergraduate degree,Manitoba,Not very important,7,Liberal Party
+30 to 41,Female,Undergraduate degree,Manitoba,Somewhat important,6,Conservative Party
+30 to 41,Female,Undergraduate degree,Manitoba,Very important,13,Conservative Party
+30 to 41,Female,Undergraduate degree,New Brunswick,Not at all important,8,Liberal Party
+30 to 41,Female,Undergraduate degree,New Brunswick,Not very important,3,Liberal Party
+30 to 41,Female,Undergraduate degree,New Brunswick,Somewhat important,9,Liberal Party
+30 to 41,Female,Undergraduate degree,New Brunswick,Very important,3,Liberal Party
+30 to 41,Female,Undergraduate degree,Newfoundland and Labrador,Not at all important,4,Liberal Party
+30 to 41,Female,Undergraduate degree,Newfoundland and Labrador,Not very important,7,Liberal Party
+30 to 41,Female,Undergraduate degree,Newfoundland and Labrador,Somewhat important,14,Liberal Party
+30 to 41,Female,Undergraduate degree,Newfoundland and Labrador,Very important,5,Liberal Party
+30 to 41,Female,Undergraduate degree,Nova Scotia,Not at all important,9,Liberal Party
+30 to 41,Female,Undergraduate degree,Nova Scotia,Not very important,8,Liberal Party
+30 to 41,Female,Undergraduate degree,Nova Scotia,Somewhat important,10,Liberal Party
+30 to 41,Female,Undergraduate degree,Nova Scotia,Very important,9,Liberal Party
+30 to 41,Female,Undergraduate degree,Ontario,Don't know,2,Liberal Party
+30 to 41,Female,Undergraduate degree,Ontario,Not at all important,35,Liberal Party
+30 to 41,Female,Undergraduate degree,Ontario,Not very important,28,Liberal Party
+30 to 41,Female,Undergraduate degree,Ontario,Somewhat important,49,Liberal Party
+30 to 41,Female,Undergraduate degree,Ontario,Very important,58,Liberal Party
+30 to 41,Female,Undergraduate degree,Prince Edward Island,Not at all important,1,Liberal Party
+30 to 41,Female,Undergraduate degree,Prince Edward Island,Not very important,3,Liberal Party
+30 to 41,Female,Undergraduate degree,Prince Edward Island,Somewhat important,4,Liberal Party
+30 to 41,Female,Undergraduate degree,Prince Edward Island,Very important,8,Liberal Party
+30 to 41,Female,Undergraduate degree,Quebec,Not at all important,25,Liberal Party
+30 to 41,Female,Undergraduate degree,Quebec,Not very important,21,Liberal Party
+30 to 41,Female,Undergraduate degree,Quebec,Somewhat important,39,Liberal Party
+30 to 41,Female,Undergraduate degree,Quebec,Very important,34,Liberal Party
+30 to 41,Female,Undergraduate degree,Saskatchewan,Don't know,2,Conservative Party
+30 to 41,Female,Undergraduate degree,Saskatchewan,Not at all important,3,Conservative Party
+30 to 41,Female,Undergraduate degree,Saskatchewan,Not very important,6,Conservative Party
+30 to 41,Female,Undergraduate degree,Saskatchewan,Somewhat important,6,Conservative Party
+30 to 41,Female,Undergraduate degree,Saskatchewan,Very important,18,Conservative Party
+30 to 41,Male,High school or less,Alberta,Don't know,1,Conservative Party
+30 to 41,Male,High school or less,Alberta,Not at all important,16,Conservative Party
+30 to 41,Male,High school or less,Alberta,Not very important,6,Conservative Party
+30 to 41,Male,High school or less,Alberta,Somewhat important,15,Conservative Party
+30 to 41,Male,High school or less,Alberta,Very important,10,Conservative Party
+30 to 41,Male,High school or less,British Columbia,Not at all important,16,Conservative Party
+30 to 41,Male,High school or less,British Columbia,Not very important,9,Conservative Party
+30 to 41,Male,High school or less,British Columbia,Somewhat important,9,Conservative Party
+30 to 41,Male,High school or less,British Columbia,Very important,19,Conservative Party
+30 to 41,Male,High school or less,Manitoba,Don't know,1,Conservative Party
+30 to 41,Male,High school or less,Manitoba,Not at all important,9,Conservative Party
+30 to 41,Male,High school or less,Manitoba,Not very important,3,Conservative Party
+30 to 41,Male,High school or less,Manitoba,Somewhat important,5,Conservative Party
+30 to 41,Male,High school or less,Manitoba,Very important,14,Conservative Party
+30 to 41,Male,High school or less,New Brunswick,Not at all important,4,Liberal Party
+30 to 41,Male,High school or less,New Brunswick,Not very important,2,Conservative Party
+30 to 41,Male,High school or less,New Brunswick,Somewhat important,4,Conservative Party
+30 to 41,Male,High school or less,New Brunswick,Very important,2,Conservative Party
+30 to 41,Male,High school or less,Newfoundland and Labrador,Not at all important,7,Liberal Party
+30 to 41,Male,High school or less,Newfoundland and Labrador,Not very important,4,Liberal Party
+30 to 41,Male,High school or less,Newfoundland and Labrador,Somewhat important,6,Liberal Party
+30 to 41,Male,High school or less,Newfoundland and Labrador,Very important,1,Conservative Party
+30 to 41,Male,High school or less,Nova Scotia,Not at all important,13,Liberal Party
+30 to 41,Male,High school or less,Nova Scotia,Not very important,8,Liberal Party
+30 to 41,Male,High school or less,Nova Scotia,Somewhat important,8,Liberal Party
+30 to 41,Male,High school or less,Nova Scotia,Very important,2,Conservative Party
+30 to 41,Male,High school or less,Ontario,Don't know,2,Conservative Party
+30 to 41,Male,High school or less,Ontario,Not at all important,31,Conservative Party
+30 to 41,Male,High school or less,Ontario,Not very important,21,Conservative Party
+30 to 41,Male,High school or less,Ontario,Somewhat important,22,Conservative Party
+30 to 41,Male,High school or less,Ontario,Very important,31,Conservative Party
+30 to 41,Male,High school or less,Prince Edward Island,Not at all important,2,Liberal Party
+30 to 41,Male,High school or less,Prince Edward Island,Not very important,1,Liberal Party
+30 to 41,Male,High school or less,Prince Edward Island,Somewhat important,3,Liberal Party
+30 to 41,Male,High school or less,Prince Edward Island,Very important,4,Liberal Party
+30 to 41,Male,High school or less,Quebec,Not at all important,27,Liberal Party
+30 to 41,Male,High school or less,Quebec,Not very important,21,Liberal Party
+30 to 41,Male,High school or less,Quebec,Somewhat important,17,Liberal Party
+30 to 41,Male,High school or less,Quebec,Very important,10,Conservative Party
+30 to 41,Male,High school or less,Saskatchewan,Not at all important,8,Conservative Party
+30 to 41,Male,High school or less,Saskatchewan,Not very important,11,Conservative Party
+30 to 41,Male,High school or less,Saskatchewan,Somewhat important,11,Conservative Party
+30 to 41,Male,High school or less,Saskatchewan,Very important,12,Conservative Party
+30 to 41,Male,Some college or trade school,Alberta,Not at all important,28,Conservative Party
+30 to 41,Male,Some college or trade school,Alberta,Not very important,8,Conservative Party
+30 to 41,Male,Some college or trade school,Alberta,Somewhat important,20,Conservative Party
+30 to 41,Male,Some college or trade school,Alberta,Very important,19,Conservative Party
+30 to 41,Male,Some college or trade school,British Columbia,Not at all important,28,Conservative Party
+30 to 41,Male,Some college or trade school,British Columbia,Not very important,11,Conservative Party
+30 to 41,Male,Some college or trade school,British Columbia,Somewhat important,18,Conservative Party
+30 to 41,Male,Some college or trade school,British Columbia,Very important,27,Conservative Party
+30 to 41,Male,Some college or trade school,Manitoba,Not at all important,10,Conservative Party
+30 to 41,Male,Some college or trade school,Manitoba,Not very important,7,Conservative Party
+30 to 41,Male,Some college or trade school,Manitoba,Somewhat important,10,Conservative Party
+30 to 41,Male,Some college or trade school,Manitoba,Very important,15,Conservative Party
+30 to 41,Male,Some college or trade school,New Brunswick,Not at all important,14,Liberal Party
+30 to 41,Male,Some college or trade school,New Brunswick,Not very important,14,Liberal Party
+30 to 41,Male,Some college or trade school,New Brunswick,Somewhat important,11,Conservative Party
+30 to 41,Male,Some college or trade school,New Brunswick,Very important,7,Conservative Party
+30 to 41,Male,Some college or trade school,Newfoundland and Labrador,Not at all important,11,Liberal Party
+30 to 41,Male,Some college or trade school,Newfoundland and Labrador,Not very important,8,Liberal Party
+30 to 41,Male,Some college or trade school,Newfoundland and Labrador,Somewhat important,19,Liberal Party
+30 to 41,Male,Some college or trade school,Newfoundland and Labrador,Very important,3,Liberal Party
+30 to 41,Male,Some college or trade school,Nova Scotia,Don't know,2,Liberal Party
+30 to 41,Male,Some college or trade school,Nova Scotia,Not at all important,13,Liberal Party
+30 to 41,Male,Some college or trade school,Nova Scotia,Not very important,8,Liberal Party
+30 to 41,Male,Some college or trade school,Nova Scotia,Somewhat important,10,Liberal Party
+30 to 41,Male,Some college or trade school,Nova Scotia,Very important,3,Conservative Party
+30 to 41,Male,Some college or trade school,Ontario,Don't know,1,Conservative Party
+30 to 41,Male,Some college or trade school,Ontario,Not at all important,46,Liberal Party
+30 to 41,Male,Some college or trade school,Ontario,Not very important,35,Conservative Party
+30 to 41,Male,Some college or trade school,Ontario,Somewhat important,38,Conservative Party
+30 to 41,Male,Some college or trade school,Ontario,Very important,41,Conservative Party
+30 to 41,Male,Some college or trade school,Prince Edward Island,Not at all important,6,Liberal Party
+30 to 41,Male,Some college or trade school,Prince Edward Island,Not very important,4,Liberal Party
+30 to 41,Male,Some college or trade school,Prince Edward Island,Somewhat important,6,Liberal Party
+30 to 41,Male,Some college or trade school,Prince Edward Island,Very important,5,Liberal Party
+30 to 41,Male,Some college or trade school,Quebec,Not at all important,73,Liberal Party
+30 to 41,Male,Some college or trade school,Quebec,Not very important,49,Liberal Party
+30 to 41,Male,Some college or trade school,Quebec,Somewhat important,36,Liberal Party
+30 to 41,Male,Some college or trade school,Quebec,Very important,17,Liberal Party
+30 to 41,Male,Some college or trade school,Saskatchewan,Don't know,1,Conservative Party
+30 to 41,Male,Some college or trade school,Saskatchewan,Not at all important,15,Conservative Party
+30 to 41,Male,Some college or trade school,Saskatchewan,Not very important,6,Conservative Party
+30 to 41,Male,Some college or trade school,Saskatchewan,Somewhat important,12,Conservative Party
+30 to 41,Male,Some college or trade school,Saskatchewan,Very important,11,Conservative Party
+30 to 41,Male,Some graduate school or more,Alberta,Not at all important,5,Conservative Party
+30 to 41,Male,Some graduate school or more,Alberta,Not very important,2,Conservative Party
+30 to 41,Male,Some graduate school or more,Alberta,Somewhat important,10,Conservative Party
+30 to 41,Male,Some graduate school or more,Alberta,Very important,8,Conservative Party
+30 to 41,Male,Some graduate school or more,British Columbia,Not at all important,2,Liberal Party
+30 to 41,Male,Some graduate school or more,British Columbia,Not very important,2,Liberal Party
+30 to 41,Male,Some graduate school or more,British Columbia,Somewhat important,4,Liberal Party
+30 to 41,Male,Some graduate school or more,British Columbia,Very important,4,Conservative Party
+30 to 41,Male,Some graduate school or more,Manitoba,Not at all important,1,Liberal Party
+30 to 41,Male,Some graduate school or more,Manitoba,Somewhat important,2,Conservative Party
+30 to 41,Male,Some graduate school or more,Manitoba,Very important,5,Conservative Party
+30 to 41,Male,Some graduate school or more,New Brunswick,Not at all important,4,Liberal Party
+30 to 41,Male,Some graduate school or more,New Brunswick,Somewhat important,4,Liberal Party
+30 to 41,Male,Some graduate school or more,New Brunswick,Very important,2,Liberal Party
+30 to 41,Male,Some graduate school or more,Newfoundland and Labrador,Not at all important,3,Liberal Party
+30 to 41,Male,Some graduate school or more,Newfoundland and Labrador,Not very important,1,Liberal Party
+30 to 41,Male,Some graduate school or more,Newfoundland and Labrador,Somewhat important,1,Liberal Party
+30 to 41,Male,Some graduate school or more,Nova Scotia,Not at all important,4,Liberal Party
+30 to 41,Male,Some graduate school or more,Nova Scotia,Not very important,2,Liberal Party
+30 to 41,Male,Some graduate school or more,Nova Scotia,Somewhat important,2,Liberal Party
+30 to 41,Male,Some graduate school or more,Nova Scotia,Very important,1,Liberal Party
+30 to 41,Male,Some graduate school or more,Ontario,Not at all important,18,Liberal Party
+30 to 41,Male,Some graduate school or more,Ontario,Not very important,16,Liberal Party
+30 to 41,Male,Some graduate school or more,Ontario,Somewhat important,17,Liberal Party
+30 to 41,Male,Some graduate school or more,Ontario,Very important,22,Liberal Party
+30 to 41,Male,Some graduate school or more,Prince Edward Island,Not at all important,2,Liberal Party
+30 to 41,Male,Some graduate school or more,Prince Edward Island,Somewhat important,1,Liberal Party
+30 to 41,Male,Some graduate school or more,Prince Edward Island,Very important,1,Liberal Party
+30 to 41,Male,Some graduate school or more,Quebec,Don't know,1,Liberal Party
+30 to 41,Male,Some graduate school or more,Quebec,Not at all important,16,Liberal Party
+30 to 41,Male,Some graduate school or more,Quebec,Not very important,12,Liberal Party
+30 to 41,Male,Some graduate school or more,Quebec,Somewhat important,8,Liberal Party
+30 to 41,Male,Some graduate school or more,Quebec,Very important,8,Liberal Party
+30 to 41,Male,Some graduate school or more,Saskatchewan,Not at all important,1,Conservative Party
+30 to 41,Male,Some graduate school or more,Saskatchewan,Not very important,2,Conservative Party
+30 to 41,Male,Some graduate school or more,Saskatchewan,Somewhat important,1,Conservative Party
+30 to 41,Male,Some graduate school or more,Saskatchewan,Very important,3,Conservative Party
+30 to 41,Male,Undergraduate degree,Alberta,Not at all important,15,Conservative Party
+30 to 41,Male,Undergraduate degree,Alberta,Not very important,7,Conservative Party
+30 to 41,Male,Undergraduate degree,Alberta,Somewhat important,11,Conservative Party
+30 to 41,Male,Undergraduate degree,Alberta,Very important,9,Conservative Party
+30 to 41,Male,Undergraduate degree,British Columbia,Don't know,2,Conservative Party
+30 to 41,Male,Undergraduate degree,British Columbia,Not at all important,29,Liberal Party
+30 to 41,Male,Undergraduate degree,British Columbia,Not very important,8,Liberal Party
+30 to 41,Male,Undergraduate degree,British Columbia,Somewhat important,9,Conservative Party
+30 to 41,Male,Undergraduate degree,British Columbia,Very important,12,Conservative Party
+30 to 41,Male,Undergraduate degree,Manitoba,Not at all important,5,Conservative Party
+30 to 41,Male,Undergraduate degree,Manitoba,Not very important,4,Conservative Party
+30 to 41,Male,Undergraduate degree,Manitoba,Somewhat important,4,Conservative Party
+30 to 41,Male,Undergraduate degree,Manitoba,Very important,10,Conservative Party
+30 to 41,Male,Undergraduate degree,New Brunswick,Don't know,2,Liberal Party
+30 to 41,Male,Undergraduate degree,New Brunswick,Not at all important,1,Liberal Party
+30 to 41,Male,Undergraduate degree,New Brunswick,Not very important,5,Liberal Party
+30 to 41,Male,Undergraduate degree,New Brunswick,Somewhat important,5,Liberal Party
+30 to 41,Male,Undergraduate degree,New Brunswick,Very important,6,Liberal Party
+30 to 41,Male,Undergraduate degree,Newfoundland and Labrador,Not at all important,5,Liberal Party
+30 to 41,Male,Undergraduate degree,Newfoundland and Labrador,Not very important,7,Liberal Party
+30 to 41,Male,Undergraduate degree,Newfoundland and Labrador,Somewhat important,8,Liberal Party
+30 to 41,Male,Undergraduate degree,Newfoundland and Labrador,Very important,1,Liberal Party
+30 to 41,Male,Undergraduate degree,Nova Scotia,Not at all important,13,Liberal Party
+30 to 41,Male,Undergraduate degree,Nova Scotia,Not very important,6,Liberal Party
+30 to 41,Male,Undergraduate degree,Nova Scotia,Somewhat important,6,Liberal Party
+30 to 41,Male,Undergraduate degree,Nova Scotia,Very important,8,Liberal Party
+30 to 41,Male,Undergraduate degree,Ontario,Don't know,1,Liberal Party
+30 to 41,Male,Undergraduate degree,Ontario,Not at all important,32,Liberal Party
+30 to 41,Male,Undergraduate degree,Ontario,Not very important,18,Liberal Party
+30 to 41,Male,Undergraduate degree,Ontario,Somewhat important,26,Liberal Party
+30 to 41,Male,Undergraduate degree,Ontario,Very important,40,Conservative Party
+30 to 41,Male,Undergraduate degree,Prince Edward Island,Not at all important,4,Liberal Party
+30 to 41,Male,Undergraduate degree,Prince Edward Island,Not very important,3,Liberal Party
+30 to 41,Male,Undergraduate degree,Prince Edward Island,Somewhat important,2,Liberal Party
+30 to 41,Male,Undergraduate degree,Prince Edward Island,Very important,2,Liberal Party
+30 to 41,Male,Undergraduate degree,Quebec,Not at all important,28,Liberal Party
+30 to 41,Male,Undergraduate degree,Quebec,Not very important,22,Liberal Party
+30 to 41,Male,Undergraduate degree,Quebec,Somewhat important,21,Liberal Party
+30 to 41,Male,Undergraduate degree,Quebec,Very important,12,Liberal Party
+30 to 41,Male,Undergraduate degree,Saskatchewan,Don't know,1,Conservative Party
+30 to 41,Male,Undergraduate degree,Saskatchewan,Not at all important,6,Conservative Party
+30 to 41,Male,Undergraduate degree,Saskatchewan,Not very important,4,Conservative Party
+30 to 41,Male,Undergraduate degree,Saskatchewan,Somewhat important,8,Conservative Party
+30 to 41,Male,Undergraduate degree,Saskatchewan,Very important,12,Conservative Party
+42 to 53,Female,High school or less,Alberta,Don't know,2,Conservative Party
+42 to 53,Female,High school or less,Alberta,Not at all important,8,Conservative Party
+42 to 53,Female,High school or less,Alberta,Not very important,4,Conservative Party
+42 to 53,Female,High school or less,Alberta,Somewhat important,12,Conservative Party
+42 to 53,Female,High school or less,Alberta,Very important,13,Conservative Party
+42 to 53,Female,High school or less,British Columbia,Don't know,1,Conservative Party
+42 to 53,Female,High school or less,British Columbia,Not at all important,10,New Democratic Party
+42 to 53,Female,High school or less,British Columbia,Not very important,6,Conservative Party
+42 to 53,Female,High school or less,British Columbia,Somewhat important,8,Conservative Party
+42 to 53,Female,High school or less,British Columbia,Very important,15,Conservative Party
+42 to 53,Female,High school or less,Manitoba,Not at all important,5,Conservative Party
+42 to 53,Female,High school or less,Manitoba,Somewhat important,7,Conservative Party
+42 to 53,Female,High school or less,Manitoba,Very important,11,Conservative Party
+42 to 53,Female,High school or less,New Brunswick,Don't know,1,Liberal Party
+42 to 53,Female,High school or less,New Brunswick,Not at all important,3,Liberal Party
+42 to 53,Female,High school or less,New Brunswick,Not very important,4,Liberal Party
+42 to 53,Female,High school or less,New Brunswick,Somewhat important,8,Liberal Party
+42 to 53,Female,High school or less,New Brunswick,Very important,14,Conservative Party
+42 to 53,Female,High school or less,Newfoundland and Labrador,Not at all important,4,Liberal Party
+42 to 53,Female,High school or less,Newfoundland and Labrador,Not very important,2,Liberal Party
+42 to 53,Female,High school or less,Newfoundland and Labrador,Somewhat important,17,Liberal Party
+42 to 53,Female,High school or less,Newfoundland and Labrador,Very important,13,Liberal Party
+42 to 53,Female,High school or less,Nova Scotia,Not at all important,7,Liberal Party
+42 to 53,Female,High school or less,Nova Scotia,Not very important,10,Liberal Party
+42 to 53,Female,High school or less,Nova Scotia,Somewhat important,7,Liberal Party
+42 to 53,Female,High school or less,Nova Scotia,Very important,6,Liberal Party
+42 to 53,Female,High school or less,Ontario,Don't know,2,Conservative Party
+42 to 53,Female,High school or less,Ontario,Not at all important,20,Liberal Party
+42 to 53,Female,High school or less,Ontario,Not very important,15,Conservative Party
+42 to 53,Female,High school or less,Ontario,Somewhat important,47,Conservative Party
+42 to 53,Female,High school or less,Ontario,Very important,41,Conservative Party
+42 to 53,Female,High school or less,Prince Edward Island,Not at all important,1,Liberal Party
+42 to 53,Female,High school or less,Prince Edward Island,Not very important,1,Liberal Party
+42 to 53,Female,High school or less,Prince Edward Island,Somewhat important,9,Liberal Party
+42 to 53,Female,High school or less,Prince Edward Island,Very important,4,Liberal Party
+42 to 53,Female,High school or less,Quebec,Don't know,4,Liberal Party
+42 to 53,Female,High school or less,Quebec,Not at all important,11,Bloc Québécois
+42 to 53,Female,High school or less,Quebec,Not very important,19,Liberal Party
+42 to 53,Female,High school or less,Quebec,Somewhat important,27,Liberal Party
+42 to 53,Female,High school or less,Quebec,Very important,11,Liberal Party
+42 to 53,Female,High school or less,Saskatchewan,Not at all important,3,Conservative Party
+42 to 53,Female,High school or less,Saskatchewan,Not very important,4,Conservative Party
+42 to 53,Female,High school or less,Saskatchewan,Somewhat important,6,Conservative Party
+42 to 53,Female,High school or less,Saskatchewan,Very important,8,Conservative Party
+42 to 53,Female,Some college or trade school,Alberta,Not at all important,14,Conservative Party
+42 to 53,Female,Some college or trade school,Alberta,Not very important,9,Conservative Party
+42 to 53,Female,Some college or trade school,Alberta,Somewhat important,24,Conservative Party
+42 to 53,Female,Some college or trade school,Alberta,Very important,23,Conservative Party
+42 to 53,Female,Some college or trade school,British Columbia,Not at all important,20,New Democratic Party
+42 to 53,Female,Some college or trade school,British Columbia,Not very important,14,Conservative Party
+42 to 53,Female,Some college or trade school,British Columbia,Somewhat important,28,Conservative Party
+42 to 53,Female,Some college or trade school,British Columbia,Very important,34,Conservative Party
+42 to 53,Female,Some college or trade school,Manitoba,Not at all important,3,Conservative Party
+42 to 53,Female,Some college or trade school,Manitoba,Not very important,4,Conservative Party
+42 to 53,Female,Some college or trade school,Manitoba,Somewhat important,15,Conservative Party
+42 to 53,Female,Some college or trade school,Manitoba,Very important,14,Conservative Party
+42 to 53,Female,Some college or trade school,New Brunswick,Not at all important,7,Liberal Party
+42 to 53,Female,Some college or trade school,New Brunswick,Not very important,3,Liberal Party
+42 to 53,Female,Some college or trade school,New Brunswick,Somewhat important,22,Liberal Party
+42 to 53,Female,Some college or trade school,New Brunswick,Very important,22,Conservative Party
+42 to 53,Female,Some college or trade school,Newfoundland and Labrador,Not at all important,6,Liberal Party
+42 to 53,Female,Some college or trade school,Newfoundland and Labrador,Not very important,4,Liberal Party
+42 to 53,Female,Some college or trade school,Newfoundland and Labrador,Somewhat important,27,Liberal Party
+42 to 53,Female,Some college or trade school,Newfoundland and Labrador,Very important,18,Liberal Party
+42 to 53,Female,Some college or trade school,Nova Scotia,Not at all important,11,Liberal Party
+42 to 53,Female,Some college or trade school,Nova Scotia,Not very important,7,Liberal Party
+42 to 53,Female,Some college or trade school,Nova Scotia,Somewhat important,12,Liberal Party
+42 to 53,Female,Some college or trade school,Nova Scotia,Very important,9,Liberal Party
+42 to 53,Female,Some college or trade school,Ontario,Don't know,1,Liberal Party
+42 to 53,Female,Some college or trade school,Ontario,Not at all important,28,Liberal Party
+42 to 53,Female,Some college or trade school,Ontario,Not very important,22,Liberal Party
+42 to 53,Female,Some college or trade school,Ontario,Somewhat important,46,Liberal Party
+42 to 53,Female,Some college or trade school,Ontario,Very important,105,Conservative Party
+42 to 53,Female,Some college or trade school,Prince Edward Island,Not at all important,3,Liberal Party
+42 to 53,Female,Some college or trade school,Prince Edward Island,Not very important,1,Liberal Party
+42 to 53,Female,Some college or trade school,Prince Edward Island,Somewhat important,14,Liberal Party
+42 to 53,Female,Some college or trade school,Prince Edward Island,Very important,10,Liberal Party
+42 to 53,Female,Some college or trade school,Quebec,Don't know,1,Liberal Party
+42 to 53,Female,Some college or trade school,Quebec,Not at all important,29,Liberal Party
+42 to 53,Female,Some college or trade school,Quebec,Not very important,28,Liberal Party
+42 to 53,Female,Some college or trade school,Quebec,Somewhat important,55,Liberal Party
+42 to 53,Female,Some college or trade school,Quebec,Very important,34,Liberal Party
+42 to 53,Female,Some college or trade school,Saskatchewan,Not at all important,8,Conservative Party
+42 to 53,Female,Some college or trade school,Saskatchewan,Not very important,2,Conservative Party
+42 to 53,Female,Some college or trade school,Saskatchewan,Somewhat important,12,Conservative Party
+42 to 53,Female,Some college or trade school,Saskatchewan,Very important,14,Conservative Party
+42 to 53,Female,Some graduate school or more,Alberta,Not at all important,4,Conservative Party
+42 to 53,Female,Some graduate school or more,Alberta,Not very important,1,Conservative Party
+42 to 53,Female,Some graduate school or more,Alberta,Somewhat important,3,Conservative Party
+42 to 53,Female,Some graduate school or more,Alberta,Very important,5,Conservative Party
+42 to 53,Female,Some graduate school or more,British Columbia,Not at all important,6,Liberal Party
+42 to 53,Female,Some graduate school or more,British Columbia,Not very important,5,Liberal Party
+42 to 53,Female,Some graduate school or more,British Columbia,Somewhat important,5,Liberal Party
+42 to 53,Female,Some graduate school or more,British Columbia,Very important,14,Liberal Party
+42 to 53,Female,Some graduate school or more,Manitoba,Not at all important,1,Liberal Party
+42 to 53,Female,Some graduate school or more,Manitoba,Not very important,3,Liberal Party
+42 to 53,Female,Some graduate school or more,Manitoba,Somewhat important,1,Liberal Party
+42 to 53,Female,Some graduate school or more,Manitoba,Very important,2,Conservative Party
+42 to 53,Female,Some graduate school or more,New Brunswick,Somewhat important,6,Liberal Party
+42 to 53,Female,Some graduate school or more,New Brunswick,Very important,5,Liberal Party
+42 to 53,Female,Some graduate school or more,Newfoundland and Labrador,Not very important,1,Liberal Party
+42 to 53,Female,Some graduate school or more,Newfoundland and Labrador,Somewhat important,3,Liberal Party
+42 to 53,Female,Some graduate school or more,Newfoundland and Labrador,Very important,4,Liberal Party
+42 to 53,Female,Some graduate school or more,Nova Scotia,Not at all important,3,Liberal Party
+42 to 53,Female,Some graduate school or more,Nova Scotia,Not very important,1,Liberal Party
+42 to 53,Female,Some graduate school or more,Nova Scotia,Somewhat important,4,Liberal Party
+42 to 53,Female,Some graduate school or more,Nova Scotia,Very important,7,Liberal Party
+42 to 53,Female,Some graduate school or more,Ontario,Don't know,1,Liberal Party
+42 to 53,Female,Some graduate school or more,Ontario,Not at all important,15,Liberal Party
+42 to 53,Female,Some graduate school or more,Ontario,Not very important,10,Liberal Party
+42 to 53,Female,Some graduate school or more,Ontario,Somewhat important,25,Liberal Party
+42 to 53,Female,Some graduate school or more,Ontario,Very important,33,Liberal Party
+42 to 53,Female,Some graduate school or more,Prince Edward Island,Not at all important,2,Liberal Party
+42 to 53,Female,Some graduate school or more,Prince Edward Island,Somewhat important,4,Liberal Party
+42 to 53,Female,Some graduate school or more,Prince Edward Island,Very important,4,Liberal Party
+42 to 53,Female,Some graduate school or more,Quebec,Don't know,1,Liberal Party
+42 to 53,Female,Some graduate school or more,Quebec,Not at all important,5,Liberal Party
+42 to 53,Female,Some graduate school or more,Quebec,Not very important,5,Liberal Party
+42 to 53,Female,Some graduate school or more,Quebec,Somewhat important,10,Liberal Party
+42 to 53,Female,Some graduate school or more,Quebec,Very important,4,Liberal Party
+42 to 53,Female,Some graduate school or more,Saskatchewan,Not at all important,1,Conservative Party
+42 to 53,Female,Some graduate school or more,Saskatchewan,Very important,3,Conservative Party
+42 to 53,Female,Undergraduate degree,Alberta,Not at all important,3,Conservative Party
+42 to 53,Female,Undergraduate degree,Alberta,Not very important,4,Conservative Party
+42 to 53,Female,Undergraduate degree,Alberta,Somewhat important,18,Conservative Party
+42 to 53,Female,Undergraduate degree,Alberta,Very important,16,Conservative Party
+42 to 53,Female,Undergraduate degree,British Columbia,Don't know,1,Liberal Party
+42 to 53,Female,Undergraduate degree,British Columbia,Not at all important,16,Liberal Party
+42 to 53,Female,Undergraduate degree,British Columbia,Not very important,11,Liberal Party
+42 to 53,Female,Undergraduate degree,British Columbia,Somewhat important,17,Liberal Party
+42 to 53,Female,Undergraduate degree,British Columbia,Very important,25,Conservative Party
+42 to 53,Female,Undergraduate degree,Manitoba,Not at all important,3,Liberal Party
+42 to 53,Female,Undergraduate degree,Manitoba,Not very important,1,Conservative Party
+42 to 53,Female,Undergraduate degree,Manitoba,Somewhat important,9,Conservative Party
+42 to 53,Female,Undergraduate degree,Manitoba,Very important,8,Conservative Party
+42 to 53,Female,Undergraduate degree,New Brunswick,Not at all important,3,Liberal Party
+42 to 53,Female,Undergraduate degree,New Brunswick,Not very important,2,Liberal Party
+42 to 53,Female,Undergraduate degree,New Brunswick,Somewhat important,12,Liberal Party
+42 to 53,Female,Undergraduate degree,New Brunswick,Very important,15,Liberal Party
+42 to 53,Female,Undergraduate degree,Newfoundland and Labrador,Not at all important,1,Liberal Party
+42 to 53,Female,Undergraduate degree,Newfoundland and Labrador,Not very important,3,Liberal Party
+42 to 53,Female,Undergraduate degree,Newfoundland and Labrador,Somewhat important,8,Liberal Party
+42 to 53,Female,Undergraduate degree,Newfoundland and Labrador,Very important,4,Liberal Party
+42 to 53,Female,Undergraduate degree,Nova Scotia,Not at all important,4,Liberal Party
+42 to 53,Female,Undergraduate degree,Nova Scotia,Not very important,6,Liberal Party
+42 to 53,Female,Undergraduate degree,Nova Scotia,Somewhat important,16,Liberal Party
+42 to 53,Female,Undergraduate degree,Nova Scotia,Very important,11,Liberal Party
+42 to 53,Female,Undergraduate degree,Ontario,Not at all important,25,Liberal Party
+42 to 53,Female,Undergraduate degree,Ontario,Not very important,20,Liberal Party
+42 to 53,Female,Undergraduate degree,Ontario,Somewhat important,52,Liberal Party
+42 to 53,Female,Undergraduate degree,Ontario,Very important,54,Liberal Party
+42 to 53,Female,Undergraduate degree,Prince Edward Island,Not at all important,2,Liberal Party
+42 to 53,Female,Undergraduate degree,Prince Edward Island,Somewhat important,1,Liberal Party
+42 to 53,Female,Undergraduate degree,Prince Edward Island,Very important,4,Liberal Party
+42 to 53,Female,Undergraduate degree,Quebec,Not at all important,22,Liberal Party
+42 to 53,Female,Undergraduate degree,Quebec,Not very important,11,Liberal Party
+42 to 53,Female,Undergraduate degree,Quebec,Somewhat important,34,Liberal Party
+42 to 53,Female,Undergraduate degree,Quebec,Very important,14,Liberal Party
+42 to 53,Female,Undergraduate degree,Saskatchewan,Not at all important,2,Conservative Party
+42 to 53,Female,Undergraduate degree,Saskatchewan,Somewhat important,6,Conservative Party
+42 to 53,Female,Undergraduate degree,Saskatchewan,Very important,8,Conservative Party
+42 to 53,Male,High school or less,Alberta,Not at all important,12,Conservative Party
+42 to 53,Male,High school or less,Alberta,Not very important,10,Conservative Party
+42 to 53,Male,High school or less,Alberta,Somewhat important,12,Conservative Party
+42 to 53,Male,High school or less,Alberta,Very important,10,Conservative Party
+42 to 53,Male,High school or less,British Columbia,Don't know,1,Conservative Party
+42 to 53,Male,High school or less,British Columbia,Not at all important,16,Conservative Party
+42 to 53,Male,High school or less,British Columbia,Not very important,10,Conservative Party
+42 to 53,Male,High school or less,British Columbia,Somewhat important,14,Conservative Party
+42 to 53,Male,High school or less,British Columbia,Very important,14,Conservative Party
+42 to 53,Male,High school or less,Manitoba,Not at all important,6,Conservative Party
+42 to 53,Male,High school or less,Manitoba,Not very important,5,Conservative Party
+42 to 53,Male,High school or less,Manitoba,Somewhat important,7,Conservative Party
+42 to 53,Male,High school or less,Manitoba,Very important,13,Conservative Party
+42 to 53,Male,High school or less,New Brunswick,Not at all important,6,Conservative Party
+42 to 53,Male,High school or less,New Brunswick,Not very important,7,Conservative Party
+42 to 53,Male,High school or less,New Brunswick,Somewhat important,14,Conservative Party
+42 to 53,Male,High school or less,New Brunswick,Very important,9,Conservative Party
+42 to 53,Male,High school or less,Newfoundland and Labrador,Not at all important,6,Liberal Party
+42 to 53,Male,High school or less,Newfoundland and Labrador,Not very important,4,Liberal Party
+42 to 53,Male,High school or less,Newfoundland and Labrador,Somewhat important,18,Liberal Party
+42 to 53,Male,High school or less,Newfoundland and Labrador,Very important,12,Conservative Party
+42 to 53,Male,High school or less,Nova Scotia,Don't know,2,Conservative Party
+42 to 53,Male,High school or less,Nova Scotia,Not at all important,7,Liberal Party
+42 to 53,Male,High school or less,Nova Scotia,Not very important,10,Liberal Party
+42 to 53,Male,High school or less,Nova Scotia,Somewhat important,7,Conservative Party
+42 to 53,Male,High school or less,Nova Scotia,Very important,11,Conservative Party
+42 to 53,Male,High school or less,Ontario,Don't know,1,Conservative Party
+42 to 53,Male,High school or less,Ontario,Not at all important,31,Conservative Party
+42 to 53,Male,High school or less,Ontario,Not very important,22,Conservative Party
+42 to 53,Male,High school or less,Ontario,Somewhat important,27,Conservative Party
+42 to 53,Male,High school or less,Ontario,Very important,39,Conservative Party
+42 to 53,Male,High school or less,Prince Edward Island,Not at all important,9,Liberal Party
+42 to 53,Male,High school or less,Prince Edward Island,Not very important,4,Liberal Party
+42 to 53,Male,High school or less,Prince Edward Island,Somewhat important,4,Liberal Party
+42 to 53,Male,High school or less,Prince Edward Island,Very important,3,Conservative Party
+42 to 53,Male,High school or less,Quebec,Don't know,4,Bloc Québécois
+42 to 53,Male,High school or less,Quebec,Not at all important,24,Bloc Québécois
+42 to 53,Male,High school or less,Quebec,Not very important,20,Liberal Party
+42 to 53,Male,High school or less,Quebec,Somewhat important,29,Liberal Party
+42 to 53,Male,High school or less,Quebec,Very important,12,Conservative Party
+42 to 53,Male,High school or less,Saskatchewan,Not at all important,8,Conservative Party
+42 to 53,Male,High school or less,Saskatchewan,Not very important,3,Conservative Party
+42 to 53,Male,High school or less,Saskatchewan,Somewhat important,13,Conservative Party
+42 to 53,Male,High school or less,Saskatchewan,Very important,5,Conservative Party
+42 to 53,Male,Some college or trade school,Alberta,Not at all important,12,Conservative Party
+42 to 53,Male,Some college or trade school,Alberta,Not very important,8,Conservative Party
+42 to 53,Male,Some college or trade school,Alberta,Somewhat important,19,Conservative Party
+42 to 53,Male,Some college or trade school,Alberta,Very important,20,Conservative Party
+42 to 53,Male,Some college or trade school,British Columbia,Don't know,1,Conservative Party
+42 to 53,Male,Some college or trade school,British Columbia,Not at all important,19,Conservative Party
+42 to 53,Male,Some college or trade school,British Columbia,Not very important,6,Conservative Party
+42 to 53,Male,Some college or trade school,British Columbia,Somewhat important,19,Conservative Party
+42 to 53,Male,Some college or trade school,British Columbia,Very important,17,Conservative Party
+42 to 53,Male,Some college or trade school,Manitoba,Don't know,1,Conservative Party
+42 to 53,Male,Some college or trade school,Manitoba,Not at all important,10,Conservative Party
+42 to 53,Male,Some college or trade school,Manitoba,Not very important,2,Conservative Party
+42 to 53,Male,Some college or trade school,Manitoba,Somewhat important,11,Conservative Party
+42 to 53,Male,Some college or trade school,Manitoba,Very important,9,Conservative Party
+42 to 53,Male,Some college or trade school,New Brunswick,Not at all important,8,Liberal Party
+42 to 53,Male,Some college or trade school,New Brunswick,Not very important,8,Conservative Party
+42 to 53,Male,Some college or trade school,New Brunswick,Somewhat important,15,Conservative Party
+42 to 53,Male,Some college or trade school,New Brunswick,Very important,8,Conservative Party
+42 to 53,Male,Some college or trade school,Newfoundland and Labrador,Don't know,1,Liberal Party
+42 to 53,Male,Some college or trade school,Newfoundland and Labrador,Not at all important,9,Liberal Party
+42 to 53,Male,Some college or trade school,Newfoundland and Labrador,Not very important,7,Liberal Party
+42 to 53,Male,Some college or trade school,Newfoundland and Labrador,Somewhat important,13,Liberal Party
+42 to 53,Male,Some college or trade school,Newfoundland and Labrador,Very important,4,Conservative Party
+42 to 53,Male,Some college or trade school,Nova Scotia,Don't know,1,Liberal Party
+42 to 53,Male,Some college or trade school,Nova Scotia,Not at all important,11,Liberal Party
+42 to 53,Male,Some college or trade school,Nova Scotia,Not very important,16,Liberal Party
+42 to 53,Male,Some college or trade school,Nova Scotia,Somewhat important,16,Liberal Party
+42 to 53,Male,Some college or trade school,Nova Scotia,Very important,3,Conservative Party
+42 to 53,Male,Some college or trade school,Ontario,Not at all important,33,Conservative Party
+42 to 53,Male,Some college or trade school,Ontario,Not very important,32,Conservative Party
+42 to 53,Male,Some college or trade school,Ontario,Somewhat important,43,Conservative Party
+42 to 53,Male,Some college or trade school,Ontario,Very important,34,Conservative Party
+42 to 53,Male,Some college or trade school,Prince Edward Island,Not at all important,3,Liberal Party
+42 to 53,Male,Some college or trade school,Prince Edward Island,Not very important,1,Liberal Party
+42 to 53,Male,Some college or trade school,Prince Edward Island,Somewhat important,7,Liberal Party
+42 to 53,Male,Some college or trade school,Prince Edward Island,Very important,4,Liberal Party
+42 to 53,Male,Some college or trade school,Quebec,Not at all important,35,Liberal Party
+42 to 53,Male,Some college or trade school,Quebec,Not very important,36,Liberal Party
+42 to 53,Male,Some college or trade school,Quebec,Somewhat important,37,Liberal Party
+42 to 53,Male,Some college or trade school,Quebec,Very important,17,Conservative Party
+42 to 53,Male,Some college or trade school,Saskatchewan,Not at all important,4,Conservative Party
+42 to 53,Male,Some college or trade school,Saskatchewan,Not very important,4,Conservative Party
+42 to 53,Male,Some college or trade school,Saskatchewan,Somewhat important,13,Conservative Party
+42 to 53,Male,Some college or trade school,Saskatchewan,Very important,10,Conservative Party
+42 to 53,Male,Some graduate school or more,Alberta,Not at all important,3,Conservative Party
+42 to 53,Male,Some graduate school or more,Alberta,Not very important,4,Conservative Party
+42 to 53,Male,Some graduate school or more,Alberta,Somewhat important,2,Conservative Party
+42 to 53,Male,Some graduate school or more,Alberta,Very important,6,Conservative Party
+42 to 53,Male,Some graduate school or more,British Columbia,Not at all important,7,Liberal Party
+42 to 53,Male,Some graduate school or more,British Columbia,Not very important,3,Liberal Party
+42 to 53,Male,Some graduate school or more,British Columbia,Somewhat important,9,Conservative Party
+42 to 53,Male,Some graduate school or more,British Columbia,Very important,7,Conservative Party
+42 to 53,Male,Some graduate school or more,Manitoba,Not at all important,1,Conservative Party
+42 to 53,Male,Some graduate school or more,Manitoba,Not very important,1,Conservative Party
+42 to 53,Male,Some graduate school or more,Manitoba,Somewhat important,1,Conservative Party
+42 to 53,Male,Some graduate school or more,Manitoba,Very important,4,Conservative Party
+42 to 53,Male,Some graduate school or more,New Brunswick,Not at all important,4,Liberal Party
+42 to 53,Male,Some graduate school or more,New Brunswick,Not very important,1,Liberal Party
+42 to 53,Male,Some graduate school or more,New Brunswick,Somewhat important,1,Liberal Party
+42 to 53,Male,Some graduate school or more,New Brunswick,Very important,2,Liberal Party
+42 to 53,Male,Some graduate school or more,Newfoundland and Labrador,Not at all important,1,Liberal Party
+42 to 53,Male,Some graduate school or more,Newfoundland and Labrador,Somewhat important,2,Liberal Party
+42 to 53,Male,Some graduate school or more,Newfoundland and Labrador,Very important,5,Liberal Party
+42 to 53,Male,Some graduate school or more,Nova Scotia,Not at all important,3,Liberal Party
+42 to 53,Male,Some graduate school or more,Nova Scotia,Not very important,3,Liberal Party
+42 to 53,Male,Some graduate school or more,Nova Scotia,Somewhat important,3,Liberal Party
+42 to 53,Male,Some graduate school or more,Nova Scotia,Very important,4,Liberal Party
+42 to 53,Male,Some graduate school or more,Ontario,Not at all important,16,Liberal Party
+42 to 53,Male,Some graduate school or more,Ontario,Not very important,9,Liberal Party
+42 to 53,Male,Some graduate school or more,Ontario,Somewhat important,24,Liberal Party
+42 to 53,Male,Some graduate school or more,Ontario,Very important,18,Conservative Party
+42 to 53,Male,Some graduate school or more,Prince Edward Island,Very important,3,Liberal Party
+42 to 53,Male,Some graduate school or more,Quebec,Not at all important,7,Liberal Party
+42 to 53,Male,Some graduate school or more,Quebec,Not very important,4,Liberal Party
+42 to 53,Male,Some graduate school or more,Quebec,Somewhat important,9,Liberal Party
+42 to 53,Male,Some graduate school or more,Quebec,Very important,8,Liberal Party
+42 to 53,Male,Some graduate school or more,Saskatchewan,Not at all important,1,Conservative Party
+42 to 53,Male,Some graduate school or more,Saskatchewan,Not very important,1,Conservative Party
+42 to 53,Male,Some graduate school or more,Saskatchewan,Very important,2,Conservative Party
+42 to 53,Male,Undergraduate degree,Alberta,Not at all important,5,Conservative Party
+42 to 53,Male,Undergraduate degree,Alberta,Not very important,1,Conservative Party
+42 to 53,Male,Undergraduate degree,Alberta,Somewhat important,8,Conservative Party
+42 to 53,Male,Undergraduate degree,Alberta,Very important,13,Conservative Party
+42 to 53,Male,Undergraduate degree,British Columbia,Don't know,1,Conservative Party
+42 to 53,Male,Undergraduate degree,British Columbia,Not at all important,19,Liberal Party
+42 to 53,Male,Undergraduate degree,British Columbia,Not very important,9,Conservative Party
+42 to 53,Male,Undergraduate degree,British Columbia,Somewhat important,11,Conservative Party
+42 to 53,Male,Undergraduate degree,British Columbia,Very important,11,Conservative Party
+42 to 53,Male,Undergraduate degree,Manitoba,Not at all important,5,Conservative Party
+42 to 53,Male,Undergraduate degree,Manitoba,Not very important,3,Conservative Party
+42 to 53,Male,Undergraduate degree,Manitoba,Somewhat important,4,Conservative Party
+42 to 53,Male,Undergraduate degree,Manitoba,Very important,10,Conservative Party
+42 to 53,Male,Undergraduate degree,New Brunswick,Not at all important,2,Liberal Party
+42 to 53,Male,Undergraduate degree,New Brunswick,Not very important,4,Liberal Party
+42 to 53,Male,Undergraduate degree,New Brunswick,Somewhat important,8,Liberal Party
+42 to 53,Male,Undergraduate degree,New Brunswick,Very important,6,Conservative Party
+42 to 53,Male,Undergraduate degree,Newfoundland and Labrador,Not very important,3,Liberal Party
+42 to 53,Male,Undergraduate degree,Newfoundland and Labrador,Somewhat important,5,Liberal Party
+42 to 53,Male,Undergraduate degree,Newfoundland and Labrador,Very important,1,Liberal Party
+42 to 53,Male,Undergraduate degree,Nova Scotia,Don't know,1,Liberal Party
+42 to 53,Male,Undergraduate degree,Nova Scotia,Not at all important,10,Liberal Party
+42 to 53,Male,Undergraduate degree,Nova Scotia,Not very important,5,Liberal Party
+42 to 53,Male,Undergraduate degree,Nova Scotia,Somewhat important,6,Liberal Party
+42 to 53,Male,Undergraduate degree,Nova Scotia,Very important,4,Liberal Party
+42 to 53,Male,Undergraduate degree,Ontario,Don't know,2,Liberal Party
+42 to 53,Male,Undergraduate degree,Ontario,Not at all important,24,Liberal Party
+42 to 53,Male,Undergraduate degree,Ontario,Not very important,28,Liberal Party
+42 to 53,Male,Undergraduate degree,Ontario,Somewhat important,41,Liberal Party
+42 to 53,Male,Undergraduate degree,Ontario,Very important,33,Conservative Party
+42 to 53,Male,Undergraduate degree,Prince Edward Island,Don't know,1,Liberal Party
+42 to 53,Male,Undergraduate degree,Prince Edward Island,Somewhat important,2,Liberal Party
+42 to 53,Male,Undergraduate degree,Prince Edward Island,Very important,1,Liberal Party
+42 to 53,Male,Undergraduate degree,Quebec,Not at all important,15,Liberal Party
+42 to 53,Male,Undergraduate degree,Quebec,Not very important,9,Liberal Party
+42 to 53,Male,Undergraduate degree,Quebec,Somewhat important,20,Liberal Party
+42 to 53,Male,Undergraduate degree,Quebec,Very important,18,Liberal Party
+42 to 53,Male,Undergraduate degree,Saskatchewan,Not at all important,1,Conservative Party
+42 to 53,Male,Undergraduate degree,Saskatchewan,Not very important,1,Conservative Party
+42 to 53,Male,Undergraduate degree,Saskatchewan,Somewhat important,1,Conservative Party
+42 to 53,Male,Undergraduate degree,Saskatchewan,Very important,4,Conservative Party
+54 to 65,Female,High school or less,Alberta,Don't know,1,Conservative Party
+54 to 65,Female,High school or less,Alberta,Not at all important,14,Conservative Party
+54 to 65,Female,High school or less,Alberta,Not very important,13,Conservative Party
+54 to 65,Female,High school or less,Alberta,Somewhat important,22,Conservative Party
+54 to 65,Female,High school or less,Alberta,Very important,33,Conservative Party
+54 to 65,Female,High school or less,British Columbia,Not at all important,14,Conservative Party
+54 to 65,Female,High school or less,British Columbia,Not very important,24,Conservative Party
+54 to 65,Female,High school or less,British Columbia,Somewhat important,29,Conservative Party
+54 to 65,Female,High school or less,British Columbia,Very important,36,Conservative Party
+54 to 65,Female,High school or less,Manitoba,Not at all important,6,Conservative Party
+54 to 65,Female,High school or less,Manitoba,Not very important,8,Conservative Party
+54 to 65,Female,High school or less,Manitoba,Somewhat important,13,Conservative Party
+54 to 65,Female,High school or less,Manitoba,Very important,19,Conservative Party
+54 to 65,Female,High school or less,New Brunswick,Don't know,2,Liberal Party
+54 to 65,Female,High school or less,New Brunswick,Not at all important,7,Liberal Party
+54 to 65,Female,High school or less,New Brunswick,Not very important,8,Liberal Party
+54 to 65,Female,High school or less,New Brunswick,Somewhat important,30,Liberal Party
+54 to 65,Female,High school or less,New Brunswick,Very important,40,Conservative Party
+54 to 65,Female,High school or less,Newfoundland and Labrador,Not at all important,3,Liberal Party
+54 to 65,Female,High school or less,Newfoundland and Labrador,Not very important,11,Liberal Party
+54 to 65,Female,High school or less,Newfoundland and Labrador,Somewhat important,32,Liberal Party
+54 to 65,Female,High school or less,Newfoundland and Labrador,Very important,23,Liberal Party
+54 to 65,Female,High school or less,Nova Scotia,Don't know,2,Liberal Party
+54 to 65,Female,High school or less,Nova Scotia,Not at all important,9,Liberal Party
+54 to 65,Female,High school or less,Nova Scotia,Not very important,9,Liberal Party
+54 to 65,Female,High school or less,Nova Scotia,Somewhat important,21,Liberal Party
+54 to 65,Female,High school or less,Nova Scotia,Very important,30,Liberal Party
+54 to 65,Female,High school or less,Ontario,Not at all important,34,Liberal Party
+54 to 65,Female,High school or less,Ontario,Not very important,26,Liberal Party
+54 to 65,Female,High school or less,Ontario,Somewhat important,69,Conservative Party
+54 to 65,Female,High school or less,Ontario,Very important,96,Conservative Party
+54 to 65,Female,High school or less,Prince Edward Island,Not at all important,4,Liberal Party
+54 to 65,Female,High school or less,Prince Edward Island,Not very important,3,Liberal Party
+54 to 65,Female,High school or less,Prince Edward Island,Somewhat important,14,Liberal Party
+54 to 65,Female,High school or less,Prince Edward Island,Very important,23,Liberal Party
+54 to 65,Female,High school or less,Quebec,Don't know,2,Bloc Québécois
+54 to 65,Female,High school or less,Quebec,Not at all important,20,Bloc Québécois
+54 to 65,Female,High school or less,Quebec,Not very important,45,Bloc Québécois
+54 to 65,Female,High school or less,Quebec,Somewhat important,78,Bloc Québécois
+54 to 65,Female,High school or less,Quebec,Very important,62,Liberal Party
+54 to 65,Female,High school or less,Saskatchewan,Don't know,1,Conservative Party
+54 to 65,Female,High school or less,Saskatchewan,Not at all important,9,Conservative Party
+54 to 65,Female,High school or less,Saskatchewan,Not very important,5,Conservative Party
+54 to 65,Female,High school or less,Saskatchewan,Somewhat important,20,Conservative Party
+54 to 65,Female,High school or less,Saskatchewan,Very important,23,Conservative Party
+54 to 65,Female,Some college or trade school,Alberta,Not at all important,6,Conservative Party
+54 to 65,Female,Some college or trade school,Alberta,Not very important,9,Conservative Party
+54 to 65,Female,Some college or trade school,Alberta,Somewhat important,17,Conservative Party
+54 to 65,Female,Some college or trade school,Alberta,Very important,37,Conservative Party
+54 to 65,Female,Some college or trade school,British Columbia,Don't know,2,Conservative Party
+54 to 65,Female,Some college or trade school,British Columbia,Not at all important,26,Liberal Party
+54 to 65,Female,Some college or trade school,British Columbia,Not very important,14,Conservative Party
+54 to 65,Female,Some college or trade school,British Columbia,Somewhat important,26,Conservative Party
+54 to 65,Female,Some college or trade school,British Columbia,Very important,52,Conservative Party
+54 to 65,Female,Some college or trade school,Manitoba,Don't know,1,Conservative Party
+54 to 65,Female,Some college or trade school,Manitoba,Not at all important,6,Conservative Party
+54 to 65,Female,Some college or trade school,Manitoba,Not very important,3,Conservative Party
+54 to 65,Female,Some college or trade school,Manitoba,Somewhat important,17,Conservative Party
+54 to 65,Female,Some college or trade school,Manitoba,Very important,33,Conservative Party
+54 to 65,Female,Some college or trade school,New Brunswick,Not at all important,1,Liberal Party
+54 to 65,Female,Some college or trade school,New Brunswick,Not very important,8,Liberal Party
+54 to 65,Female,Some college or trade school,New Brunswick,Somewhat important,34,Liberal Party
+54 to 65,Female,Some college or trade school,New Brunswick,Very important,27,Liberal Party
+54 to 65,Female,Some college or trade school,Newfoundland and Labrador,Not at all important,1,Liberal Party
+54 to 65,Female,Some college or trade school,Newfoundland and Labrador,Not very important,7,Liberal Party
+54 to 65,Female,Some college or trade school,Newfoundland and Labrador,Somewhat important,22,Liberal Party
+54 to 65,Female,Some college or trade school,Newfoundland and Labrador,Very important,33,Liberal Party
+54 to 65,Female,Some college or trade school,Nova Scotia,Don't know,2,Liberal Party
+54 to 65,Female,Some college or trade school,Nova Scotia,Not at all important,11,Liberal Party
+54 to 65,Female,Some college or trade school,Nova Scotia,Not very important,4,Liberal Party
+54 to 65,Female,Some college or trade school,Nova Scotia,Somewhat important,37,Liberal Party
+54 to 65,Female,Some college or trade school,Nova Scotia,Very important,38,Liberal Party
+54 to 65,Female,Some college or trade school,Ontario,Don't know,2,Liberal Party
+54 to 65,Female,Some college or trade school,Ontario,Not at all important,23,Liberal Party
+54 to 65,Female,Some college or trade school,Ontario,Not very important,21,Liberal Party
+54 to 65,Female,Some college or trade school,Ontario,Somewhat important,74,Liberal Party
+54 to 65,Female,Some college or trade school,Ontario,Very important,128,Conservative Party
+54 to 65,Female,Some college or trade school,Prince Edward Island,Not at all important,3,Liberal Party
+54 to 65,Female,Some college or trade school,Prince Edward Island,Not very important,2,Liberal Party
+54 to 65,Female,Some college or trade school,Prince Edward Island,Somewhat important,11,Liberal Party
+54 to 65,Female,Some college or trade school,Prince Edward Island,Very important,31,Liberal Party
+54 to 65,Female,Some college or trade school,Quebec,Not at all important,27,Bloc Québécois
+54 to 65,Female,Some college or trade school,Quebec,Not very important,31,Liberal Party
+54 to 65,Female,Some college or trade school,Quebec,Somewhat important,84,Liberal Party
+54 to 65,Female,Some college or trade school,Quebec,Very important,44,Liberal Party
+54 to 65,Female,Some college or trade school,Saskatchewan,Not at all important,2,Conservative Party
+54 to 65,Female,Some college or trade school,Saskatchewan,Not very important,7,Conservative Party
+54 to 65,Female,Some college or trade school,Saskatchewan,Somewhat important,16,Conservative Party
+54 to 65,Female,Some college or trade school,Saskatchewan,Very important,24,Conservative Party
+54 to 65,Female,Some graduate school or more,Alberta,Not at all important,2,Conservative Party
+54 to 65,Female,Some graduate school or more,Alberta,Not very important,3,Conservative Party
+54 to 65,Female,Some graduate school or more,Alberta,Somewhat important,3,Conservative Party
+54 to 65,Female,Some graduate school or more,Alberta,Very important,6,Conservative Party
+54 to 65,Female,Some graduate school or more,British Columbia,Don't know,1,Liberal Party
+54 to 65,Female,Some graduate school or more,British Columbia,Not at all important,7,Liberal Party
+54 to 65,Female,Some graduate school or more,British Columbia,Not very important,3,Liberal Party
+54 to 65,Female,Some graduate school or more,British Columbia,Somewhat important,7,Liberal Party
+54 to 65,Female,Some graduate school or more,British Columbia,Very important,19,Liberal Party
+54 to 65,Female,Some graduate school or more,Manitoba,Not at all important,1,Liberal Party
+54 to 65,Female,Some graduate school or more,Manitoba,Not very important,2,Liberal Party
+54 to 65,Female,Some graduate school or more,Manitoba,Somewhat important,4,Liberal Party
+54 to 65,Female,Some graduate school or more,Manitoba,Very important,6,Conservative Party
+54 to 65,Female,Some graduate school or more,New Brunswick,Not at all important,2,Liberal Party
+54 to 65,Female,Some graduate school or more,New Brunswick,Very important,8,Liberal Party
+54 to 65,Female,Some graduate school or more,Newfoundland and Labrador,Don't know,1,Liberal Party
+54 to 65,Female,Some graduate school or more,Newfoundland and Labrador,Not at all important,1,Liberal Party
+54 to 65,Female,Some graduate school or more,Newfoundland and Labrador,Somewhat important,4,Liberal Party
+54 to 65,Female,Some graduate school or more,Newfoundland and Labrador,Very important,7,Liberal Party
+54 to 65,Female,Some graduate school or more,Nova Scotia,Not very important,3,Liberal Party
+54 to 65,Female,Some graduate school or more,Nova Scotia,Somewhat important,4,Liberal Party
+54 to 65,Female,Some graduate school or more,Nova Scotia,Very important,9,Liberal Party
+54 to 65,Female,Some graduate school or more,Ontario,Don't know,2,Liberal Party
+54 to 65,Female,Some graduate school or more,Ontario,Not at all important,10,Liberal Party
+54 to 65,Female,Some graduate school or more,Ontario,Not very important,7,Liberal Party
+54 to 65,Female,Some graduate school or more,Ontario,Somewhat important,21,Liberal Party
+54 to 65,Female,Some graduate school or more,Ontario,Very important,31,Liberal Party
+54 to 65,Female,Some graduate school or more,Prince Edward Island,Not at all important,1,Liberal Party
+54 to 65,Female,Some graduate school or more,Prince Edward Island,Not very important,2,Liberal Party
+54 to 65,Female,Some graduate school or more,Prince Edward Island,Somewhat important,2,Liberal Party
+54 to 65,Female,Some graduate school or more,Prince Edward Island,Very important,3,Liberal Party
+54 to 65,Female,Some graduate school or more,Quebec,Not at all important,4,Liberal Party
+54 to 65,Female,Some graduate school or more,Quebec,Not very important,7,Liberal Party
+54 to 65,Female,Some graduate school or more,Quebec,Somewhat important,11,Liberal Party
+54 to 65,Female,Some graduate school or more,Quebec,Very important,9,Liberal Party
+54 to 65,Female,Some graduate school or more,Saskatchewan,Not at all important,1,Conservative Party
+54 to 65,Female,Some graduate school or more,Saskatchewan,Very important,1,Conservative Party
+54 to 65,Female,Undergraduate degree,Alberta,Don't know,1,Conservative Party
+54 to 65,Female,Undergraduate degree,Alberta,Not at all important,3,Conservative Party
+54 to 65,Female,Undergraduate degree,Alberta,Not very important,3,Conservative Party
+54 to 65,Female,Undergraduate degree,Alberta,Somewhat important,4,Conservative Party
+54 to 65,Female,Undergraduate degree,Alberta,Very important,20,Conservative Party
+54 to 65,Female,Undergraduate degree,British Columbia,Not at all important,11,Liberal Party
+54 to 65,Female,Undergraduate degree,British Columbia,Not very important,4,Liberal Party
+54 to 65,Female,Undergraduate degree,British Columbia,Somewhat important,21,Liberal Party
+54 to 65,Female,Undergraduate degree,British Columbia,Very important,29,Conservative Party
+54 to 65,Female,Undergraduate degree,Manitoba,Not at all important,2,Liberal Party
+54 to 65,Female,Undergraduate degree,Manitoba,Not very important,2,Liberal Party
+54 to 65,Female,Undergraduate degree,Manitoba,Somewhat important,9,Conservative Party
+54 to 65,Female,Undergraduate degree,Manitoba,Very important,8,Conservative Party
+54 to 65,Female,Undergraduate degree,New Brunswick,Not at all important,4,Liberal Party
+54 to 65,Female,Undergraduate degree,New Brunswick,Somewhat important,8,Liberal Party
+54 to 65,Female,Undergraduate degree,New Brunswick,Very important,16,Liberal Party
+54 to 65,Female,Undergraduate degree,Newfoundland and Labrador,Not at all important,1,Liberal Party
+54 to 65,Female,Undergraduate degree,Newfoundland and Labrador,Not very important,1,Liberal Party
+54 to 65,Female,Undergraduate degree,Newfoundland and Labrador,Somewhat important,8,Liberal Party
+54 to 65,Female,Undergraduate degree,Newfoundland and Labrador,Very important,8,Liberal Party
+54 to 65,Female,Undergraduate degree,Nova Scotia,Not at all important,2,Liberal Party
+54 to 65,Female,Undergraduate degree,Nova Scotia,Not very important,3,Liberal Party
+54 to 65,Female,Undergraduate degree,Nova Scotia,Somewhat important,4,Liberal Party
+54 to 65,Female,Undergraduate degree,Nova Scotia,Very important,12,Liberal Party
+54 to 65,Female,Undergraduate degree,Ontario,Don't know,1,Liberal Party
+54 to 65,Female,Undergraduate degree,Ontario,Not at all important,19,Liberal Party
+54 to 65,Female,Undergraduate degree,Ontario,Not very important,13,Liberal Party
+54 to 65,Female,Undergraduate degree,Ontario,Somewhat important,40,Liberal Party
+54 to 65,Female,Undergraduate degree,Ontario,Very important,63,Liberal Party
+54 to 65,Female,Undergraduate degree,Prince Edward Island,Not at all important,1,Liberal Party
+54 to 65,Female,Undergraduate degree,Prince Edward Island,Not very important,1,Liberal Party
+54 to 65,Female,Undergraduate degree,Prince Edward Island,Somewhat important,1,Liberal Party
+54 to 65,Female,Undergraduate degree,Prince Edward Island,Very important,10,Liberal Party
+54 to 65,Female,Undergraduate degree,Quebec,Don't know,1,Liberal Party
+54 to 65,Female,Undergraduate degree,Quebec,Not at all important,4,Liberal Party
+54 to 65,Female,Undergraduate degree,Quebec,Not very important,10,Liberal Party
+54 to 65,Female,Undergraduate degree,Quebec,Somewhat important,26,Liberal Party
+54 to 65,Female,Undergraduate degree,Quebec,Very important,18,Liberal Party
+54 to 65,Female,Undergraduate degree,Saskatchewan,Not very important,1,Conservative Party
+54 to 65,Female,Undergraduate degree,Saskatchewan,Somewhat important,4,Conservative Party
+54 to 65,Female,Undergraduate degree,Saskatchewan,Very important,8,Conservative Party
+54 to 65,Male,High school or less,Alberta,Don't know,1,Conservative Party
+54 to 65,Male,High school or less,Alberta,Not at all important,18,Conservative Party
+54 to 65,Male,High school or less,Alberta,Not very important,11,Conservative Party
+54 to 65,Male,High school or less,Alberta,Somewhat important,14,Conservative Party
+54 to 65,Male,High school or less,Alberta,Very important,18,Conservative Party
+54 to 65,Male,High school or less,British Columbia,Not at all important,37,Conservative Party
+54 to 65,Male,High school or less,British Columbia,Not very important,11,Conservative Party
+54 to 65,Male,High school or less,British Columbia,Somewhat important,28,Conservative Party
+54 to 65,Male,High school or less,British Columbia,Very important,23,Conservative Party
+54 to 65,Male,High school or less,Manitoba,Don't know,1,Conservative Party
+54 to 65,Male,High school or less,Manitoba,Not at all important,9,Conservative Party
+54 to 65,Male,High school or less,Manitoba,Not very important,13,Conservative Party
+54 to 65,Male,High school or less,Manitoba,Somewhat important,25,Conservative Party
+54 to 65,Male,High school or less,Manitoba,Very important,29,Conservative Party
+54 to 65,Male,High school or less,New Brunswick,Don't know,2,Conservative Party
+54 to 65,Male,High school or less,New Brunswick,Not at all important,17,Liberal Party
+54 to 65,Male,High school or less,New Brunswick,Not very important,9,Conservative Party
+54 to 65,Male,High school or less,New Brunswick,Somewhat important,30,Conservative Party
+54 to 65,Male,High school or less,New Brunswick,Very important,23,Conservative Party
+54 to 65,Male,High school or less,Newfoundland and Labrador,Don't know,2,Liberal Party
+54 to 65,Male,High school or less,Newfoundland and Labrador,Not at all important,7,Liberal Party
+54 to 65,Male,High school or less,Newfoundland and Labrador,Not very important,7,Liberal Party
+54 to 65,Male,High school or less,Newfoundland and Labrador,Somewhat important,24,Liberal Party
+54 to 65,Male,High school or less,Newfoundland and Labrador,Very important,25,Conservative Party
+54 to 65,Male,High school or less,Nova Scotia,Don't know,1,Liberal Party
+54 to 65,Male,High school or less,Nova Scotia,Not at all important,16,Liberal Party
+54 to 65,Male,High school or less,Nova Scotia,Not very important,14,Liberal Party
+54 to 65,Male,High school or less,Nova Scotia,Somewhat important,30,Liberal Party
+54 to 65,Male,High school or less,Nova Scotia,Very important,20,Conservative Party
+54 to 65,Male,High school or less,Ontario,Don't know,3,Conservative Party
+54 to 65,Male,High school or less,Ontario,Not at all important,47,Conservative Party
+54 to 65,Male,High school or less,Ontario,Not very important,35,Conservative Party
+54 to 65,Male,High school or less,Ontario,Somewhat important,56,Conservative Party
+54 to 65,Male,High school or less,Ontario,Very important,62,Conservative Party
+54 to 65,Male,High school or less,Prince Edward Island,Don't know,1,Liberal Party
+54 to 65,Male,High school or less,Prince Edward Island,Not at all important,7,Liberal Party
+54 to 65,Male,High school or less,Prince Edward Island,Not very important,5,Liberal Party
+54 to 65,Male,High school or less,Prince Edward Island,Somewhat important,8,Liberal Party
+54 to 65,Male,High school or less,Prince Edward Island,Very important,14,Liberal Party
+54 to 65,Male,High school or less,Quebec,Don't know,1,Bloc Québécois
+54 to 65,Male,High school or less,Quebec,Not at all important,47,Bloc Québécois
+54 to 65,Male,High school or less,Quebec,Not very important,36,Bloc Québécois
+54 to 65,Male,High school or less,Quebec,Somewhat important,67,Bloc Québécois
+54 to 65,Male,High school or less,Quebec,Very important,30,Conservative Party
+54 to 65,Male,High school or less,Saskatchewan,Not at all important,15,Conservative Party
+54 to 65,Male,High school or less,Saskatchewan,Not very important,10,Conservative Party
+54 to 65,Male,High school or less,Saskatchewan,Somewhat important,14,Conservative Party
+54 to 65,Male,High school or less,Saskatchewan,Very important,25,Conservative Party
+54 to 65,Male,Some college or trade school,Alberta,Not at all important,15,Conservative Party
+54 to 65,Male,Some college or trade school,Alberta,Not very important,9,Conservative Party
+54 to 65,Male,Some college or trade school,Alberta,Somewhat important,27,Conservative Party
+54 to 65,Male,Some college or trade school,Alberta,Very important,25,Conservative Party
+54 to 65,Male,Some college or trade school,British Columbia,Not at all important,32,Conservative Party
+54 to 65,Male,Some college or trade school,British Columbia,Not very important,19,Conservative Party
+54 to 65,Male,Some college or trade school,British Columbia,Somewhat important,14,Conservative Party
+54 to 65,Male,Some college or trade school,British Columbia,Very important,24,Conservative Party
+54 to 65,Male,Some college or trade school,Manitoba,Not at all important,5,Conservative Party
+54 to 65,Male,Some college or trade school,Manitoba,Not very important,6,Conservative Party
+54 to 65,Male,Some college or trade school,Manitoba,Somewhat important,7,Conservative Party
+54 to 65,Male,Some college or trade school,Manitoba,Very important,12,Conservative Party
+54 to 65,Male,Some college or trade school,New Brunswick,Not at all important,11,Liberal Party
+54 to 65,Male,Some college or trade school,New Brunswick,Not very important,6,Liberal Party
+54 to 65,Male,Some college or trade school,New Brunswick,Somewhat important,14,Conservative Party
+54 to 65,Male,Some college or trade school,New Brunswick,Very important,14,Conservative Party
+54 to 65,Male,Some college or trade school,Newfoundland and Labrador,Not at all important,6,Liberal Party
+54 to 65,Male,Some college or trade school,Newfoundland and Labrador,Not very important,2,Liberal Party
+54 to 65,Male,Some college or trade school,Newfoundland and Labrador,Somewhat important,25,Liberal Party
+54 to 65,Male,Some college or trade school,Newfoundland and Labrador,Very important,14,Liberal Party
+54 to 65,Male,Some college or trade school,Nova Scotia,Not at all important,10,Liberal Party
+54 to 65,Male,Some college or trade school,Nova Scotia,Not very important,11,Liberal Party
+54 to 65,Male,Some college or trade school,Nova Scotia,Somewhat important,17,Liberal Party
+54 to 65,Male,Some college or trade school,Nova Scotia,Very important,14,Conservative Party
+54 to 65,Male,Some college or trade school,Ontario,Don't know,4,Conservative Party
+54 to 65,Male,Some college or trade school,Ontario,Not at all important,29,Liberal Party
+54 to 65,Male,Some college or trade school,Ontario,Not very important,28,Conservative Party
+54 to 65,Male,Some college or trade school,Ontario,Somewhat important,67,Conservative Party
+54 to 65,Male,Some college or trade school,Ontario,Very important,72,Conservative Party
+54 to 65,Male,Some college or trade school,Prince Edward Island,Don't know,1,Liberal Party
+54 to 65,Male,Some college or trade school,Prince Edward Island,Not at all important,3,Liberal Party
+54 to 65,Male,Some college or trade school,Prince Edward Island,Not very important,1,Liberal Party
+54 to 65,Male,Some college or trade school,Prince Edward Island,Somewhat important,9,Liberal Party
+54 to 65,Male,Some college or trade school,Prince Edward Island,Very important,8,Liberal Party
+54 to 65,Male,Some college or trade school,Quebec,Don't know,1,Bloc Québécois
+54 to 65,Male,Some college or trade school,Quebec,Not at all important,37,Bloc Québécois
+54 to 65,Male,Some college or trade school,Quebec,Not very important,26,Liberal Party
+54 to 65,Male,Some college or trade school,Quebec,Somewhat important,40,Liberal Party
+54 to 65,Male,Some college or trade school,Quebec,Very important,20,Conservative Party
+54 to 65,Male,Some college or trade school,Saskatchewan,Don't know,1,Conservative Party
+54 to 65,Male,Some college or trade school,Saskatchewan,Not at all important,4,Conservative Party
+54 to 65,Male,Some college or trade school,Saskatchewan,Not very important,7,Conservative Party
+54 to 65,Male,Some college or trade school,Saskatchewan,Somewhat important,11,Conservative Party
+54 to 65,Male,Some college or trade school,Saskatchewan,Very important,16,Conservative Party
+54 to 65,Male,Some graduate school or more,Alberta,Not at all important,3,Conservative Party
+54 to 65,Male,Some graduate school or more,Alberta,Not very important,2,Conservative Party
+54 to 65,Male,Some graduate school or more,Alberta,Somewhat important,1,Conservative Party
+54 to 65,Male,Some graduate school or more,Alberta,Very important,8,Conservative Party
+54 to 65,Male,Some graduate school or more,British Columbia,Don't know,1,Liberal Party
+54 to 65,Male,Some graduate school or more,British Columbia,Not at all important,5,Liberal Party
+54 to 65,Male,Some graduate school or more,British Columbia,Not very important,4,Liberal Party
+54 to 65,Male,Some graduate school or more,British Columbia,Somewhat important,8,Liberal Party
+54 to 65,Male,Some graduate school or more,British Columbia,Very important,11,Conservative Party
+54 to 65,Male,Some graduate school or more,Manitoba,Not at all important,1,Liberal Party
+54 to 65,Male,Some graduate school or more,Manitoba,Somewhat important,3,Conservative Party
+54 to 65,Male,Some graduate school or more,Manitoba,Very important,3,Conservative Party
+54 to 65,Male,Some graduate school or more,New Brunswick,Not at all important,1,Liberal Party
+54 to 65,Male,Some graduate school or more,New Brunswick,Not very important,2,Liberal Party
+54 to 65,Male,Some graduate school or more,New Brunswick,Somewhat important,4,Liberal Party
+54 to 65,Male,Some graduate school or more,New Brunswick,Very important,2,Liberal Party
+54 to 65,Male,Some graduate school or more,Newfoundland and Labrador,Not at all important,1,Liberal Party
+54 to 65,Male,Some graduate school or more,Newfoundland and Labrador,Not very important,1,Liberal Party
+54 to 65,Male,Some graduate school or more,Newfoundland and Labrador,Very important,2,Liberal Party
+54 to 65,Male,Some graduate school or more,Nova Scotia,Not at all important,1,Liberal Party
+54 to 65,Male,Some graduate school or more,Nova Scotia,Not very important,3,Liberal Party
+54 to 65,Male,Some graduate school or more,Nova Scotia,Somewhat important,3,Liberal Party
+54 to 65,Male,Some graduate school or more,Nova Scotia,Very important,4,Liberal Party
+54 to 65,Male,Some graduate school or more,Ontario,Don't know,1,Liberal Party
+54 to 65,Male,Some graduate school or more,Ontario,Not at all important,14,Liberal Party
+54 to 65,Male,Some graduate school or more,Ontario,Not very important,11,Liberal Party
+54 to 65,Male,Some graduate school or more,Ontario,Somewhat important,19,Liberal Party
+54 to 65,Male,Some graduate school or more,Ontario,Very important,24,Liberal Party
+54 to 65,Male,Some graduate school or more,Prince Edward Island,Not at all important,1,Liberal Party
+54 to 65,Male,Some graduate school or more,Prince Edward Island,Not very important,1,Liberal Party
+54 to 65,Male,Some graduate school or more,Prince Edward Island,Somewhat important,1,Liberal Party
+54 to 65,Male,Some graduate school or more,Prince Edward Island,Very important,7,Liberal Party
+54 to 65,Male,Some graduate school or more,Quebec,Don't know,1,Liberal Party
+54 to 65,Male,Some graduate school or more,Quebec,Not at all important,8,Liberal Party
+54 to 65,Male,Some graduate school or more,Quebec,Not very important,3,Liberal Party
+54 to 65,Male,Some graduate school or more,Quebec,Somewhat important,11,Liberal Party
+54 to 65,Male,Some graduate school or more,Quebec,Very important,13,Liberal Party
+54 to 65,Male,Some graduate school or more,Saskatchewan,Not at all important,3,Conservative Party
+54 to 65,Male,Some graduate school or more,Saskatchewan,Somewhat important,2,Conservative Party
+54 to 65,Male,Some graduate school or more,Saskatchewan,Very important,3,Conservative Party
+54 to 65,Male,Undergraduate degree,Alberta,Not at all important,9,Conservative Party
+54 to 65,Male,Undergraduate degree,Alberta,Not very important,2,Conservative Party
+54 to 65,Male,Undergraduate degree,Alberta,Somewhat important,5,Conservative Party
+54 to 65,Male,Undergraduate degree,Alberta,Very important,14,Conservative Party
+54 to 65,Male,Undergraduate degree,British Columbia,Don't know,2,Conservative Party
+54 to 65,Male,Undergraduate degree,British Columbia,Not at all important,11,Liberal Party
+54 to 65,Male,Undergraduate degree,British Columbia,Not very important,5,Liberal Party
+54 to 65,Male,Undergraduate degree,British Columbia,Somewhat important,12,Conservative Party
+54 to 65,Male,Undergraduate degree,British Columbia,Very important,13,Conservative Party
+54 to 65,Male,Undergraduate degree,Manitoba,Not at all important,2,Conservative Party
+54 to 65,Male,Undergraduate degree,Manitoba,Not very important,2,Conservative Party
+54 to 65,Male,Undergraduate degree,Manitoba,Somewhat important,4,Conservative Party
+54 to 65,Male,Undergraduate degree,Manitoba,Very important,2,Conservative Party
+54 to 65,Male,Undergraduate degree,New Brunswick,Don't know,1,Liberal Party
+54 to 65,Male,Undergraduate degree,New Brunswick,Not at all important,2,Liberal Party
+54 to 65,Male,Undergraduate degree,New Brunswick,Not very important,6,Liberal Party
+54 to 65,Male,Undergraduate degree,New Brunswick,Somewhat important,8,Liberal Party
+54 to 65,Male,Undergraduate degree,New Brunswick,Very important,3,Liberal Party
+54 to 65,Male,Undergraduate degree,Newfoundland and Labrador,Not very important,1,Liberal Party
+54 to 65,Male,Undergraduate degree,Newfoundland and Labrador,Somewhat important,7,Liberal Party
+54 to 65,Male,Undergraduate degree,Newfoundland and Labrador,Very important,3,Liberal Party
+54 to 65,Male,Undergraduate degree,Nova Scotia,Not at all important,4,Liberal Party
+54 to 65,Male,Undergraduate degree,Nova Scotia,Not very important,2,Liberal Party
+54 to 65,Male,Undergraduate degree,Nova Scotia,Somewhat important,8,Liberal Party
+54 to 65,Male,Undergraduate degree,Nova Scotia,Very important,11,Liberal Party
+54 to 65,Male,Undergraduate degree,Ontario,Don't know,1,Liberal Party
+54 to 65,Male,Undergraduate degree,Ontario,Not at all important,26,Liberal Party
+54 to 65,Male,Undergraduate degree,Ontario,Not very important,17,Liberal Party
+54 to 65,Male,Undergraduate degree,Ontario,Somewhat important,23,Liberal Party
+54 to 65,Male,Undergraduate degree,Ontario,Very important,43,Conservative Party
+54 to 65,Male,Undergraduate degree,Prince Edward Island,Not at all important,1,Liberal Party
+54 to 65,Male,Undergraduate degree,Prince Edward Island,Not very important,1,Liberal Party
+54 to 65,Male,Undergraduate degree,Prince Edward Island,Somewhat important,9,Liberal Party
+54 to 65,Male,Undergraduate degree,Quebec,Don't know,1,Liberal Party
+54 to 65,Male,Undergraduate degree,Quebec,Not at all important,18,Liberal Party
+54 to 65,Male,Undergraduate degree,Quebec,Not very important,7,Liberal Party
+54 to 65,Male,Undergraduate degree,Quebec,Somewhat important,14,Liberal Party
+54 to 65,Male,Undergraduate degree,Quebec,Very important,13,Liberal Party
+54 to 65,Male,Undergraduate degree,Saskatchewan,Not at all important,1,Conservative Party
+54 to 65,Male,Undergraduate degree,Saskatchewan,Not very important,1,Conservative Party
+54 to 65,Male,Undergraduate degree,Saskatchewan,Somewhat important,7,Conservative Party
+54 to 65,Male,Undergraduate degree,Saskatchewan,Very important,6,Conservative Party
+66 to 77,Female,High school or less,Alberta,Don't know,1,Conservative Party
+66 to 77,Female,High school or less,Alberta,Not at all important,5,Conservative Party
+66 to 77,Female,High school or less,Alberta,Not very important,1,Conservative Party
+66 to 77,Female,High school or less,Alberta,Somewhat important,15,Conservative Party
+66 to 77,Female,High school or less,Alberta,Very important,34,Conservative Party
+66 to 77,Female,High school or less,British Columbia,Not at all important,11,Conservative Party
+66 to 77,Female,High school or less,British Columbia,Not very important,13,Conservative Party
+66 to 77,Female,High school or less,British Columbia,Somewhat important,23,Conservative Party
+66 to 77,Female,High school or less,British Columbia,Very important,52,Conservative Party
+66 to 77,Female,High school or less,Manitoba,Not at all important,5,Conservative Party
+66 to 77,Female,High school or less,Manitoba,Not very important,6,Conservative Party
+66 to 77,Female,High school or less,Manitoba,Somewhat important,24,Conservative Party
+66 to 77,Female,High school or less,Manitoba,Very important,29,Conservative Party
+66 to 77,Female,High school or less,New Brunswick,Don't know,3,Liberal Party
+66 to 77,Female,High school or less,New Brunswick,Not at all important,2,Liberal Party
+66 to 77,Female,High school or less,New Brunswick,Not very important,6,Liberal Party
+66 to 77,Female,High school or less,New Brunswick,Somewhat important,31,Liberal Party
+66 to 77,Female,High school or less,New Brunswick,Very important,46,Conservative Party
+66 to 77,Female,High school or less,Newfoundland and Labrador,Don't know,2,Liberal Party
+66 to 77,Female,High school or less,Newfoundland and Labrador,Not at all important,1,Liberal Party
+66 to 77,Female,High school or less,Newfoundland and Labrador,Not very important,4,Liberal Party
+66 to 77,Female,High school or less,Newfoundland and Labrador,Somewhat important,21,Liberal Party
+66 to 77,Female,High school or less,Newfoundland and Labrador,Very important,45,Liberal Party
+66 to 77,Female,High school or less,Nova Scotia,Not at all important,6,Liberal Party
+66 to 77,Female,High school or less,Nova Scotia,Not very important,1,Liberal Party
+66 to 77,Female,High school or less,Nova Scotia,Somewhat important,26,Liberal Party
+66 to 77,Female,High school or less,Nova Scotia,Very important,47,Liberal Party
+66 to 77,Female,High school or less,Ontario,Don't know,5,Liberal Party
+66 to 77,Female,High school or less,Ontario,Not at all important,18,Liberal Party
+66 to 77,Female,High school or less,Ontario,Not very important,22,Liberal Party
+66 to 77,Female,High school or less,Ontario,Somewhat important,63,Conservative Party
+66 to 77,Female,High school or less,Ontario,Very important,151,Conservative Party
+66 to 77,Female,High school or less,Prince Edward Island,Not at all important,1,Liberal Party
+66 to 77,Female,High school or less,Prince Edward Island,Not very important,2,Liberal Party
+66 to 77,Female,High school or less,Prince Edward Island,Somewhat important,8,Liberal Party
+66 to 77,Female,High school or less,Prince Edward Island,Very important,23,Liberal Party
+66 to 77,Female,High school or less,Quebec,Don't know,2,Bloc Québécois
+66 to 77,Female,High school or less,Quebec,Not at all important,18,Bloc Québécois
+66 to 77,Female,High school or less,Quebec,Not very important,37,Bloc Québécois
+66 to 77,Female,High school or less,Quebec,Somewhat important,118,Bloc Québécois
+66 to 77,Female,High school or less,Quebec,Very important,78,Liberal Party
+66 to 77,Female,High school or less,Saskatchewan,Not at all important,3,Conservative Party
+66 to 77,Female,High school or less,Saskatchewan,Not very important,7,Conservative Party
+66 to 77,Female,High school or less,Saskatchewan,Somewhat important,16,Conservative Party
+66 to 77,Female,High school or less,Saskatchewan,Very important,20,Conservative Party
+66 to 77,Female,Some college or trade school,Alberta,Not at all important,2,Conservative Party
+66 to 77,Female,Some college or trade school,Alberta,Not very important,3,Conservative Party
+66 to 77,Female,Some college or trade school,Alberta,Somewhat important,13,Conservative Party
+66 to 77,Female,Some college or trade school,Alberta,Very important,28,Conservative Party
+66 to 77,Female,Some college or trade school,British Columbia,Don't know,1,Conservative Party
+66 to 77,Female,Some college or trade school,British Columbia,Not at all important,13,Liberal Party
+66 to 77,Female,Some college or trade school,British Columbia,Not very important,4,Liberal Party
+66 to 77,Female,Some college or trade school,British Columbia,Somewhat important,22,Conservative Party
+66 to 77,Female,Some college or trade school,British Columbia,Very important,42,Conservative Party
+66 to 77,Female,Some college or trade school,Manitoba,Not at all important,2,Conservative Party
+66 to 77,Female,Some college or trade school,Manitoba,Not very important,5,Conservative Party
+66 to 77,Female,Some college or trade school,Manitoba,Somewhat important,13,Conservative Party
+66 to 77,Female,Some college or trade school,Manitoba,Very important,22,Conservative Party
+66 to 77,Female,Some college or trade school,New Brunswick,Not at all important,2,Liberal Party
+66 to 77,Female,Some college or trade school,New Brunswick,Not very important,1,Liberal Party
+66 to 77,Female,Some college or trade school,New Brunswick,Somewhat important,13,Liberal Party
+66 to 77,Female,Some college or trade school,New Brunswick,Very important,25,Liberal Party
+66 to 77,Female,Some college or trade school,Newfoundland and Labrador,Don't know,1,Liberal Party
+66 to 77,Female,Some college or trade school,Newfoundland and Labrador,Not very important,4,Liberal Party
+66 to 77,Female,Some college or trade school,Newfoundland and Labrador,Somewhat important,7,Liberal Party
+66 to 77,Female,Some college or trade school,Newfoundland and Labrador,Very important,18,Liberal Party
+66 to 77,Female,Some college or trade school,Nova Scotia,Not at all important,1,Liberal Party
+66 to 77,Female,Some college or trade school,Nova Scotia,Not very important,2,Liberal Party
+66 to 77,Female,Some college or trade school,Nova Scotia,Somewhat important,13,Liberal Party
+66 to 77,Female,Some college or trade school,Nova Scotia,Very important,31,Liberal Party
+66 to 77,Female,Some college or trade school,Ontario,Don't know,4,Liberal Party
+66 to 77,Female,Some college or trade school,Ontario,Not at all important,10,Liberal Party
+66 to 77,Female,Some college or trade school,Ontario,Not very important,11,Liberal Party
+66 to 77,Female,Some college or trade school,Ontario,Somewhat important,41,Liberal Party
+66 to 77,Female,Some college or trade school,Ontario,Very important,106,Conservative Party
+66 to 77,Female,Some college or trade school,Prince Edward Island,Not at all important,1,Liberal Party
+66 to 77,Female,Some college or trade school,Prince Edward Island,Not very important,1,Liberal Party
+66 to 77,Female,Some college or trade school,Prince Edward Island,Somewhat important,10,Liberal Party
+66 to 77,Female,Some college or trade school,Prince Edward Island,Very important,24,Liberal Party
+66 to 77,Female,Some college or trade school,Quebec,Don't know,5,Bloc Québécois
+66 to 77,Female,Some college or trade school,Quebec,Not at all important,12,Bloc Québécois
+66 to 77,Female,Some college or trade school,Quebec,Not very important,14,Bloc Québécois
+66 to 77,Female,Some college or trade school,Quebec,Somewhat important,44,Liberal Party
+66 to 77,Female,Some college or trade school,Quebec,Very important,26,Liberal Party
+66 to 77,Female,Some college or trade school,Saskatchewan,Not at all important,1,Conservative Party
+66 to 77,Female,Some college or trade school,Saskatchewan,Not very important,3,Conservative Party
+66 to 77,Female,Some college or trade school,Saskatchewan,Somewhat important,10,Conservative Party
+66 to 77,Female,Some college or trade school,Saskatchewan,Very important,26,Conservative Party
+66 to 77,Female,Some graduate school or more,Alberta,Not at all important,3,Conservative Party
+66 to 77,Female,Some graduate school or more,Alberta,Somewhat important,3,Conservative Party
+66 to 77,Female,Some graduate school or more,Alberta,Very important,3,Conservative Party
+66 to 77,Female,Some graduate school or more,British Columbia,Don't know,1,Liberal Party
+66 to 77,Female,Some graduate school or more,British Columbia,Not at all important,1,Liberal Party
+66 to 77,Female,Some graduate school or more,British Columbia,Not very important,2,Liberal Party
+66 to 77,Female,Some graduate school or more,British Columbia,Somewhat important,7,Liberal Party
+66 to 77,Female,Some graduate school or more,British Columbia,Very important,10,Liberal Party
+66 to 77,Female,Some graduate school or more,Manitoba,Not very important,1,Liberal Party
+66 to 77,Female,Some graduate school or more,Manitoba,Very important,2,Conservative Party
+66 to 77,Female,Some graduate school or more,New Brunswick,Not very important,1,Liberal Party
+66 to 77,Female,Some graduate school or more,New Brunswick,Somewhat important,2,Liberal Party
+66 to 77,Female,Some graduate school or more,New Brunswick,Very important,8,Liberal Party
+66 to 77,Female,Some graduate school or more,Newfoundland and Labrador,Very important,2,Liberal Party
+66 to 77,Female,Some graduate school or more,Nova Scotia,Not at all important,2,Liberal Party
+66 to 77,Female,Some graduate school or more,Nova Scotia,Somewhat important,1,Liberal Party
+66 to 77,Female,Some graduate school or more,Nova Scotia,Very important,7,Liberal Party
+66 to 77,Female,Some graduate school or more,Ontario,Not at all important,6,Liberal Party
+66 to 77,Female,Some graduate school or more,Ontario,Not very important,3,Liberal Party
+66 to 77,Female,Some graduate school or more,Ontario,Somewhat important,15,Liberal Party
+66 to 77,Female,Some graduate school or more,Ontario,Very important,26,Liberal Party
+66 to 77,Female,Some graduate school or more,Prince Edward Island,Not very important,1,Liberal Party
+66 to 77,Female,Some graduate school or more,Prince Edward Island,Very important,5,Liberal Party
+66 to 77,Female,Some graduate school or more,Quebec,Not at all important,4,Liberal Party
+66 to 77,Female,Some graduate school or more,Quebec,Somewhat important,4,Liberal Party
+66 to 77,Female,Some graduate school or more,Quebec,Very important,7,Liberal Party
+66 to 77,Female,Some graduate school or more,Saskatchewan,Not at all important,2,Conservative Party
+66 to 77,Female,Some graduate school or more,Saskatchewan,Somewhat important,1,Conservative Party
+66 to 77,Female,Some graduate school or more,Saskatchewan,Very important,3,Conservative Party
+66 to 77,Female,Undergraduate degree,Alberta,Not at all important,6,Conservative Party
+66 to 77,Female,Undergraduate degree,Alberta,Not very important,1,Conservative Party
+66 to 77,Female,Undergraduate degree,Alberta,Somewhat important,7,Conservative Party
+66 to 77,Female,Undergraduate degree,Alberta,Very important,6,Conservative Party
+66 to 77,Female,Undergraduate degree,British Columbia,Don't know,1,Liberal Party
+66 to 77,Female,Undergraduate degree,British Columbia,Not at all important,2,Liberal Party
+66 to 77,Female,Undergraduate degree,British Columbia,Not very important,7,Liberal Party
+66 to 77,Female,Undergraduate degree,British Columbia,Somewhat important,10,Liberal Party
+66 to 77,Female,Undergraduate degree,British Columbia,Very important,20,Conservative Party
+66 to 77,Female,Undergraduate degree,Manitoba,Not very important,1,Liberal Party
+66 to 77,Female,Undergraduate degree,Manitoba,Somewhat important,5,Liberal Party
+66 to 77,Female,Undergraduate degree,Manitoba,Very important,5,Conservative Party
+66 to 77,Female,Undergraduate degree,New Brunswick,Not at all important,1,Liberal Party
+66 to 77,Female,Undergraduate degree,New Brunswick,Not very important,1,Liberal Party
+66 to 77,Female,Undergraduate degree,New Brunswick,Somewhat important,5,Liberal Party
+66 to 77,Female,Undergraduate degree,New Brunswick,Very important,6,Liberal Party
+66 to 77,Female,Undergraduate degree,Newfoundland and Labrador,Don't know,2,Liberal Party
+66 to 77,Female,Undergraduate degree,Newfoundland and Labrador,Not at all important,1,Liberal Party
+66 to 77,Female,Undergraduate degree,Newfoundland and Labrador,Somewhat important,4,Liberal Party
+66 to 77,Female,Undergraduate degree,Newfoundland and Labrador,Very important,5,Liberal Party
+66 to 77,Female,Undergraduate degree,Nova Scotia,Not at all important,5,Liberal Party
+66 to 77,Female,Undergraduate degree,Nova Scotia,Not very important,1,Liberal Party
+66 to 77,Female,Undergraduate degree,Nova Scotia,Somewhat important,5,Liberal Party
+66 to 77,Female,Undergraduate degree,Nova Scotia,Very important,9,Liberal Party
+66 to 77,Female,Undergraduate degree,Ontario,Not at all important,8,Liberal Party
+66 to 77,Female,Undergraduate degree,Ontario,Not very important,12,Liberal Party
+66 to 77,Female,Undergraduate degree,Ontario,Somewhat important,26,Liberal Party
+66 to 77,Female,Undergraduate degree,Ontario,Very important,50,Liberal Party
+66 to 77,Female,Undergraduate degree,Prince Edward Island,Not at all important,1,Liberal Party
+66 to 77,Female,Undergraduate degree,Prince Edward Island,Somewhat important,3,Liberal Party
+66 to 77,Female,Undergraduate degree,Prince Edward Island,Very important,4,Liberal Party
+66 to 77,Female,Undergraduate degree,Quebec,Don't know,2,Liberal Party
+66 to 77,Female,Undergraduate degree,Quebec,Not at all important,7,Liberal Party
+66 to 77,Female,Undergraduate degree,Quebec,Not very important,7,Liberal Party
+66 to 77,Female,Undergraduate degree,Quebec,Somewhat important,16,Liberal Party
+66 to 77,Female,Undergraduate degree,Quebec,Very important,16,Liberal Party
+66 to 77,Female,Undergraduate degree,Saskatchewan,Somewhat important,5,Conservative Party
+66 to 77,Female,Undergraduate degree,Saskatchewan,Very important,8,Conservative Party
+66 to 77,Male,High school or less,Alberta,Don't know,1,Conservative Party
+66 to 77,Male,High school or less,Alberta,Not at all important,8,Conservative Party
+66 to 77,Male,High school or less,Alberta,Not very important,7,Conservative Party
+66 to 77,Male,High school or less,Alberta,Somewhat important,19,Conservative Party
+66 to 77,Male,High school or less,Alberta,Very important,18,Conservative Party
+66 to 77,Male,High school or less,British Columbia,Don't know,2,Conservative Party
+66 to 77,Male,High school or less,British Columbia,Not at all important,28,Conservative Party
+66 to 77,Male,High school or less,British Columbia,Not very important,21,Conservative Party
+66 to 77,Male,High school or less,British Columbia,Somewhat important,23,Conservative Party
+66 to 77,Male,High school or less,British Columbia,Very important,22,Conservative Party
+66 to 77,Male,High school or less,Manitoba,Don't know,1,Conservative Party
+66 to 77,Male,High school or less,Manitoba,Not at all important,7,Conservative Party
+66 to 77,Male,High school or less,Manitoba,Not very important,6,Conservative Party
+66 to 77,Male,High school or less,Manitoba,Somewhat important,20,Conservative Party
+66 to 77,Male,High school or less,Manitoba,Very important,24,Conservative Party
+66 to 77,Male,High school or less,New Brunswick,Don't know,2,Conservative Party
+66 to 77,Male,High school or less,New Brunswick,Not at all important,4,Liberal Party
+66 to 77,Male,High school or less,New Brunswick,Not very important,10,Conservative Party
+66 to 77,Male,High school or less,New Brunswick,Somewhat important,25,Conservative Party
+66 to 77,Male,High school or less,New Brunswick,Very important,21,Conservative Party
+66 to 77,Male,High school or less,Newfoundland and Labrador,Not at all important,1,Liberal Party
+66 to 77,Male,High school or less,Newfoundland and Labrador,Not very important,5,Liberal Party
+66 to 77,Male,High school or less,Newfoundland and Labrador,Somewhat important,13,Liberal Party
+66 to 77,Male,High school or less,Newfoundland and Labrador,Very important,21,Conservative Party
+66 to 77,Male,High school or less,Nova Scotia,Don't know,1,Liberal Party
+66 to 77,Male,High school or less,Nova Scotia,Not at all important,8,Liberal Party
+66 to 77,Male,High school or less,Nova Scotia,Not very important,11,Liberal Party
+66 to 77,Male,High school or less,Nova Scotia,Somewhat important,16,Liberal Party
+66 to 77,Male,High school or less,Nova Scotia,Very important,20,Conservative Party
+66 to 77,Male,High school or less,Ontario,Not at all important,28,Conservative Party
+66 to 77,Male,High school or less,Ontario,Not very important,27,Conservative Party
+66 to 77,Male,High school or less,Ontario,Somewhat important,71,Conservative Party
+66 to 77,Male,High school or less,Ontario,Very important,71,Conservative Party
+66 to 77,Male,High school or less,Prince Edward Island,Not very important,4,Liberal Party
+66 to 77,Male,High school or less,Prince Edward Island,Somewhat important,14,Liberal Party
+66 to 77,Male,High school or less,Prince Edward Island,Very important,13,Liberal Party
+66 to 77,Male,High school or less,Quebec,Don't know,2,Bloc Québécois
+66 to 77,Male,High school or less,Quebec,Not at all important,38,Bloc Québécois
+66 to 77,Male,High school or less,Quebec,Not very important,24,Bloc Québécois
+66 to 77,Male,High school or less,Quebec,Somewhat important,68,Bloc Québécois
+66 to 77,Male,High school or less,Quebec,Very important,27,Conservative Party
+66 to 77,Male,High school or less,Saskatchewan,Don't know,1,Conservative Party
+66 to 77,Male,High school or less,Saskatchewan,Not at all important,13,Conservative Party
+66 to 77,Male,High school or less,Saskatchewan,Not very important,7,Conservative Party
+66 to 77,Male,High school or less,Saskatchewan,Somewhat important,12,Conservative Party
+66 to 77,Male,High school or less,Saskatchewan,Very important,14,Conservative Party
+66 to 77,Male,Some college or trade school,Alberta,Not at all important,5,Conservative Party
+66 to 77,Male,Some college or trade school,Alberta,Not very important,2,Conservative Party
+66 to 77,Male,Some college or trade school,Alberta,Somewhat important,9,Conservative Party
+66 to 77,Male,Some college or trade school,Alberta,Very important,19,Conservative Party
+66 to 77,Male,Some college or trade school,British Columbia,Not at all important,15,Conservative Party
+66 to 77,Male,Some college or trade school,British Columbia,Not very important,9,Conservative Party
+66 to 77,Male,Some college or trade school,British Columbia,Somewhat important,16,Conservative Party
+66 to 77,Male,Some college or trade school,British Columbia,Very important,30,Conservative Party
+66 to 77,Male,Some college or trade school,Manitoba,Not at all important,6,Conservative Party
+66 to 77,Male,Some college or trade school,Manitoba,Not very important,2,Conservative Party
+66 to 77,Male,Some college or trade school,Manitoba,Somewhat important,4,Conservative Party
+66 to 77,Male,Some college or trade school,Manitoba,Very important,15,Conservative Party
+66 to 77,Male,Some college or trade school,New Brunswick,Not at all important,2,Liberal Party
+66 to 77,Male,Some college or trade school,New Brunswick,Not very important,3,Liberal Party
+66 to 77,Male,Some college or trade school,New Brunswick,Somewhat important,14,Liberal Party
+66 to 77,Male,Some college or trade school,New Brunswick,Very important,17,Conservative Party
+66 to 77,Male,Some college or trade school,Newfoundland and Labrador,Don't know,1,Liberal Party
+66 to 77,Male,Some college or trade school,Newfoundland and Labrador,Not at all important,4,Liberal Party
+66 to 77,Male,Some college or trade school,Newfoundland and Labrador,Not very important,4,Liberal Party
+66 to 77,Male,Some college or trade school,Newfoundland and Labrador,Somewhat important,4,Liberal Party
+66 to 77,Male,Some college or trade school,Newfoundland and Labrador,Very important,18,Liberal Party
+66 to 77,Male,Some college or trade school,Nova Scotia,Not at all important,6,Liberal Party
+66 to 77,Male,Some college or trade school,Nova Scotia,Not very important,2,Liberal Party
+66 to 77,Male,Some college or trade school,Nova Scotia,Somewhat important,6,Liberal Party
+66 to 77,Male,Some college or trade school,Nova Scotia,Very important,12,Liberal Party
+66 to 77,Male,Some college or trade school,Ontario,Don't know,1,Conservative Party
+66 to 77,Male,Some college or trade school,Ontario,Not at all important,23,Liberal Party
+66 to 77,Male,Some college or trade school,Ontario,Not very important,15,Conservative Party
+66 to 77,Male,Some college or trade school,Ontario,Somewhat important,29,Conservative Party
+66 to 77,Male,Some college or trade school,Ontario,Very important,49,Conservative Party
+66 to 77,Male,Some college or trade school,Prince Edward Island,Not at all important,2,Liberal Party
+66 to 77,Male,Some college or trade school,Prince Edward Island,Not very important,2,Liberal Party
+66 to 77,Male,Some college or trade school,Prince Edward Island,Somewhat important,2,Liberal Party
+66 to 77,Male,Some college or trade school,Prince Edward Island,Very important,8,Liberal Party
+66 to 77,Male,Some college or trade school,Quebec,Not at all important,8,Bloc Québécois
+66 to 77,Male,Some college or trade school,Quebec,Not very important,16,Bloc Québécois
+66 to 77,Male,Some college or trade school,Quebec,Somewhat important,25,Liberal Party
+66 to 77,Male,Some college or trade school,Quebec,Very important,12,Liberal Party
+66 to 77,Male,Some college or trade school,Saskatchewan,Not at all important,6,Conservative Party
+66 to 77,Male,Some college or trade school,Saskatchewan,Not very important,2,Conservative Party
+66 to 77,Male,Some college or trade school,Saskatchewan,Somewhat important,4,Conservative Party
+66 to 77,Male,Some college or trade school,Saskatchewan,Very important,11,Conservative Party
+66 to 77,Male,Some graduate school or more,Alberta,Don't know,1,Conservative Party
+66 to 77,Male,Some graduate school or more,Alberta,Not at all important,4,Conservative Party
+66 to 77,Male,Some graduate school or more,Alberta,Not very important,1,Conservative Party
+66 to 77,Male,Some graduate school or more,Alberta,Somewhat important,5,Conservative Party
+66 to 77,Male,Some graduate school or more,Alberta,Very important,6,Conservative Party
+66 to 77,Male,Some graduate school or more,British Columbia,Not at all important,10,Liberal Party
+66 to 77,Male,Some graduate school or more,British Columbia,Not very important,1,Liberal Party
+66 to 77,Male,Some graduate school or more,British Columbia,Somewhat important,9,Liberal Party
+66 to 77,Male,Some graduate school or more,British Columbia,Very important,9,Conservative Party
+66 to 77,Male,Some graduate school or more,Manitoba,Not at all important,1,Liberal Party
+66 to 77,Male,Some graduate school or more,Manitoba,Very important,6,Conservative Party
+66 to 77,Male,Some graduate school or more,New Brunswick,Not at all important,2,Liberal Party
+66 to 77,Male,Some graduate school or more,New Brunswick,Not very important,2,Liberal Party
+66 to 77,Male,Some graduate school or more,New Brunswick,Somewhat important,3,Liberal Party
+66 to 77,Male,Some graduate school or more,New Brunswick,Very important,5,Liberal Party
+66 to 77,Male,Some graduate school or more,Newfoundland and Labrador,Don't know,1,Liberal Party
+66 to 77,Male,Some graduate school or more,Newfoundland and Labrador,Not at all important,3,Liberal Party
+66 to 77,Male,Some graduate school or more,Newfoundland and Labrador,Somewhat important,1,Liberal Party
+66 to 77,Male,Some graduate school or more,Newfoundland and Labrador,Very important,2,Liberal Party
+66 to 77,Male,Some graduate school or more,Nova Scotia,Not at all important,2,Liberal Party
+66 to 77,Male,Some graduate school or more,Nova Scotia,Not very important,4,Liberal Party
+66 to 77,Male,Some graduate school or more,Nova Scotia,Somewhat important,2,Liberal Party
+66 to 77,Male,Some graduate school or more,Nova Scotia,Very important,9,Liberal Party
+66 to 77,Male,Some graduate school or more,Ontario,Don't know,2,Liberal Party
+66 to 77,Male,Some graduate school or more,Ontario,Not at all important,6,Liberal Party
+66 to 77,Male,Some graduate school or more,Ontario,Not very important,5,Liberal Party
+66 to 77,Male,Some graduate school or more,Ontario,Somewhat important,12,Liberal Party
+66 to 77,Male,Some graduate school or more,Ontario,Very important,25,Liberal Party
+66 to 77,Male,Some graduate school or more,Prince Edward Island,Not at all important,1,Liberal Party
+66 to 77,Male,Some graduate school or more,Prince Edward Island,Not very important,1,Liberal Party
+66 to 77,Male,Some graduate school or more,Prince Edward Island,Very important,3,Liberal Party
+66 to 77,Male,Some graduate school or more,Quebec,Don't know,1,Liberal Party
+66 to 77,Male,Some graduate school or more,Quebec,Not at all important,4,Liberal Party
+66 to 77,Male,Some graduate school or more,Quebec,Not very important,3,Liberal Party
+66 to 77,Male,Some graduate school or more,Quebec,Somewhat important,11,Liberal Party
+66 to 77,Male,Some graduate school or more,Quebec,Very important,8,Liberal Party
+66 to 77,Male,Some graduate school or more,Saskatchewan,Not at all important,1,Conservative Party
+66 to 77,Male,Some graduate school or more,Saskatchewan,Not very important,1,Conservative Party
+66 to 77,Male,Some graduate school or more,Saskatchewan,Somewhat important,1,Conservative Party
+66 to 77,Male,Some graduate school or more,Saskatchewan,Very important,4,Conservative Party
+66 to 77,Male,Undergraduate degree,Alberta,Not at all important,3,Conservative Party
+66 to 77,Male,Undergraduate degree,Alberta,Not very important,3,Conservative Party
+66 to 77,Male,Undergraduate degree,Alberta,Somewhat important,2,Conservative Party
+66 to 77,Male,Undergraduate degree,Alberta,Very important,6,Conservative Party
+66 to 77,Male,Undergraduate degree,British Columbia,Don't know,2,Conservative Party
+66 to 77,Male,Undergraduate degree,British Columbia,Not at all important,10,Liberal Party
+66 to 77,Male,Undergraduate degree,British Columbia,Not very important,3,Liberal Party
+66 to 77,Male,Undergraduate degree,British Columbia,Somewhat important,10,Conservative Party
+66 to 77,Male,Undergraduate degree,British Columbia,Very important,14,Conservative Party
+66 to 77,Male,Undergraduate degree,Manitoba,Not at all important,3,Conservative Party
+66 to 77,Male,Undergraduate degree,Manitoba,Not very important,1,Conservative Party
+66 to 77,Male,Undergraduate degree,Manitoba,Somewhat important,5,Conservative Party
+66 to 77,Male,Undergraduate degree,Manitoba,Very important,6,Conservative Party
+66 to 77,Male,Undergraduate degree,New Brunswick,Not at all important,1,Liberal Party
+66 to 77,Male,Undergraduate degree,New Brunswick,Not very important,2,Liberal Party
+66 to 77,Male,Undergraduate degree,New Brunswick,Somewhat important,7,Liberal Party
+66 to 77,Male,Undergraduate degree,New Brunswick,Very important,7,Liberal Party
+66 to 77,Male,Undergraduate degree,Newfoundland and Labrador,Not at all important,3,Liberal Party
+66 to 77,Male,Undergraduate degree,Newfoundland and Labrador,Not very important,2,Liberal Party
+66 to 77,Male,Undergraduate degree,Newfoundland and Labrador,Somewhat important,1,Liberal Party
+66 to 77,Male,Undergraduate degree,Newfoundland and Labrador,Very important,2,Liberal Party
+66 to 77,Male,Undergraduate degree,Nova Scotia,Not at all important,3,Liberal Party
+66 to 77,Male,Undergraduate degree,Nova Scotia,Not very important,8,Liberal Party
+66 to 77,Male,Undergraduate degree,Nova Scotia,Somewhat important,3,Liberal Party
+66 to 77,Male,Undergraduate degree,Nova Scotia,Very important,7,Liberal Party
+66 to 77,Male,Undergraduate degree,Ontario,Don't know,1,Liberal Party
+66 to 77,Male,Undergraduate degree,Ontario,Not at all important,17,Liberal Party
+66 to 77,Male,Undergraduate degree,Ontario,Not very important,6,Liberal Party
+66 to 77,Male,Undergraduate degree,Ontario,Somewhat important,21,Liberal Party
+66 to 77,Male,Undergraduate degree,Ontario,Very important,29,Conservative Party
+66 to 77,Male,Undergraduate degree,Prince Edward Island,Not at all important,3,Liberal Party
+66 to 77,Male,Undergraduate degree,Prince Edward Island,Very important,5,Liberal Party
+66 to 77,Male,Undergraduate degree,Quebec,Not at all important,8,Liberal Party
+66 to 77,Male,Undergraduate degree,Quebec,Not very important,9,Liberal Party
+66 to 77,Male,Undergraduate degree,Quebec,Somewhat important,23,Liberal Party
+66 to 77,Male,Undergraduate degree,Quebec,Very important,12,Liberal Party
+66 to 77,Male,Undergraduate degree,Saskatchewan,Not at all important,1,Conservative Party
+66 to 77,Male,Undergraduate degree,Saskatchewan,Not very important,1,Conservative Party
+66 to 77,Male,Undergraduate degree,Saskatchewan,Somewhat important,1,Conservative Party
+66 to 77,Male,Undergraduate degree,Saskatchewan,Very important,5,Conservative Party
+78 and above,Female,High school or less,Alberta,Don't know,1,Conservative Party
+78 and above,Female,High school or less,Alberta,Not at all important,4,Conservative Party
+78 and above,Female,High school or less,Alberta,Not very important,2,Conservative Party
+78 and above,Female,High school or less,Alberta,Somewhat important,5,Conservative Party
+78 and above,Female,High school or less,Alberta,Very important,15,Conservative Party
+78 and above,Female,High school or less,British Columbia,Don't know,3,Conservative Party
+78 and above,Female,High school or less,British Columbia,Not at all important,14,Conservative Party
+78 and above,Female,High school or less,British Columbia,Not very important,4,Conservative Party
+78 and above,Female,High school or less,British Columbia,Somewhat important,28,Conservative Party
+78 and above,Female,High school or less,British Columbia,Very important,28,Conservative Party
+78 and above,Female,High school or less,Manitoba,Don't know,1,Conservative Party
+78 and above,Female,High school or less,Manitoba,Not at all important,1,Conservative Party
+78 and above,Female,High school or less,Manitoba,Not very important,3,Conservative Party
+78 and above,Female,High school or less,Manitoba,Somewhat important,14,Conservative Party
+78 and above,Female,High school or less,Manitoba,Very important,30,Conservative Party
+78 and above,Female,High school or less,New Brunswick,Don't know,2,Liberal Party
+78 and above,Female,High school or less,New Brunswick,Not at all important,1,Liberal Party
+78 and above,Female,High school or less,New Brunswick,Not very important,1,Liberal Party
+78 and above,Female,High school or less,New Brunswick,Somewhat important,9,Liberal Party
+78 and above,Female,High school or less,New Brunswick,Very important,31,Conservative Party
+78 and above,Female,High school or less,Newfoundland and Labrador,Don't know,1,Liberal Party
+78 and above,Female,High school or less,Newfoundland and Labrador,Somewhat important,2,Liberal Party
+78 and above,Female,High school or less,Newfoundland and Labrador,Very important,19,Liberal Party
+78 and above,Female,High school or less,Nova Scotia,Don't know,1,Liberal Party
+78 and above,Female,High school or less,Nova Scotia,Not very important,3,Liberal Party
+78 and above,Female,High school or less,Nova Scotia,Somewhat important,10,Liberal Party
+78 and above,Female,High school or less,Nova Scotia,Very important,23,Liberal Party
+78 and above,Female,High school or less,Ontario,Don't know,2,Conservative Party
+78 and above,Female,High school or less,Ontario,Not at all important,2,Liberal Party
+78 and above,Female,High school or less,Ontario,Not very important,8,Liberal Party
+78 and above,Female,High school or less,Ontario,Somewhat important,47,Conservative Party
+78 and above,Female,High school or less,Ontario,Very important,88,Conservative Party
+78 and above,Female,High school or less,Prince Edward Island,Don't know,1,Liberal Party
+78 and above,Female,High school or less,Prince Edward Island,Not at all important,1,Liberal Party
+78 and above,Female,High school or less,Prince Edward Island,Somewhat important,6,Liberal Party
+78 and above,Female,High school or less,Prince Edward Island,Very important,13,Liberal Party
+78 and above,Female,High school or less,Quebec,Don't know,4,Bloc Québécois
+78 and above,Female,High school or less,Quebec,Not at all important,8,Bloc Québécois
+78 and above,Female,High school or less,Quebec,Not very important,3,Bloc Québécois
+78 and above,Female,High school or less,Quebec,Somewhat important,52,Bloc Québécois
+78 and above,Female,High school or less,Quebec,Very important,55,Liberal Party
+78 and above,Female,High school or less,Saskatchewan,Not at all important,1,Conservative Party
+78 and above,Female,High school or less,Saskatchewan,Somewhat important,14,Conservative Party
+78 and above,Female,High school or less,Saskatchewan,Very important,29,Conservative Party
+78 and above,Female,Some college or trade school,Alberta,Somewhat important,4,Conservative Party
+78 and above,Female,Some college or trade school,Alberta,Very important,9,Conservative Party
+78 and above,Female,Some college or trade school,British Columbia,Don't know,3,Conservative Party
+78 and above,Female,Some college or trade school,British Columbia,Not at all important,7,Liberal Party
+78 and above,Female,Some college or trade school,British Columbia,Not very important,4,Conservative Party
+78 and above,Female,Some college or trade school,British Columbia,Somewhat important,3,Conservative Party
+78 and above,Female,Some college or trade school,British Columbia,Very important,22,Conservative Party
+78 and above,Female,Some college or trade school,Manitoba,Not at all important,1,Conservative Party
+78 and above,Female,Some college or trade school,Manitoba,Somewhat important,5,Conservative Party
+78 and above,Female,Some college or trade school,Manitoba,Very important,3,Conservative Party
+78 and above,Female,Some college or trade school,New Brunswick,Somewhat important,6,Liberal Party
+78 and above,Female,Some college or trade school,New Brunswick,Very important,14,Conservative Party
+78 and above,Female,Some college or trade school,Newfoundland and Labrador,Not very important,1,Liberal Party
+78 and above,Female,Some college or trade school,Newfoundland and Labrador,Somewhat important,2,Liberal Party
+78 and above,Female,Some college or trade school,Newfoundland and Labrador,Very important,5,Liberal Party
+78 and above,Female,Some college or trade school,Nova Scotia,Don't know,1,Liberal Party
+78 and above,Female,Some college or trade school,Nova Scotia,Not at all important,1,Liberal Party
+78 and above,Female,Some college or trade school,Nova Scotia,Not very important,1,Liberal Party
+78 and above,Female,Some college or trade school,Nova Scotia,Somewhat important,4,Liberal Party
+78 and above,Female,Some college or trade school,Nova Scotia,Very important,14,Liberal Party
+78 and above,Female,Some college or trade school,Ontario,Don't know,2,Liberal Party
+78 and above,Female,Some college or trade school,Ontario,Not at all important,3,Liberal Party
+78 and above,Female,Some college or trade school,Ontario,Not very important,8,Liberal Party
+78 and above,Female,Some college or trade school,Ontario,Somewhat important,12,Liberal Party
+78 and above,Female,Some college or trade school,Ontario,Very important,51,Conservative Party
+78 and above,Female,Some college or trade school,Prince Edward Island,Somewhat important,4,Liberal Party
+78 and above,Female,Some college or trade school,Prince Edward Island,Very important,11,Liberal Party
+78 and above,Female,Some college or trade school,Quebec,Don't know,1,Bloc Québécois
+78 and above,Female,Some college or trade school,Quebec,Not at all important,1,Bloc Québécois
+78 and above,Female,Some college or trade school,Quebec,Not very important,3,Liberal Party
+78 and above,Female,Some college or trade school,Quebec,Somewhat important,12,Liberal Party
+78 and above,Female,Some college or trade school,Quebec,Very important,17,Liberal Party
+78 and above,Female,Some college or trade school,Saskatchewan,Not at all important,1,Conservative Party
+78 and above,Female,Some college or trade school,Saskatchewan,Not very important,2,Conservative Party
+78 and above,Female,Some college or trade school,Saskatchewan,Somewhat important,8,Conservative Party
+78 and above,Female,Some college or trade school,Saskatchewan,Very important,13,Conservative Party
+78 and above,Female,Some graduate school or more,British Columbia,Not very important,1,Liberal Party
+78 and above,Female,Some graduate school or more,British Columbia,Somewhat important,1,Liberal Party
+78 and above,Female,Some graduate school or more,British Columbia,Very important,5,Liberal Party
+78 and above,Female,Some graduate school or more,Manitoba,Very important,2,Conservative Party
+78 and above,Female,Some graduate school or more,New Brunswick,Very important,1,Liberal Party
+78 and above,Female,Some graduate school or more,Newfoundland and Labrador,Very important,3,Liberal Party
+78 and above,Female,Some graduate school or more,Nova Scotia,Don't know,1,Liberal Party
+78 and above,Female,Some graduate school or more,Nova Scotia,Somewhat important,1,Liberal Party
+78 and above,Female,Some graduate school or more,Nova Scotia,Very important,1,Liberal Party
+78 and above,Female,Some graduate school or more,Ontario,Not at all important,1,Liberal Party
+78 and above,Female,Some graduate school or more,Ontario,Somewhat important,2,Liberal Party
+78 and above,Female,Some graduate school or more,Ontario,Very important,8,Liberal Party
+78 and above,Female,Some graduate school or more,Prince Edward Island,Somewhat important,1,Liberal Party
+78 and above,Female,Some graduate school or more,Prince Edward Island,Very important,1,Liberal Party
+78 and above,Female,Some graduate school or more,Quebec,Not very important,1,Liberal Party
+78 and above,Female,Some graduate school or more,Saskatchewan,Very important,1,Conservative Party
+78 and above,Female,Undergraduate degree,Alberta,Not at all important,1,Conservative Party
+78 and above,Female,Undergraduate degree,Alberta,Somewhat important,1,Conservative Party
+78 and above,Female,Undergraduate degree,Alberta,Very important,3,Conservative Party
+78 and above,Female,Undergraduate degree,British Columbia,Not at all important,1,Liberal Party
+78 and above,Female,Undergraduate degree,British Columbia,Not very important,2,Liberal Party
+78 and above,Female,Undergraduate degree,British Columbia,Somewhat important,4,Liberal Party
+78 and above,Female,Undergraduate degree,British Columbia,Very important,3,Conservative Party
+78 and above,Female,Undergraduate degree,Manitoba,Somewhat important,3,Conservative Party
+78 and above,Female,Undergraduate degree,Manitoba,Very important,2,Conservative Party
+78 and above,Female,Undergraduate degree,New Brunswick,Somewhat important,1,Liberal Party
+78 and above,Female,Undergraduate degree,New Brunswick,Very important,4,Liberal Party
+78 and above,Female,Undergraduate degree,Newfoundland and Labrador,Somewhat important,1,Liberal Party
+78 and above,Female,Undergraduate degree,Newfoundland and Labrador,Very important,2,Liberal Party
+78 and above,Female,Undergraduate degree,Nova Scotia,Not at all important,1,Liberal Party
+78 and above,Female,Undergraduate degree,Nova Scotia,Somewhat important,1,Liberal Party
+78 and above,Female,Undergraduate degree,Nova Scotia,Very important,3,Liberal Party
+78 and above,Female,Undergraduate degree,Ontario,Not at all important,1,Liberal Party
+78 and above,Female,Undergraduate degree,Ontario,Somewhat important,4,Liberal Party
+78 and above,Female,Undergraduate degree,Ontario,Very important,16,Liberal Party
+78 and above,Female,Undergraduate degree,Prince Edward Island,Not very important,1,Liberal Party
+78 and above,Female,Undergraduate degree,Prince Edward Island,Very important,3,Liberal Party
+78 and above,Female,Undergraduate degree,Quebec,Not at all important,1,Liberal Party
+78 and above,Female,Undergraduate degree,Quebec,Somewhat important,2,Liberal Party
+78 and above,Female,Undergraduate degree,Quebec,Very important,6,Liberal Party
+78 and above,Female,Undergraduate degree,Saskatchewan,Somewhat important,3,Conservative Party
+78 and above,Female,Undergraduate degree,Saskatchewan,Very important,2,Conservative Party
+78 and above,Male,High school or less,Alberta,Not at all important,3,Conservative Party
+78 and above,Male,High school or less,Alberta,Not very important,4,Conservative Party
+78 and above,Male,High school or less,Alberta,Somewhat important,6,Conservative Party
+78 and above,Male,High school or less,Alberta,Very important,6,Conservative Party
+78 and above,Male,High school or less,British Columbia,Don't know,1,Conservative Party
+78 and above,Male,High school or less,British Columbia,Not at all important,15,Conservative Party
+78 and above,Male,High school or less,British Columbia,Not very important,9,Conservative Party
+78 and above,Male,High school or less,British Columbia,Somewhat important,8,Conservative Party
+78 and above,Male,High school or less,British Columbia,Very important,12,Conservative Party
+78 and above,Male,High school or less,Manitoba,Don't know,1,Conservative Party
+78 and above,Male,High school or less,Manitoba,Not at all important,5,Conservative Party
+78 and above,Male,High school or less,Manitoba,Not very important,4,Conservative Party
+78 and above,Male,High school or less,Manitoba,Somewhat important,8,Conservative Party
+78 and above,Male,High school or less,Manitoba,Very important,10,Conservative Party
+78 and above,Male,High school or less,New Brunswick,Don't know,2,Conservative Party
+78 and above,Male,High school or less,New Brunswick,Not at all important,1,Conservative Party
+78 and above,Male,High school or less,New Brunswick,Not very important,1,Conservative Party
+78 and above,Male,High school or less,New Brunswick,Somewhat important,4,Conservative Party
+78 and above,Male,High school or less,New Brunswick,Very important,16,Conservative Party
+78 and above,Male,High school or less,Newfoundland and Labrador,Not very important,1,Liberal Party
+78 and above,Male,High school or less,Newfoundland and Labrador,Somewhat important,8,Liberal Party
+78 and above,Male,High school or less,Newfoundland and Labrador,Very important,4,Conservative Party
+78 and above,Male,High school or less,Nova Scotia,Not at all important,2,Liberal Party
+78 and above,Male,High school or less,Nova Scotia,Not very important,2,Liberal Party
+78 and above,Male,High school or less,Nova Scotia,Somewhat important,13,Liberal Party
+78 and above,Male,High school or less,Nova Scotia,Very important,8,Conservative Party
+78 and above,Male,High school or less,Ontario,Not at all important,10,Conservative Party
+78 and above,Male,High school or less,Ontario,Not very important,8,Conservative Party
+78 and above,Male,High school or less,Ontario,Somewhat important,22,Conservative Party
+78 and above,Male,High school or less,Ontario,Very important,37,Conservative Party
+78 and above,Male,High school or less,Prince Edward Island,Not very important,1,Liberal Party
+78 and above,Male,High school or less,Prince Edward Island,Very important,5,Liberal Party
+78 and above,Male,High school or less,Quebec,Don't know,1,Bloc Québécois
+78 and above,Male,High school or less,Quebec,Not at all important,6,Bloc Québécois
+78 and above,Male,High school or less,Quebec,Not very important,9,Bloc Québécois
+78 and above,Male,High school or less,Quebec,Somewhat important,16,Bloc Québécois
+78 and above,Male,High school or less,Quebec,Very important,21,Conservative Party
+78 and above,Male,High school or less,Saskatchewan,Not at all important,2,Conservative Party
+78 and above,Male,High school or less,Saskatchewan,Not very important,1,Conservative Party
+78 and above,Male,High school or less,Saskatchewan,Somewhat important,6,Conservative Party
+78 and above,Male,High school or less,Saskatchewan,Very important,16,Conservative Party
+78 and above,Male,Some college or trade school,Alberta,Not very important,2,Conservative Party
+78 and above,Male,Some college or trade school,Alberta,Somewhat important,3,Conservative Party
+78 and above,Male,Some college or trade school,Alberta,Very important,7,Conservative Party
+78 and above,Male,Some college or trade school,British Columbia,Not at all important,2,Conservative Party
+78 and above,Male,Some college or trade school,British Columbia,Not very important,2,Conservative Party
+78 and above,Male,Some college or trade school,British Columbia,Somewhat important,11,Conservative Party
+78 and above,Male,Some college or trade school,British Columbia,Very important,5,Conservative Party
+78 and above,Male,Some college or trade school,Manitoba,Don't know,1,Conservative Party
+78 and above,Male,Some college or trade school,Manitoba,Not at all important,1,Conservative Party
+78 and above,Male,Some college or trade school,Manitoba,Not very important,1,Conservative Party
+78 and above,Male,Some college or trade school,Manitoba,Somewhat important,4,Conservative Party
+78 and above,Male,Some college or trade school,Manitoba,Very important,6,Conservative Party
+78 and above,Male,Some college or trade school,New Brunswick,Somewhat important,2,Conservative Party
+78 and above,Male,Some college or trade school,New Brunswick,Very important,4,Conservative Party
+78 and above,Male,Some college or trade school,Newfoundland and Labrador,Somewhat important,1,Liberal Party
+78 and above,Male,Some college or trade school,Newfoundland and Labrador,Very important,3,Conservative Party
+78 and above,Male,Some college or trade school,Nova Scotia,Not at all important,4,Liberal Party
+78 and above,Male,Some college or trade school,Nova Scotia,Not very important,1,Liberal Party
+78 and above,Male,Some college or trade school,Nova Scotia,Somewhat important,2,Liberal Party
+78 and above,Male,Some college or trade school,Nova Scotia,Very important,6,Conservative Party
+78 and above,Male,Some college or trade school,Ontario,Don't know,1,Conservative Party
+78 and above,Male,Some college or trade school,Ontario,Not at all important,7,Conservative Party
+78 and above,Male,Some college or trade school,Ontario,Not very important,3,Conservative Party
+78 and above,Male,Some college or trade school,Ontario,Somewhat important,9,Conservative Party
+78 and above,Male,Some college or trade school,Ontario,Very important,23,Conservative Party
+78 and above,Male,Some college or trade school,Prince Edward Island,Very important,2,Liberal Party
+78 and above,Male,Some college or trade school,Quebec,Don't know,2,Bloc Québécois
+78 and above,Male,Some college or trade school,Quebec,Not at all important,2,Bloc Québécois
+78 and above,Male,Some college or trade school,Quebec,Not very important,3,Bloc Québécois
+78 and above,Male,Some college or trade school,Quebec,Somewhat important,5,Liberal Party
+78 and above,Male,Some college or trade school,Quebec,Very important,5,Conservative Party
+78 and above,Male,Some college or trade school,Saskatchewan,Not very important,1,Conservative Party
+78 and above,Male,Some college or trade school,Saskatchewan,Somewhat important,1,Conservative Party
+78 and above,Male,Some college or trade school,Saskatchewan,Very important,4,Conservative Party
+78 and above,Male,Some graduate school or more,Alberta,Very important,1,Conservative Party
+78 and above,Male,Some graduate school or more,British Columbia,Not at all important,4,Liberal Party
+78 and above,Male,Some graduate school or more,British Columbia,Somewhat important,1,Liberal Party
+78 and above,Male,Some graduate school or more,British Columbia,Very important,2,Conservative Party
+78 and above,Male,Some graduate school or more,Manitoba,Very important,1,Conservative Party
+78 and above,Male,Some graduate school or more,New Brunswick,Not at all important,2,Liberal Party
+78 and above,Male,Some graduate school or more,New Brunswick,Not very important,1,Liberal Party
+78 and above,Male,Some graduate school or more,New Brunswick,Somewhat important,1,Liberal Party
+78 and above,Male,Some graduate school or more,New Brunswick,Very important,2,Liberal Party
+78 and above,Male,Some graduate school or more,Newfoundland and Labrador,Not at all important,1,Liberal Party
+78 and above,Male,Some graduate school or more,Nova Scotia,Not at all important,1,Liberal Party
+78 and above,Male,Some graduate school or more,Nova Scotia,Very important,2,Liberal Party
+78 and above,Male,Some graduate school or more,Ontario,Not at all important,4,Liberal Party
+78 and above,Male,Some graduate school or more,Ontario,Not very important,3,Liberal Party
+78 and above,Male,Some graduate school or more,Ontario,Somewhat important,6,Liberal Party
+78 and above,Male,Some graduate school or more,Ontario,Very important,10,Liberal Party
+78 and above,Male,Some graduate school or more,Prince Edward Island,Very important,1,Liberal Party
+78 and above,Male,Some graduate school or more,Quebec,Not at all important,2,Liberal Party
+78 and above,Male,Some graduate school or more,Quebec,Not very important,1,Liberal Party
+78 and above,Male,Some graduate school or more,Quebec,Somewhat important,2,Liberal Party
+78 and above,Male,Some graduate school or more,Quebec,Very important,9,Liberal Party
+78 and above,Male,Some graduate school or more,Saskatchewan,Not at all important,2,Conservative Party
+78 and above,Male,Some graduate school or more,Saskatchewan,Very important,1,Conservative Party
+78 and above,Male,Undergraduate degree,Alberta,Somewhat important,1,Conservative Party
+78 and above,Male,Undergraduate degree,Alberta,Very important,1,Conservative Party
+78 and above,Male,Undergraduate degree,British Columbia,Not at all important,4,Liberal Party
+78 and above,Male,Undergraduate degree,British Columbia,Not very important,2,Conservative Party
+78 and above,Male,Undergraduate degree,British Columbia,Somewhat important,4,Conservative Party
+78 and above,Male,Undergraduate degree,British Columbia,Very important,2,Conservative Party
+78 and above,Male,Undergraduate degree,Manitoba,Not at all important,2,Conservative Party
+78 and above,Male,Undergraduate degree,Manitoba,Not very important,1,Conservative Party
+78 and above,Male,Undergraduate degree,Manitoba,Very important,3,Conservative Party
+78 and above,Male,Undergraduate degree,Newfoundland and Labrador,Very important,2,Liberal Party
+78 and above,Male,Undergraduate degree,Nova Scotia,Somewhat important,1,Liberal Party
+78 and above,Male,Undergraduate degree,Nova Scotia,Very important,2,Liberal Party
+78 and above,Male,Undergraduate degree,Ontario,Not at all important,2,Liberal Party
+78 and above,Male,Undergraduate degree,Ontario,Not very important,2,Liberal Party
+78 and above,Male,Undergraduate degree,Ontario,Somewhat important,5,Liberal Party
+78 and above,Male,Undergraduate degree,Ontario,Very important,8,Conservative Party
+78 and above,Male,Undergraduate degree,Prince Edward Island,Very important,1,Liberal Party
+78 and above,Male,Undergraduate degree,Quebec,Don't know,1,Liberal Party
+78 and above,Male,Undergraduate degree,Quebec,Not at all important,1,Liberal Party
+78 and above,Male,Undergraduate degree,Quebec,Not very important,1,Liberal Party
+78 and above,Male,Undergraduate degree,Quebec,Somewhat important,3,Liberal Party
+78 and above,Male,Undergraduate degree,Quebec,Very important,4,Liberal Party
+78 and above,Male,Undergraduate degree,Saskatchewan,Not at all important,1,Conservative Party
+78 and above,Male,Undergraduate degree,Saskatchewan,Very important,4,Conservative Party

@@ -1,5 +1,5 @@
 ---
-title: "Assuming 100% Voter Participation, Trudeau Would Win 34% of the Popular Vote in the 2019 Canadian Federal Election"
+title: "Assuming 100% Voter Participation, Trudeau Would Win 48% of the Popular Vote in the 2019 Canadian Federal Election"
 author: "Xinyi Zhang"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 abstract: |
@@ -23,14 +23,9 @@ library(tidyverse)
 # Introduction
 In 2019, Trudeau defied election predictions and narrowly won enough seats to win reelection. This raises the question, what would the popular vote have been if everyone voted? By choosing 5 explanatory demographic variables closely associated with voting and political affiliation (age, gender, state, race, and education), we develop a multi-level regression model with post-stratification in order to predict the outcome of the popular vote. 
 
-In our analysis, we modeled the relationship between our selected demographic variables and a person's likelihood to vote for either Trudeau or Scheer. We analyzed the significance of our model, and the importance of using multilevel regression with post-stratification because the training data is not proportional to the Canadian population. We found that we were able to make predictions with approximately 70% accuracy and the strongest indicators of 2019 voting were education and gender. 
+In our analysis, we modeled the relationship between our selected demographic variables and a person's likelihood to vote for either Trudeau or Scheer. We analyzed the significance of our model, and the importance of using multilevel regression with post-stratification because the training data is not proportional to the Canadian population. We found that we were able to make predictions with approximately 45% accuracy and the strongest indicators of 2019 voting were education and gender. 
 
 This paper discusses the 2 datasets we used, how they were collected and key highlights of these datasets, followed by visualizations of the data. Next we explained the construction of our model and the positives and negatives of extrapolating information from a smaller voter survey to the Canadian population using a post-stratification dataset. Finally, we present our results and discuss how our results should inform future political strategies. 
-
--vs riding 
--actual number of popular vote 
--general info about election
--where dataset is from
 
 # Data
 To train our model to predict voting on an individual level for the 2019 Canadian Federal Election, we used data from the 2019 Canadian Election Study (CES). To make predictions on the outcome of the 2019 Canadian Federal Election through post-stratification, we used data from the 2017 General Social Survey (GSS). 
@@ -209,26 +204,6 @@ ggplot(religion_distribution, aes(x="", y=percent, fill=religion_importance)) + 
                           plot.title = element_text(hjust = 0.5, color = "#666666"))
 ```
 \newpage
-In Figure \@ref(fig:votedist), we see that the distribution of votes in the CES is in favor of the Conservative party, followed closely by the Liberal Party. However, as we've noticed when observing the distribution of our chosen demographic factors, the CES dataset does not appear to be representative of the Canadian population. Therefore, it is imperative that we use post-stratification when predicting the popular vote of the 2019 Canadian Federal Election to mitigate the effects of sampling bias.
-
-```{r votedist, echo=FALSE, fig.cap="Distribution of Votes in CES.", message=FALSE, fig.align="center", out.width="80%"}
-# find percentage of each vote
-vote_distribution <- ces %>% dplyr::count(cps19_vote) %>% mutate(Percent = n/nrow(ces))
-# reorder levels
-vote_distribution$cps19_vote <- factor(vote_distribution$cps19_vote, 
-                                       levels=c("New Democratic Party",
-                                                "Green Party",
-                                                "Liberal Party",
-                                                "Conservative Party",
-                                                "People's Party",
-                                                "Bloc Québécois"))
-# plot distribution as bar graph
-ggplot(data=vote_distribution, aes(x=cps19_vote, y=Percent, fill=Percent)) +
-  geom_bar(stat="identity") +
-  labs(x="Province", y="Percent") +
-  theme(axis.text.x = element_text(angle = 25)) +
-  geom_text(aes(label=paste0(round(Percent*100), "%")), position=position_dodge(width=0.9), vjust=-0.25)
-```
 
 # Model
 The purpose of our model is to predict the popular vote of the 2019 Canadian Federal Election assuming 100% voter turnout. We found when exploring and graphing the data in the in the [Data Visualization section](#data-visualization), the CES has underrepresented or overrepresented certain demographics compared to their actual distributions in the population. Namely, older voters are underrepresented, women are overrepresented, voters from Ontario are overrepresented, voters with some form of post-secondary education are overrepresented, and so forth. Therefore, if we were to predict the outcome of the popular vote based on the demographic proportions found in the CES dataset, we would find that the prediction is biased because the survey sample is not representative of the Canadian population. Hence, we must use multilevel regression with post-stratification (MRP) to base our estimate of the popular vote on demographic distributions are are closer to the actual population distributions. This method can be broken down into two parts: multinomial regression modeling and post-stratification.
@@ -259,6 +234,40 @@ We implemented the multinomial logistic regression model using `multinom()` from
 Finally, we used post-stratification to accurately predict the popular vote because of the discrepancy between the demographic distribution of the CES respondents and the demographics of the Canadian  population. We conducted post-stratification by calculating the counts for all combinations of explanatory variables in the GSS. 
 
 # Results
+In Figure \@ref(fig:votedist), we see that the distribution of votes in the CES is in favor of the Conservative party, followed closely by the Liberal Party. However, as we've noticed when observing the distribution of our chosen demographic factors, the CES dataset does not appear to be representative of the Canadian population. Therefore, it is imperative that we use post-stratification when predicting the popular vote of the 2019 Canadian Federal Election to mitigate the effects of sampling bias.
+
+```{r votedist, echo=FALSE, fig.cap="Distribution of Votes in CES.", message=FALSE, fig.align="center", out.width="80%"}
+# find percentage of each vote
+vote_distribution <- ces %>% dplyr::count(cps19_vote) %>% mutate(Percent = n/nrow(ces))
+# reorder levels
+vote_distribution$cps19_vote <- factor(vote_distribution$cps19_vote, 
+                                       levels=c("New Democratic Party",
+                                                "Green Party",
+                                                "Liberal Party",
+                                                "Conservative Party",
+                                                "People's Party",
+                                                "Bloc Québécois"))
+# plot distribution as bar graph
+ggplot(data=vote_distribution, aes(x=cps19_vote, y=Percent, fill=Percent)) +
+  geom_bar(stat="identity") +
+  labs(x="Province", y="Percent") +
+  theme(axis.text.x = element_text(angle = 25)) +
+  geom_text(aes(label=paste0(round(Percent*100), "%")), position=position_dodge(width=0.9), vjust=-0.25)
+```
+In Figure \@ref(fig:poststratdist), we see that the distribution of votes in post-stratification is led by the Liberal Party with 48% of the vote followed by Conservative Party with 44% of the vote. 
+```{r poststratdist, echo=FALSE, fig.cap="Distribution of Votes in Post-Stratification.", message=FALSE, fig.align="center", out.width="80%"}
+poststrat <- read_csv("../post_strat.csv")
+counttb <- count(x=poststrat, vote, wt=freq)
+total <- sum(counttb$n)
+counttb$Proportion <- counttb$n/total
+
+# plot distribution as bar graph
+ggplot(data=counttb, aes(x=vote, y=Proportion, fill=Proportion)) +
+  geom_bar(stat="identity") +
+  labs(x="Political Party", y="Proportion") +
+  theme(axis.text.x = element_text(angle = 25)) +
+  geom_text(aes(label=paste0(round(Proportion*100), "%")), position=position_dodge(width=0.9), vjust=-0.25)
+```
 
 # Discussion
 
