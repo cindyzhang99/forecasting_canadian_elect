@@ -320,13 +320,3 @@ $$ \Pr(Y_i = 5) = \frac{e^{\boldsymbol{\beta_5 \cdot X_i}}}{1 + \sum_{k\in \{1,2
 $$ \Pr(Y_i = 6) = \frac{e^{\boldsymbol{\beta_6 \cdot X_i}}}{1 + \sum_{k\in \{1,2,3,5,6\}} e^{\boldsymbol{\beta_k \cdot X_i}}} $$
 
 # References
-Stephenson, Laura B., Allison Harell, Daniel Rubenson and Peter John Loewen. The 2019
-Canadian Election Study – Online Collection.
-
-https://dataverse.harvard.edu/file.xhtml?persistentId=doi:10.7910/DVN/DUS88V/HRZ21G&version=1.0
-
-Rohan, A. & Caetano, S. (2020). 'GSS 2017 Cleaning Code'. MIT License.
-
-https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4501&lang=en&db=imdb&adm=8&dis=2
-
-https://www.hippocampus.org/homework-help/American-Government/Political%20Parties%20and%20Voting%20Behavior_Factors%20that%20Lead%20to%20Party%20Identification.html
