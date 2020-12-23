@@ -1,5 +1,7 @@
 #### Preamble ####
-# Purpose: 
+# Purpose: The purpose of this code is conduct cross-validation and select the best
+# individual-level model to predict vote choice given demographic variables.
+# Lastly, we save post-stratification predictions to outputs/post_strat.csv.
 
 # Author: Xinyi Zhang
 # Contact: xinyicindy.zhang@mail.utoronto.ca

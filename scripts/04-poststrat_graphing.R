@@ -1,3 +1,12 @@
+#### Preamble ####
+# Purpose: The purpose of this code is to produce the graphs seen in the Results
+# section of our paper. 
+
+# Author: Xinyi Zhang
+# Contact: xinyicindy.zhang@mail.utoronto.ca
+# Date: 22 December 2020
+# License: MIT
+
 library(tidyverse)
 
 # load original cleaned ces data
