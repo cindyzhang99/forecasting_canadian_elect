@@ -21,19 +21,21 @@ library(tidyverse)
 ```
 
 # Introduction
-In 2019, Trudeau defied election predictions and narrowly won enough seats to win reelection. This raises the question, what would the popular vote have been if everyone voted? By choosing 5 explanatory demographic variables closely associated with voting and political affiliation (age, gender, state, race, and education), we develop a multi-level regression model with post-stratification in order to predict the outcome of the popular vote. 
+In 2019, Trudeau defied election predictions and narrowly won enough seats to win reelection. This raises the question, would the outcome of the popular vote of the election have changed assuming 100% voter turnout? By choosing 5 explanatory demographic variables closely associated with voting and political affiliation (age, gender, state, race, and education), we develop a multi-level regression model with post-stratification (MRP) in order to predict the outcome of the popular vote. 
 
-In our analysis, we modeled the relationship between our selected demographic variables and a person's likelihood to vote for either Trudeau or Scheer. We analyzed the significance of our model, and the importance of using multilevel regression with post-stratification because the training data is not proportional to the Canadian population. We found that we were able to make predictions with approximately 45% accuracy and the strongest indicators of 2019 voting were education and gender. 
+In our analysis, we modeled the relationship between our selected demographic variables and a person's vote choice (for one of the six major Canadian political parties). The comparison of the distribution of demographic variables in the individual-level Canadian Election Study dataset set (@ces) compared to the General Social Survey post-stratification dataset (@gss) revealed the importance of using multilevel regression with post-stratification because the training data is not proportional to the Canadian population. We found that we were able to make predictions with approximately 45% accuracy and discussed the ways in which the demographic attributes of each political party's voter base can be used for political strategizing. 
 
-This paper discusses the 2 datasets we used, how they were collected and key highlights of these datasets, followed by visualizations of the data. Next we explained the construction of our model and the positives and negatives of extrapolating information from a smaller voter survey to the Canadian population using a post-stratification dataset. Finally, we present our results and discuss how our results should inform future political strategies. 
+We conducted our data modeling and analysis using the R statistical language (@citeR) and the tidyverse (@tidyverse), janitor (@janitor), nnet (@nnet), Metrics (@metrics), cesR (@cesr), labelled (@labelled), bookdown (@bookdown_cite), and R Markdown (@rmarkdown) packages.
+
+In Section 2, we discuss the 2 datasets we used, how they were collected and key highlights of these datasets, followed by visualizations of the data. In Section 3, we explained the construction of our model and our use of the MRP technique. Finally, we present our results in Section 4 and discuss how our results should inform future political strategies in Section 5. 
 
 # Data
-To train our model to predict voting on an individual level for the 2019 Canadian Federal Election, we used data from the 2019 Canadian Election Study (CES). To make predictions on the outcome of the 2019 Canadian Federal Election through post-stratification, we used data from the 2017 General Social Survey (GSS). 
+To train our model to predict voting on an individual level for the 2019 Canadian Federal Election, we used data from the 2019 Canadian Election Study (CES) (@ces). To make predictions on the outcome of the 2019 Canadian Federal Election through post-stratification, we used data from the 2017 General Social Survey (GSS) (@gss). 
 
 In the following subsections ([Individual-level Survey Dataset](#individual-level-survey-dataset), [Post-stratification Dataset](#post-stratification-dataset)), we will discuss how each dataset was collected and highlight their key features. Then, in the [Data Visualization subsection](#data-visualization), we'll graph the distribution of our variables of interest. We will use this data in the multilevel regression with post-stratification (MRP) technique that we will describe in the [Model section](#model).
 
 ## Individual-level Survey Dataset
-From September 13, 2019 to October 21, 2019, the Consortium on Electoral Democracy conducted online surveys on political views and voting intent prior to the 2019 Canadian Federal Election. Their target population was all Canadian citizens and permanent residents, aged 18 or older. 
+According to @cescodebook, from September 13, 2019 to October 21, 2019, the Consortium on Electoral Democracy conducted online surveys on political views and voting intent prior to the 2019 Canadian Federal Election. Their target population was all Canadian citizens and permanent residents, aged 18 or older. 
 
 The online platform Qualtrics was used to conduct sampling. Qualtrics used several panels as the sampling frame for this survey. Sampling frames are lists of the individuals that will be selected for the survey sample, meaning that the members of panels aggregated by Qualtrics form a list of a subset of the target population. Then, a sample was selected from the frame using a purposive sampling method. This is a non-probability sampling method where the researcher decides which samples are most representative of the target population. According to the CES Codebook, demographic targets for province, gender (50% male and 50% female) and age (28% aged 18-34, 33% aged 35-54, and 39% aged 55 or older) were set. More specific information about the sampling method was not provided. 
 
@@ -44,7 +46,7 @@ Unfortunately, the non-probability sampling method employed by Qualtrics is a ma
 Although the non-probability sampling method is a major weakness of the CES methodology, we will ensure that our prediction of the election popular vote will be representative of the Canadian population by conducting post-stratification using data from the GSS. Therefore, we can still make valid conclusions using the CES dataset even though the responses were drawn through non-probability sampling. 
 
 ## Post-stratification Dataset
-From February 1, 2017 to November 30, 2017, Statistics Canada gathered data on the Canadian family unit by conducting voluntary telephone interviews for Cycle 31 of the General Social Survey. Their target population was all non-institutionalized individuals living in Canada, aged 15 or older. 
+According to @gss, from February 1, 2017 to November 30, 2017, Statistics Canada gathered data on the Canadian family unit by conducting voluntary telephone interviews for Cycle 31 of the General Social Survey. Their target population was all non-institutionalized individuals living in Canada, aged 15 or older. 
 
 Cross-sectional sampling was conducted in a two-stage design. The stratified simple random sampling method was used in the first stage. Here, the sampling frame consisted of telephone numbers from the Census grouped as households using data from Statistic Canada's dwelling frame. Strata were formed at the census metropolitan area (CMA) level and at the province level (i.e., large CMAs formed their own stratum, smaller CMAs were grouped together, and the non-CMA regions of each province were grouped together), forming a total of 27 non-overlapping strata. Finally, households were sampled randomly from each stratum such that the number sampled units from each stratum corresponded to the population sizes of each stratum. To reiterate, the sampled population for this first stage was the chosen households from each stratum. The stratified simple random sampling method was also used in the second stage. Here, the sampling frame was a list of household members, aged 15 and older, from the households selected in the first stage. Then, one individual was randomly selected from each household, forming the sampled population. Approximately 43,000 individuals were contacted to participate in the survey.
 
@@ -229,7 +231,7 @@ $\boldsymbol{x_i}$ is the row vector of values for the explanatory variables for
 
 Therefore, the first equation represents the probability that the vote choice of the $i$th observation is "New Democratic Party" given values for age, sex, province, education, and religion importance The other 5 equations can be interpreted in a similar manner.
 
-We implemented the multinomial logistic regression model using `multinom()` from the nnet library written in R (@citeR). At first the model failed to converge because the maximum number of iterations would be reached before convergence. Consequently, we increased the maximum number of iterations from the default value of 100 to 200 and we observed the model converging after approximately 120 iterations.
+We implemented the multinomial logistic regression model using `multinom()` from the nnet library (@nnet). At first the model failed to converge because the maximum number of iterations would be reached before convergence. Consequently, we increased the maximum number of iterations from the default value of 100 to 200 and we observed the model converging after approximately 120 iterations.
 
 We tested 3 different models using cross-validation testing. Assuming that age, gender, and province are significant predictors of vote choice, we tested different combinations of education level and religion importance. Model 1 has age, gender, province, and education level as independent variables. Model 2 has age, gender, province, and religion importance as independent variables. Lastly, model 3 has all 5 demographic variables as independent variables (age, gender, province, education level, and religion importance). To conduction cross-validation, we shuffled the dataset into training and testing subsets (an 80-20 split, respectively). Then, we trained the model using only the training data and made predictions on the testing data. Finally, we compared the model's predictions to the ground truth values for vote choice for the test set. Model 1's predictions for the test set had an accuracy of 44.0% while model 2 and model 3 had accuracies of 44.2% and 45.1%, respectively. Therefore, we proceeded with the use of model 3 for making predictions on the post-stratification dataset because it had the highest accuracy out of the models we implemented.
 
@@ -238,7 +240,7 @@ Finally, we used post-stratification to accurately predict the popular vote beca
 # Results
 In Figure \@ref(fig:votedist), we see that the distribution of votes in the CES is in favor of the Conservative party, followed closely by the Liberal Party. However, as we've noticed when observing the distribution of our chosen demographic factors, the CES dataset does not appear to be representative of the Canadian population. Therefore, it is imperative that we use post-stratification when predicting the popular vote of the 2019 Canadian Federal Election to mitigate the effects of sampling bias.
 
-```{r votedist, echo=FALSE, fig.cap="Distribution of Votes in CES.", message=FALSE, fig.align="center", out.width="80%"}
+```{r votedist, echo=FALSE, fig.cap="Distribution of Votes in CES.", message=FALSE, fig.align="center", fig.height=3}
 # find percentage of each vote
 vote_distribution <- ces %>% dplyr::count(cps19_vote) %>% mutate(Percent = n/nrow(ces))
 # reorder levels
@@ -256,9 +258,10 @@ ggplot(data=vote_distribution, aes(x=cps19_vote, y=Percent, fill=Percent)) +
   theme(axis.text.x = element_text(angle = 25)) +
   geom_text(aes(label=paste0(round(Percent*100), "%")), position=position_dodge(width=0.9), vjust=-0.25)
 ```
+
 In Figure \@ref(fig:poststratdist), we see that the distribution of votes in post-stratification is led by the Liberal Party with 48% of the vote followed by Conservative Party with 44% of the vote. 
 
-```{r poststratdist, echo=FALSE, fig.cap="Distribution of Votes in Post-Stratification.", message=FALSE, fig.align="center", out.width="80%"}
+```{r poststratdist, echo=FALSE, fig.cap="Distribution of Votes in Post-Stratification.", message=FALSE, fig.align="center", fig.height=3}
 poststrat <- read_csv("../post_strat.csv")
 counttb <- count(x=poststrat, vote, wt=freq)
 total <- sum(counttb$n)
@@ -274,7 +277,16 @@ ggplot(data=counttb, aes(x=vote, y=Proportion, fill=Proportion)) +
 
 Comparing voting choice broken down by age group in the CES data (Figure \@ref(fig:cesagevote)) and after post-stratification (Figure \@ref(fig:postagevote)), both graphs (to varying degrees) indicate that as age increases, an increasing proportion of voters vote for conservative parties. 
 
-```{r cesagevote, fig.cap="Distribution of Votes by Age Group in CES.", fig.height=4, echo=FALSE, message=FALSE}
+Comparing voting choice broken down by gender in the CES data (Figure \@ref(fig:cesgendervote)) and after post-stratification (Figure \@ref(fig:postgendervote)), both graphs (to varying degrees) indicate that females are more likely to vote for more liberal parties than males. 
+
+Comparing voting choice broken down by province in the CES data (Figure \@ref(fig:cesprovincevote)) and after post-stratification (Figure \@ref(fig:postprovincevote)), we can see that the post-stratification graph contrasts the provinces that lean conservative (Alberta, Saskatchewan, Manitoba) with the provinces that lean liberal (Newfoundland and Labrador, Nova Scotia, Prince Edward Island), while provinces such as New Brunswick and Ontario are split almost evenly. 
+
+As education level increases, so do the proportion of voters who would vote for the Liberal Party (Figures \@ref(fig:ceseducationvote) and \@ref(fig:posteducationvote)). Interestingly, both graphs indicate that as education increases, the proportion of voters who would vote for the New Democratic Party slightly decreases (likely related to the trend observed with regards to age).
+
+A curvilinear relationship between religion importance and vote choice can be observed in Figures \@ref(fig:cesreligionvote) and \@ref(fig:postreligionvote). Ignoring the "Don't know" factor, individuals who place more value on religion are more likely to vote conservatively while individuals who find religion unimportant are more likely to vote liberally.
+
+\newpage 
+```{r cesagevote, fig.cap="Distribution of Votes by Age Group in CES.", fig.height=3, echo=FALSE, message=FALSE}
 # load original cleaned ces data
 ces <- read_csv("../../inputs/ces/ces_input.csv")
 # load post-stratification data
@@ -303,7 +315,7 @@ ggplot(age_distribution_ces, aes(x=age, y=Percent, group=cps19_vote, color=cps19
   scale_color_manual(values=colors)
 ```
 
-```{r postagevote, fig.cap="Distribution of Votes by Age Group in Post-Stratification.", fig.height=4, echo=FALSE, message=FALSE}
+```{r postagevote, fig.cap="Distribution of Votes by Age Group in Post-Stratification.", fig.height=3, echo=FALSE, message=FALSE}
 # find percentage of each vote by age groups in poststrat
 age_distribution_poststrat <- aggregate(freq ~ age + vote, data=poststrat, sum) %>% group_by(age) %>% mutate(Percent = freq/sum(freq))
 # reorder levels
@@ -322,7 +334,6 @@ ggplot(age_distribution_poststrat, aes(x=age, y=Percent, group=vote, color=vote)
   scale_color_manual(values=colors)
 ```
 
-Comparing voting choice broken down by gender in the CES data (Figure \@ref(fig:cesgendervote)) and after post-stratification (Figure \@ref(fig:postgendervote)), both graphs (to varying degrees) indicate that females are more likely to vote for more liberal parties than males. 
 
 ```{r cesgendervote, fig.cap="Distribution of Votes by Sex in CES.", fig.height=4, echo=FALSE, message=FALSE}
 # find percentage of each vote by sex in ces
@@ -363,7 +374,6 @@ ggplot(sex_distribution_poststrat, aes(x=sex, y=Percent, group=vote, color=vote)
   scale_color_manual(values=colors)
 ```
 
-Comparing voting choice broken down by province in the CES data (Figure \@ref(fig:cesprovincevote)) and after post-stratification (Figure \@ref(fig:postprovincevote)), we can see that the post-stratification graph contrasts the provinces that lean conservative (Alberta, Saskatchewan, Manitoba) with the provinces that lean liberal (Newfoundland and Labrador, Nova Scotia, Prince Edward Island), while provinces such as New Brunswick and Ontario are split almost evenly. 
 
 ```{r cesprovincevote, fig.cap="Distribution of Votes by Province in CES.", fig.height=4, echo=FALSE, message=FALSE}
 # find percentage of each vote by province in ces
@@ -406,7 +416,6 @@ ggplot(province_distribution_poststrat, aes(x=province, y=Percent, group=vote, c
   scale_color_manual(values=colors)
 ```
 
-As education level increases, so do the proportion of voters who would vote for the Liberal Party (Figures \@ref(fig:ceseducationvote) and \@ref(fig:posteducationvote)). Interestingly, both graphs indicate that as education increases, the proportion of voters who would vote for the New Democratic Party slightly decreases (likely related to the trend observed with regards to age).
 
 ```{r ceseducationvote, fig.cap="Distribution of Votes by Education in CES.", fig.height=4, echo=FALSE, message=FALSE}
 # find percentage of each vote by education in ces
@@ -460,7 +469,6 @@ ggplot(education_distribution_poststrat, aes(x=education, y=Percent, group=vote,
   scale_color_manual(values=colors)
 ```
 
-A curvilinear relationship between religion importance and vote choice can be observed in Figures \@ref(fig:cesreligionvote) and \@ref(fig:postreligionvote). Ignoring the "Don't know" factor, individuals who place more value on religion are more likely to vote conservatively while individuals who find religion unimportant are more likely to vote liberally.
 
 ```{r cesreligionvote, fig.cap="Distribution of Votes by Education in CES.", fig.height=4, echo=FALSE, message=FALSE}
 religion_distribution_ces <- count(ces, cps19_rel_imp, cps19_vote) %>% group_by(cps19_rel_imp) %>% mutate(Percent = n/sum(n))
@@ -501,6 +509,7 @@ ggplot(religion_distribution_poststrat, aes(x=religion_importance, y=Percent, gr
   scale_color_manual(values=colors)
 ```
 
+\newpage
 # Discussion, Weaknesses, and Next Steps
 From our visualization of the CES dataset, we determined that the demographic distribution of the survey did not correspond to that of the population. Consequently, upon training a multinomial logistic model on the CES dataset to predict vote choice, we conducted post-stratification using the GSS dataset which better captures the demographic distribution of Canadian voters. 
 
