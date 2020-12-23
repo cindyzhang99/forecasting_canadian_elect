@@ -1,9 +1,9 @@
 ---
-title: "Assuming 100% Voter Participation, Trudeau Would Win 48% of the Popular Vote in the 2019 Canadian Federal Election"
+title: "Assuming 100% Voter Participation, The Liberal Party Would Win 48% of the Popular Vote in the 2019 Canadian Federal Election"
 author: "Xinyi Zhang"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 abstract: |
-  | In the 2019 Canadian Federal Election, incumbent Prime Minister Justin Trudeau claimed a narrow victory over the Conversative Party amid 62% voter turnout. In this paper, we develop a multi-level regression model with post-stratification by training a multinomial logistic regression model using voter survey results (from the 2019 Canadian Election Study) and predicting the outcome of the popular vote using large-scale demographic data for the Canadian population (from the 2017 General Social Survey). Our model predicts that assuming 100% voter turnout, Trudeau would have won the popular vote in the 2019 Canadian Federal Election instead of his opponent Andrew Scheer. Our prediction speaks to the importance for each party to mobilize its voter base and our breakdown of votes by demographic groups provides political parties with information on how to effectively target voters during future elections.
+  | In the 2019 Canadian Federal Election, incumbent Prime Minister Justin Trudeau claimed a narrow victory over the Conversative Party amid 62% voter turnout. In this paper, we develop a multi-level regression model with post-stratification by training a multinomial logistic regression model using voter survey results (from the 2019 Canadian Election Study) and predicting the outcome of the popular vote using large-scale demographic data for the Canadian population (from the 2017 General Social Survey). Our model predicts that assuming 100% voter turnout, Trudeau would have won the popular vote in the 2019 Canadian Federal Election instead of his opponent Andrew Scheer. Our breakdown of votes by demographic groups provides political parties with information on how to effectively target voters during future elections and our prediction speaks to the importance for each party to mobilize its voter base.
   |
   | **Keywords:** forecasting, 2019 Canadian Federal Election, multilevel regression with post-stratification, voter turnout
 thanks: "Code and data supporting this analysis are available at: https://github.com/cindyzhang99/forecasting_canadian_election."
@@ -90,7 +90,7 @@ ggplot(data=age_distribution, aes(x=age, y=Percent, fill=Percent)) +
   geom_text(aes(label=paste0(round(Percent*100), "%")), position=position_dodge(width=0.9), vjust=-0.25)
 ```
 In the CES dataset, we dropped responses of "Other" for the variable `sex` because the GSS dataset had only "Male" and "Female" levels. Comparing the distributions of sex in each survey, females are clearly overrepresented in the CES dataset (Figure \@ref(fig:sexdist)).
-```{r sexdist, fig.cap="Distribution of Sex in CES and GSS datasets.", echo=FALSE, message=FALSE,  fig.show="hold", out.width="50%"}
+```{r sexdist, fig.cap="Distribution of Sex in CES and GSS datasets.", echo=FALSE, message=FALSE, fig.show="hold", out.width="50%"}
 # find percentage of each gender
 gender_distribution <- ces %>% dplyr::count(cps19_gender) %>% mutate(percent = n/nrow(ces))
 # plot distribution as pie chart
@@ -231,7 +231,9 @@ Therefore, the first equation represents the probability that the vote choice of
 
 We implemented the multinomial logistic regression model using `multinom()` from the nnet library written in R (@citeR). At first the model failed to converge because the maximum number of iterations would be reached before convergence. Consequently, we increased the maximum number of iterations from the default value of 100 to 200 and we observed the model converging after approximately 120 iterations.
 
-Finally, we used post-stratification to accurately predict the popular vote because of the discrepancy between the demographic distribution of the CES respondents and the demographics of the Canadian  population. We conducted post-stratification by calculating the counts for all combinations of explanatory variables in the GSS. 
+We tested 3 different models using cross-validation testing. Assuming that age, gender, and province are significant predictors of vote choice, we tested different combinations of education level and religion importance. Model 1 has age, gender, province, and education level as independent variables. Model 2 has age, gender, province, and religion importance as independent variables. Lastly, model 3 has all 5 demographic variables as independent variables (age, gender, province, education level, and religion importance). To conduction cross-validation, we shuffled the dataset into training and testing subsets (an 80-20 split, respectively). Then, we trained the model using only the training data and made predictions on the testing data. Finally, we compared the model's predictions to the ground truth values for vote choice for the test set. Model 1's predictions for the test set had an accuracy of 44.0% while model 2 and model 3 had accuracies of 44.2% and 45.1%, respectively. Therefore, we proceeded with the use of model 3 for making predictions on the post-stratification dataset because it had the highest accuracy out of the models we implemented.
+
+Finally, we used post-stratification to accurately predict the popular vote because of the discrepancy between the demographic distribution of the CES respondents and the demographics of the Canadian  population. We conducted post-stratification by making predictions on all combinations of explanatory variables in the GSS. 
 
 # Results
 In Figure \@ref(fig:votedist), we see that the distribution of votes in the CES is in favor of the Conservative party, followed closely by the Liberal Party. However, as we've noticed when observing the distribution of our chosen demographic factors, the CES dataset does not appear to be representative of the Canadian population. Therefore, it is imperative that we use post-stratification when predicting the popular vote of the 2019 Canadian Federal Election to mitigate the effects of sampling bias.
@@ -255,6 +257,7 @@ ggplot(data=vote_distribution, aes(x=cps19_vote, y=Percent, fill=Percent)) +
   geom_text(aes(label=paste0(round(Percent*100), "%")), position=position_dodge(width=0.9), vjust=-0.25)
 ```
 In Figure \@ref(fig:poststratdist), we see that the distribution of votes in post-stratification is led by the Liberal Party with 48% of the vote followed by Conservative Party with 44% of the vote. 
+
 ```{r poststratdist, echo=FALSE, fig.cap="Distribution of Votes in Post-Stratification.", message=FALSE, fig.align="center", out.width="80%"}
 poststrat <- read_csv("../post_strat.csv")
 counttb <- count(x=poststrat, vote, wt=freq)
@@ -269,11 +272,255 @@ ggplot(data=counttb, aes(x=vote, y=Proportion, fill=Proportion)) +
   geom_text(aes(label=paste0(round(Proportion*100), "%")), position=position_dodge(width=0.9), vjust=-0.25)
 ```
 
-# Discussion
+Comparing voting choice broken down by age group in the CES data (Figure \@ref(fig:cesagevote)) and after post-stratification (Figure \@ref(fig:postagevote)), both graphs (to varying degrees) indicate that as age increases, an increasing proportion of voters vote for conservative parties. 
 
-## Weaknesses
+```{r cesagevote, fig.cap="Distribution of Votes by Age Group in CES.", fig.height=4, echo=FALSE, message=FALSE}
+# load original cleaned ces data
+ces <- read_csv("../../inputs/ces/ces_input.csv")
+# load post-stratification data
+poststrat <- read_csv("../../outputs/post_strat.csv")
 
-## Next Steps
+# set up custom color scheme where blue indicates the more liberal parties and red indicates the more conservative parties
+# match colors across ces and post-strat
+colors <- c("Green Party" = "#2166AC", "New Democratic Party" = "#4393C3", "Liberal Party" = "#92C5DE",
+            "Conservative Party" = "#F4A582", "People's Party" = "#D6604D", "Bloc Québécois" = "#B2182B")
+
+# find percentage of each vote by age groups in ces
+age_distribution_ces <- count(ces, age, cps19_vote) %>% group_by(age) %>% mutate(Percent = n/sum(n))
+# reorder levels
+age_distribution_ces$cps19_vote <- factor(age_distribution_ces$cps19_vote, 
+                                       levels=c("Green Party",
+                                                "New Democratic Party",
+                                                "Liberal Party",
+                                                "Conservative Party",
+                                                "People's Party",
+                                                "Bloc Québécois"))
+# plot distribution with respect to age as line graph
+ggplot(age_distribution_ces, aes(x=age, y=Percent, group=cps19_vote, color=cps19_vote)) +
+  geom_point() + 
+  geom_line() + 
+  labs(x="Age", y="Vote Proportion", color="Political Party") + 
+  scale_color_manual(values=colors)
+```
+
+```{r postagevote, fig.cap="Distribution of Votes by Age Group in Post-Stratification.", fig.height=4, echo=FALSE, message=FALSE}
+# find percentage of each vote by age groups in poststrat
+age_distribution_poststrat <- aggregate(freq ~ age + vote, data=poststrat, sum) %>% group_by(age) %>% mutate(Percent = freq/sum(freq))
+# reorder levels
+age_distribution_ces$cps19_vote <- factor(age_distribution_ces$cps19_vote, 
+                                          levels=c("Green Party",
+                                                   "New Democratic Party",
+                                                   "Liberal Party",
+                                                   "Conservative Party",
+                                                   "People's Party",
+                                                   "Bloc Québécois"))
+# plot distribution with respect to age as line graph
+ggplot(age_distribution_poststrat, aes(x=age, y=Percent, group=vote, color=vote)) +
+  geom_point() + 
+  geom_line() + 
+  labs(x="Age", y="Vote Proportion", color="Political Party") +
+  scale_color_manual(values=colors)
+```
+
+Comparing voting choice broken down by gender in the CES data (Figure \@ref(fig:cesgendervote)) and after post-stratification (Figure \@ref(fig:postgendervote)), both graphs (to varying degrees) indicate that females are more likely to vote for more liberal parties than males. 
+
+```{r cesgendervote, fig.cap="Distribution of Votes by Sex in CES.", fig.height=4, echo=FALSE, message=FALSE}
+# find percentage of each vote by sex in ces
+sex_distribution_ces <- count(ces, cps19_gender, cps19_vote) %>% group_by(cps19_gender) %>% mutate(Percent = n/sum(n))
+# reorder levels
+sex_distribution_ces$cps19_vote <- factor(sex_distribution_ces$cps19_vote, 
+                                          levels=c("Green Party",
+                                                   "New Democratic Party",
+                                                   "Liberal Party",
+                                                   "Conservative Party",
+                                                   "People's Party",
+                                                   "Bloc Québécois"))
+
+# plot distribution with respect to sex as line graph
+ggplot(sex_distribution_ces, aes(x=cps19_gender, y=Percent, group=cps19_vote, color=cps19_vote)) +
+  geom_point() + 
+  geom_line() + 
+  labs(x="Sex", y="Vote Proportion", color="Political Party") + 
+  scale_color_manual(values=colors)
+```
+
+```{r postgendervote, fig.cap="Distribution of Votes by Sex in Post-Stratification.", fig.height=4, echo=FALSE, message=FALSE}
+# find percentage of each vote by sex groups in poststrat
+sex_distribution_poststrat <- aggregate(freq ~ sex + vote, data=poststrat, sum) %>% group_by(sex) %>% mutate(Percent = freq/sum(freq))
+# reorder levels
+sex_distribution_poststrat$vote <- factor(sex_distribution_poststrat$vote, 
+                                          levels=c("Green Party",
+                                                   "New Democratic Party",
+                                                   "Liberal Party",
+                                                   "Conservative Party",
+                                                   "People's Party",
+                                                   "Bloc Québécois"))
+# plot distribution with respect to sex as line graph
+ggplot(sex_distribution_poststrat, aes(x=sex, y=Percent, group=vote, color=vote)) +
+  geom_point() + 
+  geom_line() + 
+  labs(x="Sex", y="Vote Proportion", color="Political Party") +
+  scale_color_manual(values=colors)
+```
+
+Comparing voting choice broken down by province in the CES data (Figure \@ref(fig:cesprovincevote)) and after post-stratification (Figure \@ref(fig:postprovincevote)), we can see that the post-stratification graph contrasts the provinces that lean conservative (Alberta, Saskatchewan, Manitoba) with the provinces that lean liberal (Newfoundland and Labrador, Nova Scotia, Prince Edward Island), while provinces such as New Brunswick and Ontario are split almost evenly. 
+
+```{r cesprovincevote, fig.cap="Distribution of Votes by Province in CES.", fig.height=4, echo=FALSE, message=FALSE}
+# find percentage of each vote by province in ces
+province_distribution_ces <- count(ces, cps19_province, cps19_vote) %>% group_by(cps19_province) %>% mutate(Percent = n/sum(n))
+# reorder levels
+province_distribution_ces$cps19_vote <- factor(province_distribution_ces$cps19_vote, 
+                                          levels=c("Green Party",
+                                                   "New Democratic Party",
+                                                   "Liberal Party",
+                                                   "Conservative Party",
+                                                   "People's Party",
+                                                   "Bloc Québécois"))
+
+# plot distribution with respect to province as line graph
+ggplot(province_distribution_ces, aes(x=cps19_province, y=Percent, group=cps19_vote, color=cps19_vote)) +
+  geom_point() + 
+  geom_line() + 
+  labs(x="Province", y="Vote Proportion", color="Political Party") + 
+  theme(axis.text.x = element_text(angle = 25)) +
+  scale_color_manual(values=colors)
+```
+
+```{r postprovincevote, fig.cap="Distribution of Votes by Province in Post-Stratification.", fig.height=4, echo=FALSE, message=FALSE}
+# find percentage of each vote by province in poststrat
+province_distribution_poststrat <- aggregate(freq ~ province + vote, data=poststrat, sum) %>% group_by(province) %>% mutate(Percent = freq/sum(freq))
+# reorder levels
+province_distribution_poststrat$vote <- factor(province_distribution_poststrat$vote, 
+                                          levels=c("Green Party",
+                                                   "New Democratic Party",
+                                                   "Liberal Party",
+                                                   "Conservative Party",
+                                                   "People's Party",
+                                                   "Bloc Québécois"))
+# plot distribution with respect to province as line graph
+ggplot(province_distribution_poststrat, aes(x=province, y=Percent, group=vote, color=vote)) +
+  geom_point() + 
+  geom_line() + 
+  labs(x="Province", y="Vote Proportion", color="Political Party") +
+  theme(axis.text.x = element_text(angle = 25)) +
+  scale_color_manual(values=colors)
+```
+
+As education level increases, so do the proportion of voters who would vote for the Liberal Party (Figures \@ref(fig:ceseducationvote) and \@ref(fig:posteducationvote)). Interestingly, both graphs indicate that as education increases, the proportion of voters who would vote for the New Democratic Party slightly decreases (likely related to the trend observed with regards to age).
+
+```{r ceseducationvote, fig.cap="Distribution of Votes by Education in CES.", fig.height=4, echo=FALSE, message=FALSE}
+# find percentage of each vote by education in ces
+education_distribution_ces <- count(ces, cps19_education, cps19_vote) %>% group_by(cps19_education) %>% mutate(Percent = n/sum(n))
+# reorder levels
+education_distribution_ces$cps19_vote <- factor(education_distribution_ces$cps19_vote, 
+                                               levels=c("Green Party",
+                                                        "New Democratic Party",
+                                                        "Liberal Party",
+                                                        "Conservative Party",
+                                                        "People's Party",
+                                                        "Bloc Québécois"))
+# reorder education levels
+education_distribution_ces$cps19_education <- factor(education_distribution_ces$cps19_education, 
+                                                levels=c("High school or less",
+                                                         "Some college or trade school",
+                                                         "Undergraduate degree",
+                                                         "Some graduate school or more"))
+# plot distribution with respect to education as line graph
+ggplot(education_distribution_ces, aes(x=cps19_education, y=Percent, group=cps19_vote, color=cps19_vote)) +
+  geom_point() + 
+  geom_line() + 
+  labs(x="Education", y="Vote Proportion", color="Political Party") + 
+  theme(axis.text.x = element_text(angle = 10)) +
+  scale_color_manual(values=colors)
+```
+
+```{r posteducationvote, fig.cap="Distribution of Votes by Education in Post-Stratification.", fig.height=4, echo=FALSE, message=FALSE}
+# find percentage of each vote by education in poststrat
+education_distribution_poststrat <- aggregate(freq ~ education + vote, data=poststrat, sum) %>% group_by(education) %>% mutate(Percent = freq/sum(freq))
+# reorder levels
+education_distribution_poststrat$vote <- factor(education_distribution_poststrat$vote, 
+                                               levels=c("Green Party",
+                                                        "New Democratic Party",
+                                                        "Liberal Party",
+                                                        "Conservative Party",
+                                                        "People's Party",
+                                                        "Bloc Québécois"))
+# reorder education levels
+education_distribution_poststrat$education <- factor(education_distribution_poststrat$education, 
+                                                     levels=c("High school or less",
+                                                              "Some college or trade school",
+                                                              "Undergraduate degree",
+                                                              "Some graduate school or more"))
+# plot distribution with respect to education as line graph
+ggplot(education_distribution_poststrat, aes(x=education, y=Percent, group=vote, color=vote)) +
+  geom_point() + 
+  geom_line() + 
+  labs(x="Education", y="Vote Proportion", color="Political Party") +
+  theme(axis.text.x = element_text(angle = 10)) +
+  scale_color_manual(values=colors)
+```
+
+A curvilinear relationship between religion importance and vote choice can be observed in Figures \@ref(fig:cesreligionvote) and \@ref(fig:postreligionvote). Ignoring the "Don't know" factor, individuals who place more value on religion are more likely to vote conservatively while individuals who find religion unimportant are more likely to vote liberally.
+
+```{r cesreligionvote, fig.cap="Distribution of Votes by Education in CES.", fig.height=4, echo=FALSE, message=FALSE}
+religion_distribution_ces <- count(ces, cps19_rel_imp, cps19_vote) %>% group_by(cps19_rel_imp) %>% mutate(Percent = n/sum(n))
+# reorder levels
+religion_distribution_ces$cps19_vote <- factor(religion_distribution_ces$cps19_vote, 
+                                                levels=c("Green Party",
+                                                         "New Democratic Party",
+                                                         "Liberal Party",
+                                                         "Conservative Party",
+                                                         "People's Party",
+                                                         "Bloc Québécois"))
+# plot distribution with respect to religion importance as line graph
+ggplot(religion_distribution_ces, aes(x=cps19_rel_imp, y=Percent, group=cps19_vote, color=cps19_vote)) +
+  geom_point() + 
+  geom_line() + 
+  labs(x="Religion Importance", y="Vote Proportion", color="Political Party") + 
+  theme(axis.text.x = element_text(angle = 10)) +
+  scale_color_manual(values=colors)
+```
+
+```{r postreligionvote, fig.cap="Distribution of Votes by Education in Post-Stratification.", fig.height=4, echo=FALSE, message=FALSE}
+# find percentage of each vote by religion importance in poststrat
+religion_distribution_poststrat <- aggregate(freq ~ religion_importance + vote, data=poststrat, sum) %>% group_by(religion_importance) %>% mutate(Percent = freq/sum(freq))
+# reorder levels
+religion_distribution_poststrat$vote <- factor(religion_distribution_poststrat$vote, 
+                                                levels=c("Green Party",
+                                                         "New Democratic Party",
+                                                         "Liberal Party",
+                                                         "Conservative Party",
+                                                         "People's Party",
+                                                         "Bloc Québécois"))
+# plot distribution with respect to religion importance as line graph
+ggplot(religion_distribution_poststrat, aes(x=religion_importance, y=Percent, group=vote, color=vote)) +
+  geom_point() + 
+  geom_line() + 
+  labs(x="Religion Importance", y="Vote Proportion", color="Political Party") +
+  theme(axis.text.x = element_text(angle = 10)) +
+  scale_color_manual(values=colors)
+```
+
+# Discussion, Weaknesses, and Next Steps
+From our visualization of the CES dataset, we determined that the demographic distribution of the survey did not correspond to that of the population. Consequently, upon training a multinomial logistic model on the CES dataset to predict vote choice, we conducted post-stratification using the GSS dataset which better captures the demographic distribution of Canadian voters. 
+
+However, our predicted results for the popular vote assuming 100% voter turnout (Figure \@ref(fig:poststratdist)) does not seem very realistic with the Liberal Party expected to win with 48% of the popular vote followed by the Conservative Party with 44%. The Bloc Québécois are expected to win 4% of the popular vote followed by 3% for the New Democratic Party and close to 0% for the Green Party. We also predict that the the People's Party would receive exactly 0% of the popular vote. Comparing these results to the actual results of the popular vote in the 2019 Canadian Federal Election, it seems that predictions were overwhelmingly in favor of the Liberal and Conservative Parties while votes for the other political parties were underpredicted.
+
+Considering our methodology, the cause of this interesting result is likely two-fold. 
+
+Firstly, we determined through cross-validation that our model has an accuracy of about 45% when predicting vote choice given five demographic attributes (age, sex, province, education level, and religion importance). Clearly, this result is much better than chance given that there are six possible options. Furthermore, being able to predict someone's vote with a certain degree of accuracy given only 5 demographic variables is fairly impressive considering political affiliation does not follow any hard and fast rules. However, this low accuracy is likely one of the sources of error when it comes to our unrealistic popular vote prediction. Our model likely found it difficult to distinguish between the New Democratic Party, the Green Party, and the Liberal Party when predicting the vote of an individual with liberal-leaning demographic attributes (and likewise with regards to the People's Party and the Conservative Party when predicting the vote of an individual with conservative-leaning demographic attributes). In fact, we chose a multinomial logistic regression model because we wanted to be able to predict the popular vote realistically given the choice of all six major political parties but an unfortunate side effect of this choice is that datapoints concerning smaller political parties were overshadowed by those concerning the larger political parties (Liberal Party and Conservative Party). Consequently, the model likely will predict "Liberal Party" or "Conservative Party" over the smaller political parties because the prediction is more likely to be correct, simply because there are more Liberal Party and Conservative Party vote choice data points.
+
+The second cause of our unrealistic popular vote prediction is the fact that not every combination of demographic variables was available in the GSS. Therefore, the combinations of attributes that are missing from post-stratification are simply not represented in our calculation of the popular vote. This would also cause our unrealistic popular vote prediction if some demographics that would result in a vote prediction of one of the smaller parties were not represented in the post-stratification dataset. 
+
+Overall, we can trust that our results indicate more popular votes would go to liberal political parties than conservative. This is because demographic variables associated with more liberal-leaning individuals (such as being younger, being female, having some form of postsecondary education, and placing little to no importance on religion) are more prevalent in the Canadian population.  However, due to limitations in the survey data we used to train our model, limitations with regards to the accuracy of the model itself, and limitations with regards to the post-stratification dataset we used to predict the popular vote, it seems that our prediction of the popular vote assuming 100% voter turnout with regards to all six political parties is inaccurate.
+
+Even so, our results are significant because they indicate which factors are most important in determining vote choice as well as the demographics of each political party. For example, the majority of the New Democratic Party voter base are likely younger and/or female Canadians who find religion unimportant. The majority of the Liberal Party voter base are younger, highly educated, and/or female Canadians who find religion unimportant. On the other hand, Conversative Party voters are older and/or male Canadians who find religion very important and/or have at most a high school education. 
+
+Although there are more liberal voters than conservative voters, the Conservative Party won the majority of the popular vote in the 2019 Canadian Federal Election and narrowly lost the seat of the prime minister to the Liberal Party (who won more seats despite coming in second in the popular vote). To continue to win the most seats and to win the popular vote in the 2023 Canadian Federal Election, the Liberal Party should implement policies that benefit liberal voters (in the hopes of deriving some votes from the New Democratic Party voter base) or conservative voters (in the hopes of deriving some votes from the Conservative Party voter base). The first option is likely easier because there is significant overlap between the demographics of the Liberal Party and the New Democratic Party allowing Liberal Party officials to serve their constituents as well as gain a win with larger margins in the next election. Implementing policies that will appease conservative voters will likely contradict liberal platforms but it is possible to implement policies that satisfy conservative demographics (improving pension plans for older Canadians, offering publicly funded trade schools for Canadians who have not attended postsecondary education, and so forth). Similar reasoning can be applied to consider how Conservative Party officials can enact policies to win the most seats in the 2023 Canadian Federal Election.
+
+When comparing our popular vote prediction assuming 100% voter turnout to the results of the 2019 Canadian Federal Election, it appears that the Conservative Party did a better job than the Liberal Party at mobilizing its voter base to cast their ballots. In fact, our results suggest that if the Liberal Party was able to motivate more of their voter base to turn out to vote, they likely would have won the popular vote and would not need to worry about governing with a Liberal minority government (the number of seats won by other parties is greater than the number of seats won by the Liberal Party). In 2023, given the information gained from our analysis, the Liberal Party could implement initiatives to encourage greater turnout of their base by targeting demographics such as Canadian university students (young and highly educated). This could include measures like social media campaigns spreading awareness of their platforms or offering free rides to polling places from university campuses.
+
+Although our confidence in our prediction of the popular vote has been limited for the reasons mentioned above, in the future, there are several ways we can increase the accuracy of our predictions on the individual level and on the population level. If we can find a survey and post-stratification dataset with detailed economic and ethnicity data, we can test other model implementations to determine if we can improve the accuracy of our multinomial logistic regression model. It might also be useful to find datasets that better illustrate the differences between Liberal Party and New Democratic Party voters or between Conservative Party and People's Party voters to improve the accuracy of our model. Additionally, it might be too ambitious to assume the same mathematical model can capture voting intention across Canada. It might be conducive to develop a separate model for every province and predict popular vote in that way. Lastly, a more comprehensive post-stratification dataset would have likely improved the accuracy of our popular vote prediction. Additionally, if the post-stratification dataset we find in the future has information about the demographics for each federal electoral district, this would enable us to predict the outcome of the Canadian Federal Election in addition to the popular vote.
 
 # Appendix
 
